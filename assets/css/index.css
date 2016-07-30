@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400);
+@-webkit-keyframes upleft {
+  100% {
+    transform: translate(-10px, -10px); } }
+@keyframes upleft {
+  100% {
+    transform: translate(-10px, -10px); } }
+@-webkit-keyframes upright {
+  100% {
+    transform: translate(10px, -10px); } }
+@keyframes upright {
+  100% {
+    transform: translate(10px, -10px); } }
+@-webkit-keyframes downleft {
+  100% {
+    transform: translate(-10px, 10px); } }
+@keyframes downleft {
+  100% {
+    transform: translate(-10px, 10px); } }
+@-webkit-keyframes downright {
+  100% {
+    transform: translate(10px, 10px); } }
+@keyframes downright {
+  100% {
+    transform: translate(10px, 10px); } }
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #070e14; }
+
+textarea {
+  resize: none; }
+
+.body-container {
+  width: 75vh;
+  height: 75vh;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+  .body-container table {
+    width: 100%;
+    height: 100%; }
+    .body-container table tr {
+      height: 50%; }
+      .body-container table tr td {
+        transform: translate(0, 0);
+        width: 50%; }
+
+.card {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .card#about {
+    -webkit-animation: upleft 2s ease-out 2s forwards;
+    animation: upleft 2s ease-out 2s forwards;
+    background-image: url(/assets/img/one/ul.png); }
+  .card#portfolio {
+    -webkit-animation: upright 2s ease-out 2s forwards;
+    animation: upright 2s ease-out 2s forwards;
+    background-image: url(/assets/img/one/ur.png); }
+  .card#gallery {
+    -webkit-animation: downleft 2s ease-out 2s forwards;
+    animation: downleft 2s ease-out 2s forwards;
+    background-image: url(/assets/img/one/dl.png); }
+  .card#contact {
+    -webkit-animation: downright 2s ease-out 2s forwards;
+    animation: downright 2s ease-out 2s forwards;
+    background-image: url(/assets/img/one/dr.png); }
+  .card a {
+    text-decoration: none; }
+    .card a .content {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+      .card a .content h3 {
+        color: white;
+        text-shadow: 0px 0px 8px #000000;
+        -webkit-animation-delay: 3s;
+        animation-delay: 3s;
+        text-align: center;
+        margin: 0 auto; }
+  .card:hover {
+    opacity: 0.9; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,26 @@
+@-webkit-keyframes upleft {
+  100% {
+    transform: translate(-10px, -10px); } }
+@keyframes upleft {
+  100% {
+    transform: translate(-10px, -10px); } }
+@-webkit-keyframes upright {
+  100% {
+    transform: translate(10px, -10px); } }
+@keyframes upright {
+  100% {
+    transform: translate(10px, -10px); } }
+@-webkit-keyframes downleft {
+  100% {
+    transform: translate(-10px, 10px); } }
+@keyframes downleft {
+  100% {
+    transform: translate(-10px, 10px); } }
+@-webkit-keyframes downright {
+  100% {
+    transform: translate(10px, 10px); } }
+@keyframes downright {
+  100% {
+    transform: translate(10px, 10px); } }
+
+/*# sourceMappingURL=animations.css.map */

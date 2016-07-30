@@ -1,0 +1,35 @@
+@-webkit-keyframes upleft
+  100%
+    transform: translate(-10px, -10px)
+@keyframes upleft
+  100%
+    transform: translate(-10px, -10px)
+@-webkit-keyframes upright
+  100%
+    transform: translate(10px, -10px)
+@keyframes upright
+  100%
+    transform: translate(10px, -10px)
+@-webkit-keyframes downleft
+  100%
+    transform: translate(-10px, 10px)
+@keyframes downleft
+  100%
+    transform: translate(-10px, 10px)
+@-webkit-keyframes downright
+  100%
+    transform: translate(10px, 10px)
+@keyframes downright
+  100%
+    transform: translate(10px, 10px)
+
+=slide($fn)
+  +animation($fn, 2s, ease-out, 2s, forwards)
+
+=animation($name, $duration, $timing-function, $delay, $fill-mode)
+  -webkit-animation: $name $duration $timing-function $delay $fill-mode
+  animation: $name $duration $timing-function $delay $fill-mode
+
+=delay($seconds)
+  -webkit-animation-delay: $seconds
+  animation-delay: $seconds
