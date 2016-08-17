@@ -37,7 +37,7 @@ $spread-width: 5px
     opacity: 1
 
 =slide($fn)
-  +animation($fn, 2s, ease-out, 1s, forwards)
+  +animation($fn, 2s, linear, 1s, forwards)
 
 =animation($name, $duration, $timing-function, $delay, $fill-mode)
   -webkit-animation: $name $duration $timing-function $delay $fill-mode
