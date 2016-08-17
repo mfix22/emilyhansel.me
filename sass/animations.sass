@@ -1,27 +1,40 @@
+$spread-width: 5px
+
 @-webkit-keyframes upleft
   100%
-    transform: translate(-10px, -10px)
+    transform: translate(-$spread-width, -$spread-width)
 @keyframes upleft
   100%
-    transform: translate(-10px, -10px)
+    transform: translate(-$spread-width, -$spread-width)
 @-webkit-keyframes upright
   100%
-    transform: translate(10px, -10px)
+    transform: translate($spread-width, -$spread-width)
 @keyframes upright
   100%
-    transform: translate(10px, -10px)
+    transform: translate($spread-width, -$spread-width)
 @-webkit-keyframes downleft
   100%
-    transform: translate(-10px, 10px)
+    transform: translate(-$spread-width, $spread-width)
 @keyframes downleft
   100%
-    transform: translate(-10px, 10px)
+    transform: translate(-$spread-width, $spread-width)
 @-webkit-keyframes downright
   100%
-    transform: translate(10px, 10px)
+    transform: translate($spread-width, $spread-width)
 @keyframes downright
   100%
-    transform: translate(10px, 10px)
+    transform: translate($spread-width, $spread-width)
+
+@-webkit-keyframes fadeIn
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+@keyframes fadeIn
+  0%
+    opacity: 0
+  100%
+    opacity: 1
 
 =slide($fn)
   +animation($fn, 2s, ease-out, 1s, forwards)
