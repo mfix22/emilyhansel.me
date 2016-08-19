@@ -1,7 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400)
 @import 'https://fonts.googleapis.com/css?family=Titillium+Web'
 @import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
-@import "bootstrap.min.css"
 @import "animate.css"
 
 @import animations
@@ -9,11 +7,11 @@
 @import file-refs
 
 $font-caption: 'Titillium Web', sans-serif
-$img-choice: $one-folder
 
 body
   padding: 0px
   margin: 0px
+  font-family: $font-caption
   background:
     color: $bg-color
     // image: url($img-folder + "/background.jpg")
@@ -24,67 +22,61 @@ textarea
   resize: none
 
 .body-container
-  width: 75vh
-  height: 75vh
   position: fixed
-  left: 50%
+  width: 50vw
+  height: 50vh
   top: 50%
-  transform: translate(-50%, -50%)
+  left: 50%
+  margin-top: -25vh
+  margin-left: -25vw
+  text-align: center
 
-  display: flex
-  justify-content: center
-  align-items: center
-  flex-direction: row
-  flex-wrap: wrap
-.card
-  position: relative
-  width: 50%
-  height: 50%
-  background:
-    repeat: no-repeat
-    size: cover
-    position: 0% 0%
-  &#about
-    +slide(upleft)
-    background: $golden
-  &#portfolio
-    +slide(upright)
-    background: $golden
 
-  &#gallery
-    +slide(downleft)
-    background: $golden
-  &#contact
-    +slide(downright)
-    background: $golden
+  h1
+    font-size: 40px
+    text-transform: uppercase
+    color: white
+    margin: 0 auto
 
-  a
-    text-decoration: none
-    .content
-      width: 100%
-      height: 100%
-      display: flex
-      justify-content: center
-      flex-direction: column
-      font-family: $font-caption
-      h3
-        color: black
-        +delay(3s)
-        text-align: center
-        margin: 0 auto
-        text-transform: lowercase
-  &:hover
-    opacity: 0.8
-    &#about
-      background:
-        image: url($gif-folder + "/one.gif")
-    &#portfolio
-      background:
-        image: url($gif-folder + "/two.gif")
+  h4
+    font-size: 22px
+    letter-spacing: 1.5px
+    margin: 0
+    color: white
 
-    &#gallery
-      background:
-        image: url($gif-folder + "/three.gif")
-    &#contact
-      background:
-        image: url($gif-folder + "/four.gif")
+  .menu
+    color: white
+    padding: 0
+    text-align: left
+    list-style: none
+    font-size: 20px
+    &-item
+      position: relative
+      cursor: pointer
+      display: block
+      &:hover
+        width: auto
+        .sub-menu
+          li
+            span
+              transform: translateX(0%)
+
+    .sub-menu
+      position: absolute
+      padding: 0 20px
+      list-style: none
+      display: inline-block
+      li
+        position: relative
+        display: inline-block
+        overflow: hidden
+        padding: 0 15px
+        span
+          transition: all 500ms ease-out
+          display: block
+          transform: translateX(-200%)
+          // position: absolute
+          // display: inline
+          // left: 100%
+
+.dancing-image

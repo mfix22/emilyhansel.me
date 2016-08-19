@@ -1,7 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400);
 @import 'https://fonts.googleapis.com/css?family=Titillium+Web';
 @import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
-@import url(bootstrap.min.css);
 @import url(animate.css);
 @-webkit-keyframes upleft {
   100% {
@@ -40,72 +38,58 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: #070e14; }
+  font-family: "Titillium Web", sans-serif;
+  background-color: black; }
 
 textarea {
   resize: none; }
 
 .body-container {
-  width: 75vh;
-  height: 75vh;
   position: fixed;
-  left: 50%;
+  width: 50vw;
+  height: 50vh;
   top: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap; }
-
-.card {
-  position: relative;
-  width: 50%;
-  height: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0% 0%; }
-  .card#about {
-    -webkit-animation: upleft 2s linear 1s forwards;
-    animation: upleft 2s linear 1s forwards;
-    background: #ffff55; }
-  .card#portfolio {
-    -webkit-animation: upright 2s linear 1s forwards;
-    animation: upright 2s linear 1s forwards;
-    background: #ffff55; }
-  .card#gallery {
-    -webkit-animation: downleft 2s linear 1s forwards;
-    animation: downleft 2s linear 1s forwards;
-    background: #ffff55; }
-  .card#contact {
-    -webkit-animation: downright 2s linear 1s forwards;
-    animation: downright 2s linear 1s forwards;
-    background: #ffff55; }
-  .card a {
-    text-decoration: none; }
-    .card a .content {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      font-family: "Titillium Web", sans-serif; }
-      .card a .content h3 {
-        color: black;
-        -webkit-animation-delay: 3s;
-        animation-delay: 3s;
-        text-align: center;
-        margin: 0 auto;
-        text-transform: lowercase; }
-  .card:hover {
-    opacity: 0.8; }
-    .card:hover#about {
-      background-image: url(/assets/gif/one.gif); }
-    .card:hover#portfolio {
-      background-image: url(/assets/gif/two.gif); }
-    .card:hover#gallery {
-      background-image: url(/assets/gif/three.gif); }
-    .card:hover#contact {
-      background-image: url(/assets/gif/four.gif); }
+  left: 50%;
+  margin-top: -25vh;
+  margin-left: -25vw;
+  text-align: center; }
+  .body-container h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 auto; }
+  .body-container h4 {
+    font-size: 22px;
+    letter-spacing: 1.5px;
+    margin: 0;
+    color: white; }
+  .body-container .menu {
+    color: white;
+    padding: 0;
+    text-align: left;
+    list-style: none;
+    font-size: 20px; }
+    .body-container .menu-item {
+      position: relative;
+      cursor: pointer;
+      display: block; }
+      .body-container .menu-item:hover {
+        width: auto; }
+        .body-container .menu-item:hover .sub-menu li span {
+          transform: translateX(0%); }
+    .body-container .menu .sub-menu {
+      position: absolute;
+      padding: 0 20px;
+      list-style: none;
+      display: inline-block; }
+      .body-container .menu .sub-menu li {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        padding: 0 15px; }
+        .body-container .menu .sub-menu li span {
+          transition: all 500ms ease-out;
+          display: block;
+          transform: translateX(-200%); }
 
 /*# sourceMappingURL=index.css.map */
