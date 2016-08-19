@@ -39,6 +39,7 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: "Titillium Web", sans-serif;
+  height: 100vh;
   background-color: black; }
 
 a, a:visited, a:hover, a:focus {
@@ -54,7 +55,7 @@ textarea {
   height: auto;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%);
+  transform: translate3d(0px, -50%, 0px);
   margin-left: -20vw;
   text-align: center; }
   .body-container h1 {
@@ -80,7 +81,7 @@ textarea {
       display: block;
       padding: 5px 10px; }
       .body-container .menu-item:hover .sub-menu a {
-        transform: translateX(0%); }
+        transform: translate3d(0px, 0px, 0px); }
     .body-container .menu .sub-menu {
       position: absolute;
       padding: 0 20px;
@@ -95,10 +96,11 @@ textarea {
         .body-container .menu .sub-menu li a {
           transition: transform 500ms ease-out;
           display: block;
-          transform: translateX(-200%); }
+          transform: translate3d(-200%, 0px, 0px); }
   .body-container .contact-form {
     z-index: 2;
     position: absolute;
+    display: none;
     top: 0px;
     right: 0px;
     bottom: 0px;

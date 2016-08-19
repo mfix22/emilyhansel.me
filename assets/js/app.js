@@ -1,5 +1,6 @@
 $(function() {
   $('#contact').click(function(e) {
+    e.stopPropagation();
     e.preventDefault();
     $('.contact-form').fadeIn(300);
   });
@@ -7,7 +8,7 @@ $(function() {
     e.stopPropagation();
     return false;
   })
-  $('.contact-form').click(function() {
+  $('body').click(function() {
     $('.contact-form').fadeOut(300);
   })
 })

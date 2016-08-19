@@ -12,6 +12,7 @@ body
   padding: 0px
   margin: 0px
   font-family: $font-caption
+  height: 100vh
   background:
     color: $bg-color
 
@@ -28,7 +29,7 @@ textarea
   height: auto
   top: 50%
   left: 50%
-  transform: translateY(-50%)
+  transform: translate3d(0px, -50%, 0px)
   margin-left: -20vw
   text-align: center
 
@@ -61,7 +62,7 @@ textarea
 
       // span:hover ~ .sub-menu
       &:hover .sub-menu a
-        transform: translateX(0%)
+        transform: translate3d(0px, 0px, 0px)
 
     .sub-menu
       position: absolute
@@ -77,11 +78,11 @@ textarea
         a
           transition: transform 500ms ease-out
           display: block
-          transform: translateX(-200%)
+          transform: translate3d(-200%, 0px, 0px)
   .contact-form
     z-index: 2
     position: absolute
-    // display: none
+    display: none
     top: 0px
     right: 0px
     bottom: 0px
