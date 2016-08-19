@@ -9,30 +9,39 @@
   </head>
   <body>
     <div class="body-container">
+      <div class="contact-form">
+        <form method="POST" action="//forms.brace.io/emilylhansel@gmail.com">
+          <input type="text" name="name" placeholder="Name">
+          <input type="email" name="_replyto" placeholder="Email">
+          <textarea placeholder="Type your message here"></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </div>
       <h1>Emily Hansel</h1>
       <h4>Dancer | Choreographer</h4>
       <ul class="menu">
-        <li class="menu-item">about
+        <li class="menu-item"> <span>about</span>
           <ul class="sub-menu">
-            <li> <span>bio</span></li>
-            <li> <span>resume</span></li>
+            <li> <a class="site-link" href="/bio" alt="bio">bio</a></li>
+            <li> <a class="site-link" href="assets/resume.pdf" alt="resume">resume</a></li>
           </ul>
         </li>
-        <li class="menu-item">works
+        <li class="menu-item"> <span>works</span>
           <ul class="sub-menu"> 
-            <li> <span>choreography</span></li>
-            <li> <span>artist statement          </span></li>
+            <li> <a class="site-link" href="/choreography" alt="choreography">choreography</a></li>
+            <li> <a class="site-link" href="/statement" alt="artist statement">artist statement          </a></li>
           </ul>
         </li>
-        <li class="menu-item">media
+        <li class="menu-item"> <span> media</span>
           <ul class="sub-menu"> 
-            <li> <span>video</span></li>
-            <li> <span>photo</span></li>
+            <li> <a class="site-link" href="/video" alt="video">video</a></li>
+            <li> <a class="site-link" href="photo" alt="photo">photo</a></li>
           </ul>
         </li>
-        <li class="menu-item">contact</li>
+        <li class="menu-item"> <a class="site-link" id="contact" href="" alt="contact">contact</a></li>
       </ul>
     </div>
+    <script src="assets/js/jquery.js"></script>
     <script src="assets/js/app.js"></script>
   </body>
 </html>

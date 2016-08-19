@@ -14,30 +14,29 @@ body
   font-family: $font-caption
   background:
     color: $bg-color
-    // image: url($img-folder + "/background.jpg")
-    // repeat: no-repeat
-    // size: 100vw 100vh
+
+a, a:visited, a:hover, a:focus
+  text-decoration: none
+  color: currentColor
 
 textarea
   resize: none
 
 .body-container
   position: fixed
-  width: 50vw
-  height: 50vh
+  width: 40vw
+  height: auto
   top: 50%
   left: 50%
-  margin-top: -25vh
-  margin-left: -25vw
+  transform: translateY(-50%)
+  margin-left: -20vw
   text-align: center
-
 
   h1
     font-size: 40px
     text-transform: uppercase
     color: white
     margin: 0 auto
-
   h4
     font-size: 22px
     letter-spacing: 1.5px
@@ -50,16 +49,19 @@ textarea
     text-align: left
     list-style: none
     font-size: 20px
+    margin-bottom: 0
+    // margin-left: 10vw
     &-item
       position: relative
+      text-d
       cursor: pointer
       display: block
-      &:hover
-        width: auto
-        .sub-menu
-          li
-            span
-              transform: translateX(0%)
+      padding: 5px 10px
+      // border: 2px solid white
+
+      // span:hover ~ .sub-menu
+      &:hover .sub-menu a
+        transform: translateX(0%)
 
     .sub-menu
       position: absolute
@@ -67,16 +69,121 @@ textarea
       list-style: none
       display: inline-block
       li
+        color: white
         position: relative
         display: inline-block
         overflow: hidden
         padding: 0 15px
-        span
-          transition: all 500ms ease-out
+        a
+          transition: transform 500ms ease-out
           display: block
           transform: translateX(-200%)
-          // position: absolute
-          // display: inline
-          // left: 100%
+  .contact-form
+    position: absolute
+    // display: none
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    background-color: white
+    z-index: 2
+    padding: 15px 10px
+    input, textarea
+      box-sizing: border-box
+      display: inline-block
+      border: 2px solid #112233
+      outline: none
+      font-family: monospace
+
+    input:not([type='submit'])
+      margin: 0 1.5%
+      height: 3em
+      padding: 5px
+      width: 43%
+    textarea
+      width: 90%
+      height: 10em
+      margin: 15px auto
+
+    input[type='submit']
+      background-color: #112233
+      cursor: pointer
+      color: white
+      width: 91%
+      height: 3em
+
+
+
+.site-link, .menu-item
+  &:hover
+    color: darken(white, 30%)
 
 .dancing-image
+  position: absolute
+  background: pink
+  top: 0px
+  right: 0px
+  bottom: 0px
+  width: 100px
+  height: 300px
+  animation: dance 3s linear forwards
+  -webkit-animation: dance 3s linear forwards
+
+.delay
+  -webkit-animation-delay: 5.5s
+  animation-delay: 5.5s
+
+@keyframes dance
+  0%
+    left: -100%
+    opacity: 0
+  10%
+    opacity: 1
+    background: pink
+  12%
+    opacity: 0
+  20%
+    opacity: 1
+    background: purple
+  22%
+    opacity: 0
+  30%
+    opacity: 1
+    background: green
+  32%
+    opacity: 0
+  40%
+    opacity: 1
+    background: $golden
+  42%
+    opacity: 0
+  50%
+    opacity: 1
+    background: orange
+  52%
+    opacity: 0
+  60%
+    opacity: 1
+    background: red
+  62%
+    opacity: 0
+  70%
+    opacity: 1
+    background: yellow
+  72%
+    opacity: 0
+  80%
+    opacity: 1
+    background: blue
+  82%
+    opacity: 0
+  90%
+    opacity: 1
+    background: white
+  92%
+    opacity: 0
+  98%
+    opacity: 1
+  100%
+    left: 100%
+    transform: translateX(-100%)

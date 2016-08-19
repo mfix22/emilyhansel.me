@@ -41,17 +41,21 @@ body {
   font-family: "Titillium Web", sans-serif;
   background-color: black; }
 
+a, a:visited, a:hover, a:focus {
+  text-decoration: none;
+  color: currentColor; }
+
 textarea {
   resize: none; }
 
 .body-container {
   position: fixed;
-  width: 50vw;
-  height: 50vh;
+  width: 40vw;
+  height: auto;
   top: 50%;
   left: 50%;
-  margin-top: -25vh;
-  margin-left: -25vw;
+  transform: translateY(-50%);
+  margin-left: -20vw;
   text-align: center; }
   .body-container h1 {
     font-size: 40px;
@@ -68,28 +72,132 @@ textarea {
     padding: 0;
     text-align: left;
     list-style: none;
-    font-size: 20px; }
+    font-size: 20px;
+    margin-bottom: 0; }
     .body-container .menu-item {
       position: relative;
       cursor: pointer;
-      display: block; }
-      .body-container .menu-item:hover {
-        width: auto; }
-        .body-container .menu-item:hover .sub-menu li span {
-          transform: translateX(0%); }
+      display: block;
+      padding: 5px 10px; }
+      .body-container .menu-item:hover .sub-menu a {
+        transform: translateX(0%); }
     .body-container .menu .sub-menu {
       position: absolute;
       padding: 0 20px;
       list-style: none;
       display: inline-block; }
       .body-container .menu .sub-menu li {
+        color: white;
         position: relative;
         display: inline-block;
         overflow: hidden;
         padding: 0 15px; }
-        .body-container .menu .sub-menu li span {
-          transition: all 500ms ease-out;
+        .body-container .menu .sub-menu li a {
+          transition: transform 500ms ease-out;
           display: block;
           transform: translateX(-200%); }
+  .body-container .contact-form {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    z-index: 2;
+    padding: 15px 10px; }
+    .body-container .contact-form input, .body-container .contact-form textarea {
+      box-sizing: border-box;
+      display: inline-block;
+      border: 2px solid #112233;
+      outline: none;
+      font-family: monospace; }
+    .body-container .contact-form input:not([type='submit']) {
+      margin: 0 1.5%;
+      height: 3em;
+      padding: 5px;
+      width: 43%; }
+    .body-container .contact-form textarea {
+      width: 90%;
+      height: 10em;
+      margin: 15px auto; }
+    .body-container .contact-form input[type='submit'] {
+      background-color: #112233;
+      cursor: pointer;
+      color: white;
+      width: 91%;
+      height: 3em; }
+
+.site-link:hover, .menu-item:hover {
+  color: #b3b3b3; }
+
+.dancing-image {
+  position: absolute;
+  background: pink;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100px;
+  height: 300px;
+  animation: dance 3s linear forwards;
+  -webkit-animation: dance 3s linear forwards; }
+
+.delay {
+  -webkit-animation-delay: 5.5s;
+  animation-delay: 5.5s; }
+
+@keyframes dance {
+  0% {
+    left: -100%;
+    opacity: 0; }
+  10% {
+    opacity: 1;
+    background: pink; }
+  12% {
+    opacity: 0; }
+  20% {
+    opacity: 1;
+    background: purple; }
+  22% {
+    opacity: 0; }
+  30% {
+    opacity: 1;
+    background: green; }
+  32% {
+    opacity: 0; }
+  40% {
+    opacity: 1;
+    background: #ffff55; }
+  42% {
+    opacity: 0; }
+  50% {
+    opacity: 1;
+    background: orange; }
+  52% {
+    opacity: 0; }
+  60% {
+    opacity: 1;
+    background: red; }
+  62% {
+    opacity: 0; }
+  70% {
+    opacity: 1;
+    background: yellow; }
+  72% {
+    opacity: 0; }
+  80% {
+    opacity: 1;
+    background: blue; }
+  82% {
+    opacity: 0; }
+  90% {
+    opacity: 1;
+    background: white; }
+  92% {
+    opacity: 0; }
+  98% {
+    opacity: 1; }
+  100% {
+    left: 100%;
+    transform: translateX(-100%); } }
 
 /*# sourceMappingURL=index.css.map */

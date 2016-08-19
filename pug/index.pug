@@ -10,26 +10,38 @@ html
     title Emily Hansel | Portfolio
   body
     .body-container
+      .contact-form
+        form(method="POST", action="//forms.brace.io/emilylhansel@gmail.com")
+          input(type="text", name="name", placeholder="Name")
+          input(type="email", name="_replyto", placeholder="Email")
+          textarea(placeholder="Type your message here")
+          input(type="submit" value="Send")
       h1 Emily Hansel
       h4 Dancer | Choreographer
       ul.menu
-        li.menu-item about
+        li.menu-item 
+          span about
           ul.sub-menu
             li 
-              span bio
+              a.site-link(href="/bio" alt="bio") bio
             li 
-              span resume
-        li.menu-item works
+              a.site-link(href="assets/resume.pdf" alt="resume") resume
+        li.menu-item 
+          span works
           ul.sub-menu 
             li 
-              span choreography
+              a.site-link(href="/choreography" alt="choreography") choreography
             li 
-              span artist statement          
-        li.menu-item media
+              a.site-link(href="/statement" alt="artist statement") artist statement          
+        li.menu-item 
+          span  media
           ul.sub-menu 
             li 
-              span video
+              a.site-link(href="/video" alt="video") video
             li 
-              span photo
-        li.menu-item contact
+              a.site-link(href="photo" alt="photo") photo
+        li.menu-item 
+          a.site-link#contact(href="" alt="contact") contact
+        //- .dancing-image
+    script(src="assets/js/jquery.js")
     script(src="assets/js/app.js")
