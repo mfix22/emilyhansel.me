@@ -11,10 +11,11 @@ html
   body
     .body-container
       .contact-form
-        form(method="POST", action="//forms.brace.io/emilylhansel@gmail.com")
+        form(method="POST", action="https://formspree.io/emilylhansel@gmail.com")
           input(type="text", name="name", placeholder="Name")
           input(type="email", name="_replyto", placeholder="Email")
-          textarea(placeholder="Type your message here")
+          input(type="hidden", name="_next", value="#submitted")
+          textarea(name="message" placeholder="Type your message here")
           input(type="submit" value="Send")
       h1 Emily Hansel
       h4 Dancer | Choreographer

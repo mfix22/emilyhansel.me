@@ -10,10 +10,11 @@
   <body>
     <div class="body-container">
       <div class="contact-form">
-        <form method="POST" action="//forms.brace.io/emilylhansel@gmail.com">
+        <form method="POST" action="https://formspree.io/emilylhansel@gmail.com">
           <input type="text" name="name" placeholder="Name">
           <input type="email" name="_replyto" placeholder="Email">
-          <textarea placeholder="Type your message here"></textarea>
+          <input type="hidden" name="_next" value="#submitted">
+          <textarea name="message" placeholder="Type your message here"></textarea>
           <input type="submit" value="Send">
         </form>
       </div>

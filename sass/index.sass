@@ -94,6 +94,10 @@ textarea
       border: 2px solid #112233
       outline: none
       font-family: monospace
+      transition: all 200ms ease-out
+
+      &:focus
+        border-color: lighten(#112233, 10%)
 
     input:not([type='submit'])
       margin: 0 1.5%
@@ -111,6 +115,10 @@ textarea
       color: white
       width: 91%
       height: 3em
+
+      &:hover
+        background-color: lighten(#112233, 10%)
+        border-color: lighten(#112233, 10%)
 
 
 

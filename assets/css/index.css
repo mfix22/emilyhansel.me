@@ -110,7 +110,10 @@ textarea {
       display: inline-block;
       border: 2px solid #112233;
       outline: none;
-      font-family: monospace; }
+      font-family: monospace;
+      transition: all 200ms ease-out; }
+      .body-container .contact-form input:focus, .body-container .contact-form textarea:focus {
+        border-color: #1e3c59; }
     .body-container .contact-form input:not([type='submit']) {
       margin: 0 1.5%;
       height: 3em;
@@ -126,6 +129,9 @@ textarea {
       color: white;
       width: 91%;
       height: 3em; }
+      .body-container .contact-form input[type='submit']:hover {
+        background-color: #1e3c59;
+        border-color: #1e3c59; }
 
 .site-link:hover, .menu-item:hover {
   color: #b3b3b3; }
