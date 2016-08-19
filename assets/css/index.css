@@ -59,6 +59,7 @@ textarea {
   margin-left: -20vw;
   text-align: center; }
   .body-container h1 {
+    display: inline-block;
     font-size: 40px;
     text-transform: uppercase;
     color: white;
@@ -80,6 +81,14 @@ textarea {
       cursor: pointer;
       display: block;
       padding: 5px 10px; }
+      .body-container .menu-item:nth-child(1) .menu-button:hover {
+        color: #5555ff; }
+      .body-container .menu-item:nth-child(2) .menu-button:hover {
+        color: #ffff55; }
+      .body-container .menu-item:nth-child(3) .menu-button:hover {
+        color: #ff5555; }
+      .body-container .menu-item:nth-child(4) .menu-button:hover {
+        color: #ff88cb; }
     .body-container .menu .sub-menu {
       position: absolute;
       padding: 0 20px;
@@ -123,10 +132,10 @@ textarea {
     right: 8px;
     cursor: pointer; }
   .contact-form input, .contact-form textarea {
+    outline: none;
     box-sizing: border-box;
     display: inline-block;
     border: 2px solid #112233;
-    outline: none;
     transition: all 200ms ease-out;
     color: #112233; }
     .contact-form input:focus, .contact-form textarea:focus {
@@ -150,7 +159,7 @@ textarea {
       background-color: #1e3c59;
       border-color: #1e3c59; }
 
-.site-link:hover, .menu-item:hover {
+.site-link:hover {
   color: #b3b3b3; }
 
 .dancing-image {

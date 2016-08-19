@@ -34,10 +34,13 @@ textarea
   text-align: center
 
   h1
+    display: inline-block
     font-size: 40px
     text-transform: uppercase
     color: white
     margin: 0 auto
+    // &:hover
+    //   color: saturate(lighten($form-color, 40%), 30%)
   h4
     font-size: 22px
     letter-spacing: 1.5px
@@ -57,6 +60,10 @@ textarea
       cursor: pointer
       display: block
       padding: 5px 10px
+      @for $i from 1 through 4
+        &:nth-child(#{$i})
+          .menu-button:hover
+            color: nth($colorList, $i)
     .sub-menu
       position: absolute
       padding: 0 20px
@@ -74,7 +81,6 @@ textarea
           transform: translate3d(-200%, 0px, 0px)
           &.active
             transform: translate3d(0%, 0px, 0px)
-
 
 .contact-form
   z-index: 2
@@ -101,10 +107,10 @@ textarea
     right: 8px
     cursor: pointer
   input, textarea
+    outline: none
     box-sizing: border-box
     display: inline-block
     border: 2px solid $form-color
-    outline: none
     transition: all 200ms ease-out
     color: $form-color
 
@@ -132,7 +138,7 @@ textarea
       background-color: lighten($form-color, 10%)
       border-color: lighten($form-color, 10%)
 
-.site-link, .menu-item
+.site-link
   &:hover
     color: darken(white, 30%)
 
