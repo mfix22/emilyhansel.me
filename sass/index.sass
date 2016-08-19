@@ -54,16 +54,10 @@ textarea
     // margin-left: 10vw
     &-item
       position: relative
-      text-d
       cursor: pointer
       display: block
       padding: 5px 10px
       // border: 2px solid white
-
-      // span:hover ~ .sub-menu
-      &:hover .sub-menu a
-        transform: translate3d(0px, 0px, 0px)
-
     .sub-menu
       position: absolute
       padding: 0 20px
@@ -75,63 +69,65 @@ textarea
         display: inline-block
         overflow: hidden
         padding: 0 15px
-        a
+        .site-link
           transition: transform 500ms ease-out
           display: block
           transform: translate3d(-200%, 0px, 0px)
-  .contact-form
-    z-index: 2
+          &.active
+            transform: translate3d(0%, 0px, 0px)
+
+
+.contact-form
+  z-index: 2
+  position: absolute
+  display: none
+  top: 0px
+  right: 0px
+  bottom: 0px
+  left: 0px
+  padding: 15px 10px
+  font-family: monospace
+  background-color: white
+  transform-origin: bottom left
+  span
     position: absolute
-    display: none
-    top: 0px
-    right: 0px
-    bottom: 0px
-    left: 0px
-    padding: 15px 10px
-    font-family: monospace
-    background-color: white
-    transform-origin: bottom left
-    span
-      position: absolute
-      top: 0
-      right: 8px
-      cursor: pointer
-    input, textarea
-      box-sizing: border-box
-      display: inline-block
-      border: 2px solid #112233
-      outline: none
-      transition: all 200ms ease-out
-      color: #112233
+    top: 0
+    right: 8px
+    cursor: pointer
+  input, textarea
+    box-sizing: border-box
+    display: inline-block
+    border: 2px solid #112233
+    outline: none
+    transition: all 200ms ease-out
+    color: #112233
 
-      &:focus
-        border-color: lighten(#112233, 10%)
+    &:focus
+      border-color: lighten(#112233, 10%)
 
-    input:not([type='submit'])
-      margin: 0 1%
-      height: 3em
-      padding: 5px
-      width: 43%
-    textarea
-      width: 90%
-      height: 10em
-      margin: 15px auto
+  input:not([type='submit'])
+    margin: 0 1%
+    height: 3em
+    padding: 5px
+    width: 43%
+  textarea
+    width: 90%
+    height: 10em
+    margin: 15px auto
 
-    input[type='submit']
-      background-color: #112233
-      cursor: pointer
-      color: white
-      width: 91%
-      height: 3em
+  input[type='submit']
+    background-color: #112233
+    cursor: pointer
+    color: white
+    width: 91%
+    height: 3em
 
-      &:hover
-        background-color: lighten(#112233, 10%)
-        border-color: lighten(#112233, 10%)
-      &:focus
-        background-color: lighten(#112233, 10%)
-        border-color: lighten(#112233, 10%)
-
-
+    &:hover
+      background-color: lighten(#112233, 10%)
+      border-color: lighten(#112233, 10%)
+    &:focus
+      background-color: lighten(#112233, 10%)
+      border-color: lighten(#112233, 10%)
 
 .site-link, .menu-item
   &:hover

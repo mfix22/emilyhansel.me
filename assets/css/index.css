@@ -80,8 +80,6 @@ textarea {
       cursor: pointer;
       display: block;
       padding: 5px 10px; }
-      .body-container .menu-item:hover .sub-menu a {
-        transform: translate3d(0px, 0px, 0px); }
     .body-container .menu .sub-menu {
       position: absolute;
       padding: 0 20px;
@@ -93,57 +91,60 @@ textarea {
         display: inline-block;
         overflow: hidden;
         padding: 0 15px; }
-        .body-container .menu .sub-menu li a {
+        .body-container .menu .sub-menu li .site-link {
           transition: transform 500ms ease-out;
           display: block;
           transform: translate3d(-200%, 0px, 0px); }
-  .body-container .contact-form {
-    z-index: 2;
+          .body-container .menu .sub-menu li .site-link.active {
+            transform: translate3d(0%, 0px, 0px); }
+
+.contact-form {
+  z-index: 2;
+  position: absolute;
+  display: none;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding: 15px 10px;
+  font-family: monospace;
+  background-color: white;
+  transform-origin: bottom left; }
+  .contact-form span {
     position: absolute;
-    display: none;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    padding: 15px 10px;
-    font-family: monospace;
-    background-color: white;
-    transform-origin: bottom left; }
-    .body-container .contact-form span {
-      position: absolute;
-      top: 0;
-      right: 8px;
-      cursor: pointer; }
-    .body-container .contact-form input, .body-container .contact-form textarea {
-      box-sizing: border-box;
-      display: inline-block;
-      border: 2px solid #112233;
-      outline: none;
-      transition: all 200ms ease-out;
-      color: #112233; }
-      .body-container .contact-form input:focus, .body-container .contact-form textarea:focus {
-        border-color: #1e3c59; }
-    .body-container .contact-form input:not([type='submit']) {
-      margin: 0 1%;
-      height: 3em;
-      padding: 5px;
-      width: 43%; }
-    .body-container .contact-form textarea {
-      width: 90%;
-      height: 10em;
-      margin: 15px auto; }
-    .body-container .contact-form input[type='submit'] {
-      background-color: #112233;
-      cursor: pointer;
-      color: white;
-      width: 91%;
-      height: 3em; }
-      .body-container .contact-form input[type='submit']:hover {
-        background-color: #1e3c59;
-        border-color: #1e3c59; }
-      .body-container .contact-form input[type='submit']:focus {
-        background-color: #1e3c59;
-        border-color: #1e3c59; }
+    top: 0;
+    right: 8px;
+    cursor: pointer; }
+  .contact-form input, .contact-form textarea {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 2px solid #112233;
+    outline: none;
+    transition: all 200ms ease-out;
+    color: #112233; }
+    .contact-form input:focus, .contact-form textarea:focus {
+      border-color: #1e3c59; }
+  .contact-form input:not([type='submit']) {
+    margin: 0 1%;
+    height: 3em;
+    padding: 5px;
+    width: 43%; }
+  .contact-form textarea {
+    width: 90%;
+    height: 10em;
+    margin: 15px auto; }
+  .contact-form input[type='submit'] {
+    background-color: #112233;
+    cursor: pointer;
+    color: white;
+    width: 91%;
+    height: 3em; }
+    .contact-form input[type='submit']:hover {
+      background-color: #1e3c59;
+      border-color: #1e3c59; }
+    .contact-form input[type='submit']:focus {
+      background-color: #1e3c59;
+      border-color: #1e3c59; }
 
 .site-link:hover, .menu-item:hover {
   color: #b3b3b3; }

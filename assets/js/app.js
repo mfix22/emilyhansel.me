@@ -7,8 +7,13 @@ $(function() {
   $('form').click(function(e) {
     e.stopPropagation();
     return false;
-  })
+  });
   $('body').click(function() {
     $('.contact-form').fadeOut(300);
-  })
+  });
+
+  $('.menu-button').hover(function() {
+    $('.site-link.active').removeClass('active');
+    $(this).siblings().find('.site-link').addClass('active')
+  });
 })
