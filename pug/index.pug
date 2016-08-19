@@ -13,11 +13,12 @@ html
       .contact-form
         span x
         form(method="POST", action="https://formspree.io/emilylhansel@gmail.com")
-          input(type="text", name="name", placeholder="Name")
-          input(type="email", name="_replyto", placeholder="Email")
+          p Fill out the form below or contact me at <a href="mailto:emilylhansel@gmail.com">emilylhansel@gmail.com</a>
+          input(tabindex="1",  type="text", name="name", placeholder="Name")
+          input(tabindex="2",  type="email", name="_replyto", placeholder="Email")
           input(type="hidden", name="_next", value="#submitted")
-          textarea(name="message" placeholder="Type your message here")
-          input(type="submit" value="Send")
+          textarea(tabindex="3",  name="message" placeholder="Type your message here")
+          input(tabindex="4",  type="submit" value="Send")
       h1 Emily Hansel
       h4 Dancer | Choreographer
       ul.menu
@@ -43,7 +44,7 @@ html
             li 
               a.site-link(href="photo" alt="photo") photo
         .menu-item 
-          .site-link#contact contact
+          span.menu-button#contact contact
         //- .dancing-image
     script(src="assets/js/jquery.js")
     script(src="assets/js/app.js")

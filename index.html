@@ -13,11 +13,12 @@
     <div class="body-container">
       <div class="contact-form"><span>x</span>
         <form method="POST" action="https://formspree.io/emilylhansel@gmail.com">
-          <input type="text" name="name" placeholder="Name">
-          <input type="email" name="_replyto" placeholder="Email">
+          <p>Fill out the form below or contact me at <a href="mailto:emilylhansel@gmail.com">emilylhansel@gmail.com</a></p>
+          <input tabindex="1" type="text" name="name" placeholder="Name">
+          <input tabindex="2" type="email" name="_replyto" placeholder="Email">
           <input type="hidden" name="_next" value="#submitted">
-          <textarea name="message" placeholder="Type your message here"></textarea>
-          <input type="submit" value="Send">
+          <textarea tabindex="3" name="message" placeholder="Type your message here"></textarea>
+          <input tabindex="4" type="submit" value="Send">
         </form>
       </div>
       <h1>Emily Hansel</h1>
@@ -41,9 +42,7 @@
             <li> <a class="site-link" href="photo" alt="photo">photo</a></li>
           </ul>
         </div>
-        <div class="menu-item"> 
-          <div class="site-link" id="contact">contact</div>
-        </div>
+        <div class="menu-item"> <span class="menu-button" id="contact">contact</span></div>
       </ul>
     </div>
     <script src="assets/js/jquery.js"></script>
