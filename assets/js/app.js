@@ -1,9 +1,13 @@
 $(function() {
   $('#contact').click(function(e) {
     e.preventDefault();
-    $('.contact-form').show();
+    $('.contact-form').fadeIn(300);
   });
-  // $('.contact-form').click(function() {
-  //   $('.contact-form').hide();
-  // })
+  $('form').click(function(e) {
+    e.stopPropagation();
+    return false;
+  })
+  $('.contact-form').click(function() {
+    $('.contact-form').fadeOut(300);
+  })
 })
