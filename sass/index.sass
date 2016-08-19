@@ -79,7 +79,7 @@ textarea
 .contact-form
   z-index: 2
   position: absolute
-  // display: none
+  display: none
   top: 0px
   right: 0px
   bottom: 0px
@@ -138,70 +138,27 @@ textarea
 
 .dancing-image
   position: absolute
-  background: pink
   top: 0px
   right: 0px
   bottom: 0px
   width: 100px
   height: 300px
-  animation: dance 3s linear forwards
-  -webkit-animation: dance 3s linear forwards
+  background: pink
+  +dance(3s)
 
 .delay
   -webkit-animation-delay: 5.5s
   animation-delay: 5.5s
 
 @keyframes dance
-  0%
-    left: -100%
-    opacity: 0
-  10%
-    opacity: 1
-    background: pink
-  12%
-    opacity: 0
-  20%
-    opacity: 1
-    background: purple
-  22%
-    opacity: 0
-  30%
-    opacity: 1
-    background: green
-  32%
-    opacity: 0
-  40%
-    opacity: 1
-    background: $golden
-  42%
-    opacity: 0
-  50%
-    opacity: 1
-    background: orange
-  52%
-    opacity: 0
-  60%
-    opacity: 1
-    background: red
-  62%
-    opacity: 0
-  70%
-    opacity: 1
-    background: yellow
-  72%
-    opacity: 0
-  80%
-    opacity: 1
-    background: blue
-  82%
-    opacity: 0
-  90%
-    opacity: 1
-    background: white
-  92%
-    opacity: 0
-  98%
-    opacity: 1
+  @for $i from 0 through 9
+    #{$i*10}%, #{$i*10  + 1.9}%
+      background: rgb($i*10, $i*8, $i*6)
+      visibility: visible
+      left: -90% + $i*20%
+    #{$i*10 + 2}%, #{$i*10  + 9.9}%
+      visibility: hidden
   100%
     left: 100%
-    transform: translateX(-100%)
+    visibility: visible
+    // transform: translateX(-100%)

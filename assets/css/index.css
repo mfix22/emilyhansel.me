@@ -101,6 +101,7 @@ textarea {
 .contact-form {
   z-index: 2;
   position: absolute;
+  display: none;
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -154,12 +155,12 @@ textarea {
 
 .dancing-image {
   position: absolute;
-  background: pink;
   top: 0px;
   right: 0px;
   bottom: 0px;
   width: 100px;
   height: 300px;
+  background: pink;
   animation: dance 3s linear forwards;
   -webkit-animation: dance 3s linear forwards; }
 
@@ -168,58 +169,68 @@ textarea {
   animation-delay: 5.5s; }
 
 @keyframes dance {
-  0% {
-    left: -100%;
-    opacity: 0; }
-  10% {
-    opacity: 1;
-    background: pink; }
-  12% {
-    opacity: 0; }
-  20% {
-    opacity: 1;
-    background: purple; }
-  22% {
-    opacity: 0; }
-  30% {
-    opacity: 1;
-    background: green; }
-  32% {
-    opacity: 0; }
-  40% {
-    opacity: 1;
-    background: #ffff55; }
-  42% {
-    opacity: 0; }
-  50% {
-    opacity: 1;
-    background: orange; }
-  52% {
-    opacity: 0; }
-  60% {
-    opacity: 1;
-    background: red; }
-  62% {
-    opacity: 0; }
-  70% {
-    opacity: 1;
-    background: yellow; }
-  72% {
-    opacity: 0; }
-  80% {
-    opacity: 1;
-    background: blue; }
-  82% {
-    opacity: 0; }
-  90% {
-    opacity: 1;
-    background: white; }
-  92% {
-    opacity: 0; }
-  98% {
-    opacity: 1; }
+  0%, 1.9% {
+    background: black;
+    visibility: visible;
+    left: -90%; }
+  2%, 9.9% {
+    visibility: hidden; }
+  10%, 11.9% {
+    background: #0a0806;
+    visibility: visible;
+    left: -70%; }
+  12%, 19.9% {
+    visibility: hidden; }
+  20%, 21.9% {
+    background: #14100c;
+    visibility: visible;
+    left: -50%; }
+  22%, 29.9% {
+    visibility: hidden; }
+  30%, 31.9% {
+    background: #1e1812;
+    visibility: visible;
+    left: -30%; }
+  32%, 39.9% {
+    visibility: hidden; }
+  40%, 41.9% {
+    background: #282018;
+    visibility: visible;
+    left: -10%; }
+  42%, 49.9% {
+    visibility: hidden; }
+  50%, 51.9% {
+    background: #32281e;
+    visibility: visible;
+    left: 10%; }
+  52%, 59.9% {
+    visibility: hidden; }
+  60%, 61.9% {
+    background: #3c3024;
+    visibility: visible;
+    left: 30%; }
+  62%, 69.9% {
+    visibility: hidden; }
+  70%, 71.9% {
+    background: #46382a;
+    visibility: visible;
+    left: 50%; }
+  72%, 79.9% {
+    visibility: hidden; }
+  80%, 81.9% {
+    background: #504030;
+    visibility: visible;
+    left: 70%; }
+  82%, 89.9% {
+    visibility: hidden; }
+  90%, 91.9% {
+    background: #5a4836;
+    visibility: visible;
+    left: 90%; }
+  92%, 99.9% {
+    visibility: hidden; }
   100% {
     left: 100%;
-    transform: translateX(-100%); } }
+    visibility: visible; } }
 
 /*# sourceMappingURL=index.css.map */
