@@ -19,8 +19,10 @@ html
           input(type="hidden", name="_next", value="#submitted")
           textarea(tabindex="3",  name="message" placeholder="Type your message here")
           input(tabindex="4",  type="submit" value="Send")
-      h1 Emily Hansel
-      h4 Dancer | Choreographer
+      h1
+        a(href="", alt="Emily Hansel") Emily Hansel
+      h4 Dancer 
+      h4 Choreographer
       ul.menu
         .menu-item 
           span.menu-button about
@@ -45,6 +47,6 @@ html
               a.site-link(href="photo" alt="photo") photo
         .menu-item 
           span.menu-button#contact contact
-        //- .dancing-image
+        .dancing-image.dance
     script(src="assets/js/jquery.js")
     script(src="assets/js/app.js")

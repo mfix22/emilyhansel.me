@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": ";;IAII,SAAS,EAAE,qBAAyC;;;IAGpD,SAAS,EAAE,qBAAyC;;;IAGpD,SAAS,EAAE,oBAAwC;;;IAGnD,SAAS,EAAE,oBAAwC;;;IAGnD,SAAS,EAAE,oBAAwC;;;IAGnD,SAAS,EAAE,oBAAwC;;;IAGnD,SAAS,EAAE,mBAAuC;;;IAGlD,SAAS,EAAE,mBAAuC;;;IAIlD,OAAO,EAAE,CAAC;;IAEV,OAAO,EAAE,CAAC;;;IAGV,OAAO,EAAE,CAAC;;IAEV,OAAO,EAAE,CAAC",
+"mappings": ";;IAEI,OAAO,EAAE,CAAC;;IAEV,OAAO,EAAE,CAAC;;;IAGV,OAAO,EAAE,CAAC;;IAEV,OAAO,EAAE,CAAC",
 "sources": ["../../sass/animations.sass"],
 "names": [],
 "file": "animations.css"

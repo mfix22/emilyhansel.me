@@ -1,30 +1,3 @@
-$spread-width: 5px
-
-@-webkit-keyframes upleft
-  100%
-    transform: translate(-$spread-width, -$spread-width)
-@keyframes upleft
-  100%
-    transform: translate(-$spread-width, -$spread-width)
-@-webkit-keyframes upright
-  100%
-    transform: translate($spread-width, -$spread-width)
-@keyframes upright
-  100%
-    transform: translate($spread-width, -$spread-width)
-@-webkit-keyframes downleft
-  100%
-    transform: translate(-$spread-width, $spread-width)
-@keyframes downleft
-  100%
-    transform: translate(-$spread-width, $spread-width)
-@-webkit-keyframes downright
-  100%
-    transform: translate($spread-width, $spread-width)
-@keyframes downright
-  100%
-    transform: translate($spread-width, $spread-width)
-
 @-webkit-keyframes fadeIn
   0%
     opacity: 0
@@ -35,13 +8,6 @@ $spread-width: 5px
     opacity: 0
   100%
     opacity: 1
-
-=slide($fn)
-  +animation($fn, 2s, linear, 1s, forwards)
-
-=animation($name, $duration, $timing-function, $delay, $fill-mode)
-  -webkit-animation: $name $duration $timing-function $delay $fill-mode
-  animation: $name $duration $timing-function $delay $fill-mode
 
 =dance($duration)
   animation: dance $duration linear forwards

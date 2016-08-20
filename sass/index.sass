@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Titillium+Web'
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400'
 @import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
 @import "animate.css"
 
@@ -6,7 +7,9 @@
 @import palette
 @import file-refs
 
-$font-caption: 'Titillium Web', sans-serif
+$font-lato: 'Lato', sans-serif
+$font-titilium: 'Titillium Web', sans-serif
+$font-caption: $font-lato
 
 body
   padding: 0px
@@ -34,18 +37,25 @@ textarea
   text-align: center
 
   h1
-    display: inline-block
-    font-size: 40px
+    // display: inline-block
+    font-size: 80px
+    font-weight: 100
     text-transform: uppercase
     color: white
     margin: 0 auto
     // &:hover
     //   color: saturate(lighten($form-color, 40%), 30%)
   h4
-    font-size: 22px
-    letter-spacing: 1.5px
+    display: inline-block
+    font-weight: 300
+    font-size: 26px
+    letter-spacing: 9px
     margin: 0
     color: white
+    text-transform: lowercase
+    @media screen and (min-width: 1120px)
+      &:first-of-type:after
+        content: " | "
 
   .menu
     color: white
@@ -56,14 +66,16 @@ textarea
     margin-bottom: 0
     // margin-left: 10vw
     &-item
+      opacity: 0
       position: relative
-      cursor: pointer
       display: block
       padding: 5px 10px
+      animation: fadeIn 500ms forwards 3s
       @for $i from 1 through 4
         &:nth-child(#{$i})
           .menu-button:hover
-            color: nth($colorList, $i)
+            cursor: pointer
+            color: nth($colorList, 1)
     .sub-menu
       position: absolute
       padding: 0 20px
@@ -79,6 +91,8 @@ textarea
           display: block
           transition: transform 500ms ease-out
           transform: translate3d(-200%, 0px, 0px)
+          &:hover
+            color: $link-color
           &.active
             transform: translate3d(0%, 0px, 0px)
 
@@ -138,33 +152,43 @@ textarea
       background-color: lighten($form-color, 10%)
       border-color: lighten($form-color, 10%)
 
-.site-link
-  &:hover
-    color: darken(white, 30%)
 
 .dancing-image
   position: absolute
-  top: 0px
-  right: 0px
-  bottom: 0px
-  width: 100px
-  height: 300px
-  background: pink
-  +dance(3s)
+  z-index: -1
+  top: -100px
+  width: 350px
+  height: 600px
 
-.delay
-  -webkit-animation-delay: 5.5s
-  animation-delay: 5.5s
+  background:
+    size: cover
+    position: center
+    repeat: no-repeat
+  &.dance
+    +dance(3s)
+  &:not(.dance)
+    left: 70%
+    background-image: url(../img/dancing/last.png)
 
+
+
+
+// left: -100% -> 70%
 @keyframes dance
-  @for $i from 0 through 9
-    #{$i*10}%, #{$i*10  + 1.9}%
-      background: rgb($i*10, $i*8, $i*6)
-      visibility: visible
-      left: -90% + $i*20%
-    #{$i*10 + 2}%, #{$i*10  + 9.9}%
-      visibility: hidden
-  100%
-    left: 100%
+  0%, 7.5%
+    background-image: none
     visibility: visible
+    left: -86.92308%
+  @for $i from 1 through 12
+    #{$i*90/12}%, #{$i*90/12  + 2.99}%
+      background-image: url(../img/dancing/#{$i}.png)
+      visibility: visible
+      left: -100% + $i*175%/13%
+    #{$i*90/12 + 3}%, #{$i*90/12  + 7.49}%
+      background-image: url(../img/dancing/#{$i}.png)
+      visibility: hidden
+  97.5%, 100%
+    left: 75%
+    visibility: visible
+    background-image: url(../img/dancing/last.png)
     // transform: translateX(-100%)

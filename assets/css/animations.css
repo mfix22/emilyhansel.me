@@ -1,27 +1,3 @@
-@-webkit-keyframes upleft {
-  100% {
-    transform: translate(-5px, -5px); } }
-@keyframes upleft {
-  100% {
-    transform: translate(-5px, -5px); } }
-@-webkit-keyframes upright {
-  100% {
-    transform: translate(5px, -5px); } }
-@keyframes upright {
-  100% {
-    transform: translate(5px, -5px); } }
-@-webkit-keyframes downleft {
-  100% {
-    transform: translate(-5px, 5px); } }
-@keyframes downleft {
-  100% {
-    transform: translate(-5px, 5px); } }
-@-webkit-keyframes downright {
-  100% {
-    transform: translate(5px, 5px); } }
-@keyframes downright {
-  100% {
-    transform: translate(5px, 5px); } }
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0; }

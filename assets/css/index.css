@@ -1,30 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Titillium+Web';
+@import 'https://fonts.googleapis.com/css?family=Lato:100,300,400';
 @import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
 @import url(animate.css);
-@-webkit-keyframes upleft {
-  100% {
-    transform: translate(-5px, -5px); } }
-@keyframes upleft {
-  100% {
-    transform: translate(-5px, -5px); } }
-@-webkit-keyframes upright {
-  100% {
-    transform: translate(5px, -5px); } }
-@keyframes upright {
-  100% {
-    transform: translate(5px, -5px); } }
-@-webkit-keyframes downleft {
-  100% {
-    transform: translate(-5px, 5px); } }
-@keyframes downleft {
-  100% {
-    transform: translate(-5px, 5px); } }
-@-webkit-keyframes downright {
-  100% {
-    transform: translate(5px, 5px); } }
-@keyframes downright {
-  100% {
-    transform: translate(5px, 5px); } }
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -38,7 +15,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Lato", sans-serif;
   height: 100vh;
   background-color: black; }
 
@@ -59,16 +36,22 @@ textarea {
   margin-left: -20vw;
   text-align: center; }
   .body-container h1 {
-    display: inline-block;
-    font-size: 40px;
+    font-size: 80px;
+    font-weight: 100;
     text-transform: uppercase;
     color: white;
     margin: 0 auto; }
   .body-container h4 {
-    font-size: 22px;
-    letter-spacing: 1.5px;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 26px;
+    letter-spacing: 9px;
     margin: 0;
-    color: white; }
+    color: white;
+    text-transform: lowercase; }
+    @media screen and (min-width: 1120px) {
+      .body-container h4:first-of-type:after {
+        content: " | "; } }
   .body-container .menu {
     color: white;
     padding: 0;
@@ -77,18 +60,23 @@ textarea {
     font-size: 20px;
     margin-bottom: 0; }
     .body-container .menu-item {
+      opacity: 0;
       position: relative;
-      cursor: pointer;
       display: block;
-      padding: 5px 10px; }
+      padding: 5px 10px;
+      animation: fadeIn 500ms forwards 3s; }
       .body-container .menu-item:nth-child(1) .menu-button:hover {
-        color: #5555ff; }
+        cursor: pointer;
+        color: #4d6bd9; }
       .body-container .menu-item:nth-child(2) .menu-button:hover {
-        color: #ffff55; }
+        cursor: pointer;
+        color: #4d6bd9; }
       .body-container .menu-item:nth-child(3) .menu-button:hover {
-        color: #ff5555; }
+        cursor: pointer;
+        color: #4d6bd9; }
       .body-container .menu-item:nth-child(4) .menu-button:hover {
-        color: #ff88cb; }
+        cursor: pointer;
+        color: #4d6bd9; }
     .body-container .menu .sub-menu {
       position: absolute;
       padding: 0 20px;
@@ -104,6 +92,8 @@ textarea {
           display: block;
           transition: transform 500ms ease-out;
           transform: translate3d(-200%, 0px, 0px); }
+          .body-container .menu .sub-menu li .site-link:hover {
+            color: #4d6bd9; }
           .body-container .menu .sub-menu li .site-link.active {
             transform: translate3d(0%, 0px, 0px); }
 
@@ -159,87 +149,114 @@ textarea {
       background-color: #1e3c59;
       border-color: #1e3c59; }
 
-.site-link:hover {
-  color: #b3b3b3; }
-
 .dancing-image {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 100px;
-  height: 300px;
-  background: pink;
-  animation: dance 3s linear forwards;
-  -webkit-animation: dance 3s linear forwards; }
-
-.delay {
-  -webkit-animation-delay: 5.5s;
-  animation-delay: 5.5s; }
+  z-index: -1;
+  top: -100px;
+  width: 350px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .dancing-image.dance {
+    animation: dance 3s linear forwards;
+    -webkit-animation: dance 3s linear forwards; }
+  .dancing-image:not(.dance) {
+    left: 70%;
+    background-image: url(../img/dancing/last.png); }
 
 @keyframes dance {
-  0%, 1.9% {
-    background: black;
+  0%, 7.5% {
+    background-image: none;
     visibility: visible;
-    left: -90%; }
-  2%, 9.9% {
-    visibility: hidden; }
-  10%, 11.9% {
-    background: #0a0806;
+    left: -86.92308%; }
+  7.5%, 10.49% {
+    background-image: url(../img/dancing/1.png);
     visibility: visible;
-    left: -70%; }
-  12%, 19.9% {
+    left: -86.53846%; }
+  10.5%, 14.99% {
+    background-image: url(../img/dancing/1.png);
     visibility: hidden; }
-  20%, 21.9% {
-    background: #14100c;
+  15%, 17.99% {
+    background-image: url(../img/dancing/2.png);
     visibility: visible;
-    left: -50%; }
-  22%, 29.9% {
+    left: -73.07692%; }
+  18%, 22.49% {
+    background-image: url(../img/dancing/2.png);
     visibility: hidden; }
-  30%, 31.9% {
-    background: #1e1812;
+  22.5%, 25.49% {
+    background-image: url(../img/dancing/3.png);
     visibility: visible;
-    left: -30%; }
-  32%, 39.9% {
+    left: -59.61538%; }
+  25.5%, 29.99% {
+    background-image: url(../img/dancing/3.png);
     visibility: hidden; }
-  40%, 41.9% {
-    background: #282018;
+  30%, 32.99% {
+    background-image: url(../img/dancing/4.png);
     visibility: visible;
-    left: -10%; }
-  42%, 49.9% {
+    left: -46.15385%; }
+  33%, 37.49% {
+    background-image: url(../img/dancing/4.png);
     visibility: hidden; }
-  50%, 51.9% {
-    background: #32281e;
+  37.5%, 40.49% {
+    background-image: url(../img/dancing/5.png);
     visibility: visible;
-    left: 10%; }
-  52%, 59.9% {
+    left: -32.69231%; }
+  40.5%, 44.99% {
+    background-image: url(../img/dancing/5.png);
     visibility: hidden; }
-  60%, 61.9% {
-    background: #3c3024;
+  45%, 47.99% {
+    background-image: url(../img/dancing/6.png);
     visibility: visible;
-    left: 30%; }
-  62%, 69.9% {
+    left: -19.23077%; }
+  48%, 52.49% {
+    background-image: url(../img/dancing/6.png);
     visibility: hidden; }
-  70%, 71.9% {
-    background: #46382a;
+  52.5%, 55.49% {
+    background-image: url(../img/dancing/7.png);
     visibility: visible;
-    left: 50%; }
-  72%, 79.9% {
+    left: -5.76923%; }
+  55.5%, 59.99% {
+    background-image: url(../img/dancing/7.png);
     visibility: hidden; }
-  80%, 81.9% {
-    background: #504030;
+  60%, 62.99% {
+    background-image: url(../img/dancing/8.png);
     visibility: visible;
-    left: 70%; }
-  82%, 89.9% {
+    left: 7.69231%; }
+  63%, 67.49% {
+    background-image: url(../img/dancing/8.png);
     visibility: hidden; }
-  90%, 91.9% {
-    background: #5a4836;
+  67.5%, 70.49% {
+    background-image: url(../img/dancing/9.png);
     visibility: visible;
-    left: 90%; }
-  92%, 99.9% {
+    left: 21.15385%; }
+  70.5%, 74.99% {
+    background-image: url(../img/dancing/9.png);
     visibility: hidden; }
-  100% {
-    left: 100%;
-    visibility: visible; } }
+  75%, 77.99% {
+    background-image: url(../img/dancing/10.png);
+    visibility: visible;
+    left: 34.61538%; }
+  78%, 82.49% {
+    background-image: url(../img/dancing/10.png);
+    visibility: hidden; }
+  82.5%, 85.49% {
+    background-image: url(../img/dancing/11.png);
+    visibility: visible;
+    left: 48.07692%; }
+  85.5%, 89.99% {
+    background-image: url(../img/dancing/11.png);
+    visibility: hidden; }
+  90%, 92.99% {
+    background-image: url(../img/dancing/12.png);
+    visibility: visible;
+    left: 61.53846%; }
+  93%, 97.49% {
+    background-image: url(../img/dancing/12.png);
+    visibility: hidden; }
+  97.5%, 100% {
+    left: 75%;
+    visibility: visible;
+    background-image: url(../img/dancing/last.png); } }
 
 /*# sourceMappingURL=index.css.map */
