@@ -1,5 +1,5 @@
 $(function() {
-  $('#contact').click(function(e) {
+  $('.contact').click(function(e) {
     e.stopPropagation();
     e.preventDefault();
     $('.contact-form').fadeIn(300);
@@ -16,4 +16,15 @@ $(function() {
     $('.site-link.active').removeClass('active');
     $(this).siblings().find('.site-link').addClass('active')
   });
-})
+
+  $('.nav-opener').click(function() {
+    $(this).toggleClass('active').children().toggleClass('ion-navicon').addClass('ion-close');
+    $('.mobile-nav').toggleClass('active');
+  })
+});
+
+if (!localStorage.seen) {
+  $('.dancing-image').addClass('dance');
+  $('.leftImage').addClass('fadeInLate');
+  localStorage.seen = true;
+}

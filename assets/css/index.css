@@ -23,8 +23,21 @@ a, a:visited, a:hover, a:focus {
   text-decoration: none;
   color: currentColor; }
 
+ul {
+  list-style: none;
+  padding: 0; }
+
 textarea {
   resize: none; }
+
+.load-images {
+  visibility: hidden;
+  height: 0;
+  width: 0; }
+  .load-images img {
+    position: fixed;
+    height: 0;
+    width: 0; }
 
 .body-container {
   position: fixed;
@@ -60,11 +73,9 @@ textarea {
     font-size: 20px;
     margin-bottom: 0; }
     .body-container .menu-item {
-      opacity: 0;
       position: relative;
       display: block;
-      padding: 5px 10px;
-      animation: fadeIn 500ms forwards 3s; }
+      padding: 5px 10px; }
       .body-container .menu-item:nth-child(1) .menu-button:hover {
         cursor: pointer;
         color: #4d6bd9; }
@@ -163,7 +174,45 @@ textarea {
     -webkit-animation: dance 3s linear forwards; }
   .dancing-image:not(.dance) {
     left: 70%;
-    background-image: url(../img/dancing/last.png); }
+    background-image: url(../img/dancing/13.png); }
+
+.leftImage {
+  z-index: -2;
+  position: fixed;
+  top: -250px;
+  left: -170px; }
+  .leftImage.fadeInLate {
+    opacity: 0;
+    animation: fadeIn 500ms forwards 3s; }
+
+.nav-opener {
+  z-index: 3;
+  cursor: pointer;
+  position: fixed;
+  padding: 2px;
+  color: white;
+  font-size: 50px;
+  margin: 5px 10px; }
+  .nav-opener.active {
+    color: black; }
+
+.mobile-nav {
+  z-index: 2;
+  position: fixed;
+  height: 100%;
+  width: 25%;
+  background-color: white;
+  transform: translateX(-100%);
+  transition: transform 300ms ease-out; }
+  .mobile-nav.active {
+    transform: translateX(0px); }
+  .mobile-nav .nav-items {
+    font-size: 24px;
+    padding-top: 75px;
+    text-align: center; }
+    .mobile-nav .nav-items .nav-item {
+      margin-bottom: 40px;
+      cursor: pointer; }
 
 @keyframes dance {
   0%, 7.5% {
@@ -257,6 +306,6 @@ textarea {
   97.5%, 100% {
     left: 75%;
     visibility: visible;
-    background-image: url(../img/dancing/last.png); } }
+    background-image: url(../img/dancing/13.png); } }
 
 /*# sourceMappingURL=index.css.map */

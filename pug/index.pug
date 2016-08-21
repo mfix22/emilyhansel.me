@@ -7,8 +7,24 @@ html
     link(rel="shortcut icon", href="./assets/img/favicon.ico")
     link(rel="icon", href="./assets/img/favicon.ico", type="image/x-icon")
     link(rel="stylesheet", href="assets/css/index.css")
-    title Emily Hansel | Portfolio
+    title Emily Hansel
   body
+    .nav-opener
+      i.ion-navicon
+    .mobile-nav
+      .nav-items
+        .nav-item
+          a.site-link(href="/bio" alt="bio") bio
+        .nav-item
+          a.site-link(href="assets/resume.pdf" target="_blank" alt="resume") resume
+        .nav-item
+          a.site-link(href="/choreography" alt="choreography") choreography
+        .nav-item
+          a.site-link(href="/statement" alt="artist statement") artist statement 
+        .nav-item
+          a.site-link(href="/media" alt="video") media
+        .nav-item
+          p.contact contact
     .body-container
       .contact-form
         span x
@@ -21,7 +37,7 @@ html
           input(tabindex="4",  type="submit" value="Send")
       h1
         a(href="", alt="Emily Hansel") Emily Hansel
-      h4 Dancer 
+      h4 Dancer
       h4 Choreographer
       ul.menu
         .menu-item 
@@ -30,7 +46,7 @@ html
             li 
               a.site-link(href="/bio" alt="bio") bio
             li 
-              a.site-link(href="assets/resume.pdf" alt="resume") resume
+              a.site-link(href="assets/resume.pdf" target="_blank" alt="resume") resume
         .menu-item 
           span.menu-button works
           ul.sub-menu 
@@ -42,11 +58,27 @@ html
           span.menu-button  media
           ul.sub-menu 
             li 
-              a.site-link(href="/video" alt="video") video
+              a.site-link(href="/media" alt="video") video
             li 
-              a.site-link(href="photo" alt="photo") photo
+              a.site-link(href="/media" alt="photo") photo
         .menu-item 
-          span.menu-button#contact contact
-        .dancing-image.dance
+          span.menu-button.contact contact
+        .dancing-image
+    img.leftImage(src='assets/img/dancing/5.png')
+    
+    .load-images
+      img(src='assets/img/dancing/1.png')
+      img(src='assets/img/dancing/2.png')
+      img(src='assets/img/dancing/3.png')
+      img(src='assets/img/dancing/4.png')
+      img(src='assets/img/dancing/5.png')
+      img(src='assets/img/dancing/6.png')
+      img(src='assets/img/dancing/7.png')
+      img(src='assets/img/dancing/8.png')
+      img(src='assets/img/dancing/9.png')
+      img(src='assets/img/dancing/10.png')
+      img(src='assets/img/dancing/11.png')
+      img(src='assets/img/dancing/12.png')
+      img(src='assets/img/dancing/13.png')
     script(src="assets/js/jquery.js")
     script(src="assets/js/app.js")
