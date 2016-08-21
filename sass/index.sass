@@ -177,7 +177,7 @@ textarea
   &.dance
     +dance(3s)
   &:not(.dance)
-    left: 70%
+    left: 75%
     background-image: url(../img/dancing/13.png)
 
 .leftImage
@@ -188,6 +188,7 @@ textarea
   &.fadeInLate
     opacity: 0
     animation: fadeIn 500ms forwards 3s
+
 
 .nav-opener
   z-index: 3
@@ -214,9 +215,15 @@ textarea
     font-size: 24px
     padding-top: 75px
     text-align: center
+    // color: darken($link-color, 10%)
     .nav-item
       margin-bottom: 40px
       cursor: pointer
+
+
+@media screen and (min-width: 992px)
+  .mobile-nav, .nav-items, .nav-opener
+    display: none
 
 
 // left: -100% -> 70%

@@ -2,6 +2,7 @@ $(function() {
   $('.contact').click(function(e) {
     e.stopPropagation();
     e.preventDefault();
+    $('.mobile-nav').removeClass('active');
     $('.contact-form').fadeIn(300);
   });
   $('form').click(function(e) {
@@ -23,8 +24,8 @@ $(function() {
   })
 });
 
-if (!localStorage.seen) {
+if (!sessionStorage.seen) {
   $('.dancing-image').addClass('dance');
   $('.leftImage').addClass('fadeInLate');
-  localStorage.seen = true;
+  sessionStorage.seen = true;
 }
