@@ -104,16 +104,19 @@ $font-caption: $font-lato
 
 .contact-form
   z-index: 2
-  position: absolute
+  position: fixed
   display: none
-  top: 0px
-  right: 0px
-  bottom: 0px
-  left: 0px
+  height: 280px
+  width: 550px
   padding: 10px 10px
+  left: 50%
+  top: 50%
+  margin: -140px 0px 0px -275px
   font-family: monospace
   background-color: white
   transform-origin: bottom left
+  form
+    text-align: center
   p
     margin: 0px auto 5px
     letter-spacing: .2px
@@ -141,7 +144,7 @@ $font-caption: $font-lato
     margin: 0 1%
     height: 3em
     padding: 5px
-    width: 43%
+    width: 44%
   textarea
     width: 90%
     height: 10em

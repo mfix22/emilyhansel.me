@@ -27,6 +27,15 @@ html
           a.site-link(href="/media" alt="video") media
         .nav-item
           span.contact contact
+    .contact-form
+      span x
+      form(method="POST", action="https://formspree.io/emilylhansel@gmail.com")
+        p Fill out the form below or contact me at <a href="mailto:emilylhansel@gmail.com">emilylhansel@gmail.com</a>
+        input(tabindex="1",  type="text", name="name", placeholder="Name")
+        input(tabindex="2",  type="email", name="_replyto", placeholder="Email")
+        input(type="hidden", name="_next", value="#submitted")
+        textarea(tabindex="3",  name="message" placeholder="Type your message here")
+        input(tabindex="4",  type="submit" value="Send")
     block content
     script(src="/assets/js/jquery.js")
     script(src="/assets/js/app.js")
