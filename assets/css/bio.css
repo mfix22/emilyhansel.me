@@ -218,28 +218,28 @@
       .body-container.bio .bio-container p:nth-child(1) {
         -webkit-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
-        -webkit-animation-delay: 200ms;
-        animation-delay: 200ms; }
+        -webkit-animation-delay: 150ms;
+        animation-delay: 150ms; }
       .body-container.bio .bio-container p:nth-child(2) {
         -webkit-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
-        -webkit-animation-delay: 400ms;
-        animation-delay: 400ms; }
+        -webkit-animation-delay: 300ms;
+        animation-delay: 300ms; }
       .body-container.bio .bio-container p:nth-child(3) {
+        -webkit-animation: fadeIn 300ms linear forwards;
+        animation: fadeIn 300ms linear forwards;
+        -webkit-animation-delay: 450ms;
+        animation-delay: 450ms; }
+      .body-container.bio .bio-container p:nth-child(4) {
         -webkit-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 600ms;
         animation-delay: 600ms; }
-      .body-container.bio .bio-container p:nth-child(4) {
-        -webkit-animation: fadeIn 300ms linear forwards;
-        animation: fadeIn 300ms linear forwards;
-        -webkit-animation-delay: 800ms;
-        animation-delay: 800ms; }
       .body-container.bio .bio-container p:nth-child(5) {
         -webkit-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
-        -webkit-animation-delay: 1000ms;
-        animation-delay: 1000ms; }
+        -webkit-animation-delay: 750ms;
+        animation-delay: 750ms; }
     .body-container.bio .bio-container .bio-highlight {
       color: #4d6bd9;
       font-weight: 700; }

@@ -418,28 +418,28 @@
       .body-container.bio .bio-container p:nth-child(1) {
         -webkit-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
-        -webkit-animation-delay: 200ms;
-        animation-delay: 200ms; }
+        -webkit-animation-delay: 150ms;
+        animation-delay: 150ms; }
       .body-container.bio .bio-container p:nth-child(2) {
         -webkit-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
-        -webkit-animation-delay: 400ms;
-        animation-delay: 400ms; }
+        -webkit-animation-delay: 300ms;
+        animation-delay: 300ms; }
       .body-container.bio .bio-container p:nth-child(3) {
+        -webkit-animation: fadeIn 300ms linear forwards;
+        animation: fadeIn 300ms linear forwards;
+        -webkit-animation-delay: 450ms;
+        animation-delay: 450ms; }
+      .body-container.bio .bio-container p:nth-child(4) {
         -webkit-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 600ms;
         animation-delay: 600ms; }
-      .body-container.bio .bio-container p:nth-child(4) {
-        -webkit-animation: fadeIn 300ms linear forwards;
-        animation: fadeIn 300ms linear forwards;
-        -webkit-animation-delay: 800ms;
-        animation-delay: 800ms; }
       .body-container.bio .bio-container p:nth-child(5) {
         -webkit-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
-        -webkit-animation-delay: 1000ms;
-        animation-delay: 1000ms; }
+        -webkit-animation-delay: 750ms;
+        animation-delay: 750ms; }
     .body-container.bio .bio-container .bio-highlight {
       color: #4d6bd9;
       font-weight: 700; }
@@ -462,6 +462,26 @@ ul {
 
 textarea {
   resize: none; }
+
+.media {
+  display: flex; }
+  .media .card {
+    width: auto;
+    height: auto;
+    position: relative;
+    width: 640px;
+    height: 360px; }
+    .media .card iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%; }
+    .media .card .caption {
+      position: absolute;
+      display: none;
+      bottom: 45px;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 5px 10px; }
 
 .load-images {
   visibility: hidden;
@@ -667,5 +687,8 @@ textarea {
   .home-button {
     top: 50px;
     left: 5px; } }
+@media screen and (max-width: 700px) {
+  .mobile-nav {
+    width: 50%; } }
 
 /*# sourceMappingURL=index.css.map */

@@ -12,7 +12,7 @@ $font-lato: 'Lato', sans-serif
 $font-titilium: 'Titillium Web', sans-serif
 $font-caption: $font-lato
 
-@import reset
+@import reset, media
 
 .load-images
   visibility: hidden
@@ -227,3 +227,7 @@ $font-caption: $font-lato
   .home-button
     top: 50px
     left: 5px
+
+@media screen and (max-width: 700px)
+  .mobile-nav
+    width: 50%
