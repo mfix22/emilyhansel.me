@@ -6,29 +6,13 @@
 @import animations
 @import palette
 @import file-refs
+@import bio
 
 $font-lato: 'Lato', sans-serif
 $font-titilium: 'Titillium Web', sans-serif
 $font-caption: $font-lato
 
-body
-  padding: 0px
-  margin: 0px
-  font-family: $font-caption
-  height: 100vh
-  background:
-    color: $bg-color
-
-a, a:visited, a:hover, a:focus
-  text-decoration: none
-  color: currentColor
-
-ul
-  list-style: none
-  padding: 0
-
-textarea
-  resize: none
+@import reset
 
 .load-images
   visibility: hidden
@@ -38,10 +22,21 @@ textarea
     position: fixed
     height: 0
     width: 0
+
+.home-button
+  color: white
+  font-size: 70px
+  font-style: $font-caption
+  font-weight: lighter
+  position: fixed
+  top: 5px
+  left: 25px
+  &:hover
+    color: $accent
 .body-container
   position: fixed
   width: 40vw
-  height: auto
+  // height: auto
   top: 50%
   left: 50%
   transform: translate3d(0px, -50%, 0px)
@@ -57,6 +52,7 @@ textarea
     margin: 0 auto
     // &:hover
     //   color: saturate(lighten($form-color, 40%), 30%)
+
   h4
     display: inline-block
     font-weight: 300
@@ -224,24 +220,7 @@ textarea
 @media screen and (min-width: 992px)
   .mobile-nav, .nav-items, .nav-opener
     display: none
-
-
-// left: -100% -> 70%
-@keyframes dance
-  0%, 7.5%
-    background-image: none
-    visibility: visible
-    left: -86.92308%
-  @for $i from 1 through 12
-    #{$i*90/12}%, #{$i*90/12  + 2.99}%
-      background-image: url(../img/dancing/#{$i}.png)
-      visibility: visible
-      left: -100% + $i*175%/13%
-    #{$i*90/12 + 3}%, #{$i*90/12  + 7.49}%
-      background-image: url(../img/dancing/#{$i}.png)
-      visibility: hidden
-  97.5%, 100%
-    left: 75%
-    visibility: visible
-    background-image: url(../img/dancing/13.png)
-    // transform: translateX(-100%)
+@media screen and (max-width: 992px)
+  .home-button
+    top: 50px
+    left: 5px

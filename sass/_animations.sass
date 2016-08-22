@@ -1,0 +1,61 @@
+@-webkit-keyframes fadeIn
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+@keyframes fadeIn
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+=dance($duration)
+  animation: dance $duration linear forwards
+  -webkit-animation: dance $duration linear forwards
+
+
+=delay($seconds)
+  -webkit-animation-delay: $seconds
+  animation-delay: $seconds
+
+=fade($time)
+  -webkit-animation: fadeIn $time linear forwards
+  animation: fadeIn $time linear forwards
+
+@-webkit-keyframes fadeIn
+  0%, 7.5%
+    background-image: none
+    visibility: visible
+    left: -86.92308%
+  @for $i from 1 through 12
+    #{$i*90/12}%, #{$i*90/12  + 2.99}%
+      background-image: url(../img/dancing/#{$i}.png)
+      visibility: visible
+      left: -100% + $i*175%/13%
+    #{$i*90/12 + 3}%, #{$i*90/12  + 7.49}%
+      background-image: url(../img/dancing/#{$i}.png)
+      visibility: hidden
+  97.5%, 100%
+    left: 75%
+    visibility: visible
+    background-image: url(../img/dancing/13.png)
+    // transform: translateX(-100%)
+// left: -100% -> 70%
+@keyframes dance
+  0%, 7.5%
+    background-image: none
+    visibility: visible
+    left: -86.92308%
+  @for $i from 1 through 12
+    #{$i*90/12}%, #{$i*90/12  + 2.99}%
+      background-image: url(../img/dancing/#{$i}.png)
+      visibility: visible
+      left: -100% + $i*175%/13%
+    #{$i*90/12 + 3}%, #{$i*90/12  + 7.49}%
+      background-image: url(../img/dancing/#{$i}.png)
+      visibility: hidden
+  97.5%, 100%
+    left: 75%
+    visibility: visible
+    background-image: url(../img/dancing/13.png)
+    // transform: translateX(-100%)

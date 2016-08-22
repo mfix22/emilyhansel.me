@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="shortcut icon", href="/assets/img/favicon.ico")
+    link(rel="icon", href="/assets/img/favicon.ico", type="image/x-icon")
+    link(rel="stylesheet", href="/assets/css/index.css")
+    block title
+  body
+    .nav-opener
+      i.ion-navicon
+    .mobile-nav
+      .nav-items
+        .nav-item
+          a.site-link(href="/" alt="home") home
+        .nav-item
+          a.site-link(href="/bio" alt="bio") bio
+        .nav-item
+          a.site-link(href="assets/resume.pdf" target="_blank" alt="resume") resume
+        .nav-item
+          a.site-link(href="/choreography" alt="choreography") choreography
+        .nav-item
+          a.site-link(href="/statement" alt="artist statement") artist statement
+        .nav-item
+          a.site-link(href="/media" alt="video") media
+        .nav-item
+          span.contact contact
+    block content
+    script(src="/assets/js/jquery.js")
+    script(src="/assets/js/app.js")

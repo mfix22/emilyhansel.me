@@ -1,0 +1,59 @@
+extends ./pug/_main_template.pug
+block title 
+  title Emily Hansel
+block content
+  .body-container
+    .contact-form
+      span x
+      form(method="POST", action="https://formspree.io/emilylhansel@gmail.com")
+        p Fill out the form below or contact me at <a href="mailto:emilylhansel@gmail.com">emilylhansel@gmail.com</a>
+        input(tabindex="1",  type="text", name="name", placeholder="Name")
+        input(tabindex="2",  type="email", name="_replyto", placeholder="Email")
+        input(type="hidden", name="_next", value="#submitted")
+        textarea(tabindex="3",  name="message" placeholder="Type your message here")
+        input(tabindex="4",  type="submit" value="Send")
+    h1
+      a(href="", alt="Emily Hansel") Emily Hansel
+    h4 Dancer
+    h4 Choreographer
+    ul.menu
+      .menu-item 
+        span.menu-button about
+        ul.sub-menu
+          li 
+            a.site-link(href="/bio" alt="bio") bio
+          li 
+            a.site-link(href="assets/resume.pdf" target="_blank" alt="resume") resume
+      .menu-item 
+        span.menu-button works
+        ul.sub-menu 
+          li 
+            a.site-link(href="/choreography" alt="choreography") choreography
+          li 
+            a.site-link(href="/statement" alt="artist statement") artist statement          
+      .menu-item 
+        span.menu-button  media
+        ul.sub-menu 
+          li 
+            a.site-link(href="/media" alt="video") video
+          li 
+            a.site-link(href="/media" alt="photo") photo
+      .menu-item 
+        span.menu-button.contact contact
+      .dancing-image
+  //- img.leftImage(src='assets/img/dancing/5.png')
+  
+  .load-images
+    img(src='assets/img/dancing/1.png')
+    img(src='assets/img/dancing/2.png')
+    img(src='assets/img/dancing/3.png')
+    img(src='assets/img/dancing/4.png')
+    img(src='assets/img/dancing/5.png')
+    img(src='assets/img/dancing/6.png')
+    img(src='assets/img/dancing/7.png')
+    img(src='assets/img/dancing/8.png')
+    img(src='assets/img/dancing/9.png')
+    img(src='assets/img/dancing/10.png')
+    img(src='assets/img/dancing/11.png')
+    img(src='assets/img/dancing/12.png')
+    img(src='assets/img/dancing/13.png')
