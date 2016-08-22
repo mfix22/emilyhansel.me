@@ -204,11 +204,6 @@
     margin-top: 50px; }
     .body-container.bio .bio-container h3 {
       text-align: left;
-      font-size: 40px;
-      font-weight: 100;
-      text-transform: uppercase;
-      color: white;
-      margin: 0 auto;
       padding: 5px 0px; }
     .body-container.bio .bio-container p {
       display: inline-block;
