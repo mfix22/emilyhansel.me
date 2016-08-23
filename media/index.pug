@@ -6,7 +6,7 @@ block content
     .home-button
       a(href="/" alt="Emily") E
     h3#video Video
-    .media-container.video-container
+    //- .media-container.video-container
       .card
         iframe(src="https://player.vimeo.com/video/151188661?title=0&byline=0&portrait=0", frameborder="0", webkitallowfullscreen, mozallowfullscreen, allowfullscreen)
         .caption
@@ -19,3 +19,10 @@ block content
         iframe(src="https://www.youtube.com/embed/m0vI2u5sM1I?rel=0&amp;controls=0&amp;showinfo=0", frameborder="0", webkitallowfullscreen, mozallowfullscreen, allowfullscreen)
     h3#photo Photo
     .media-container.photo-container
+      .carousel
+        img(src="../assets/img/dancing/1.png", alt="1", height="300px")
+        //- img(src="../assets/img/dancing/2.png", alt="1", height="300px")
+          
+block scripts
+  script(src="/assets/js/jquery.mousewheel.min.js")
+  script(src="/assets/js/carousel.js")

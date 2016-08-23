@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch sass:assets/css",
-    "pug" : "pug -P --watch ./ --out ./",
+    "pug" : "pug -P --watch .",
     "jade" : "npm run pug",
     "serve" : "python -m SimpleHTTPServer 8000"
   },
