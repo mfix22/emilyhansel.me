@@ -27,5 +27,6 @@ $(function() {
 if (!sessionStorage.seen) {
   $('.dancing-image').addClass('dance');
   $('.leftImage').addClass('fadeInLate');
+  $('.body-container').addClass('menu-fade-in');
   sessionStorage.seen = true;
 }

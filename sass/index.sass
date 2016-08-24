@@ -31,6 +31,13 @@ $font-caption: $font-lato
   position: fixed
   top: 5px
   left: 25px
+  a
+    display: flex
+    align-items: center
+    *
+      display: inline-block
+      height: 60px
+      margin-left: 8px
   &:hover
     color: $accent
 .body-container
@@ -43,15 +50,20 @@ $font-caption: $font-lato
   margin-left: -20vw
   text-align: center
 
-  h1
-    // &:hover
-    //   color: saturate(lighten($form-color, 40%), 30%
+
   h4
     display: inline-block
     letter-spacing: 9px
     @media screen and (min-width: 1120px)
       &:first-of-type:after
         content: " | "
+
+  &.menu-fade-in
+    h1, h4, .menu .menu-item
+      opacity: 0
+      +fade(600ms)
+      +delay(3s)
+
 
   .menu
     color: white
