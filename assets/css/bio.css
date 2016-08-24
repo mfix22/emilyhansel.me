@@ -9,81 +9,77 @@
   100% {
     opacity: 1; } }
 @keyframes dance {
-  0%, 8.99% {
-    background-image: url(../img/dancing/1.png);
-    visibility: hidden;
-    left: -84.09091%; }
-  9%, 11.99% {
+  0%, 7% {
     background-image: url(../img/dancing/1.png);
     visibility: visible;
     left: -84.09091%; }
-  12%, 16.49% {
+  7.001%, 9.999% {
     background-image: none;
     visibility: hidden; }
-  18%, 20.99% {
+  10%, 17% {
     background-image: url(../img/dancing/2.png);
     visibility: visible;
     left: -68.18182%; }
-  21%, 25.49% {
+  17.001%, 19.999% {
     background-image: none;
     visibility: hidden; }
-  27%, 29.99% {
+  20%, 27% {
     background-image: url(../img/dancing/3.png);
     visibility: visible;
     left: -52.27273%; }
-  30%, 34.49% {
+  27.001%, 29.999% {
     background-image: none;
     visibility: hidden; }
-  36%, 38.99% {
+  30%, 37% {
     background-image: url(../img/dancing/4.png);
     visibility: visible;
     left: -36.36364%; }
-  39%, 43.49% {
+  37.001%, 39.999% {
     background-image: none;
     visibility: hidden; }
-  45%, 47.99% {
+  40%, 47% {
     background-image: url(../img/dancing/5.png);
     visibility: visible;
     left: -20.45455%; }
-  48%, 52.49% {
+  47.001%, 49.999% {
     background-image: none;
     visibility: hidden; }
-  54%, 56.99% {
+  50%, 57% {
     background-image: url(../img/dancing/6.png);
     visibility: visible;
     left: -4.54545%; }
-  57%, 61.49% {
+  57.001%, 59.999% {
     background-image: none;
     visibility: hidden; }
-  63%, 65.99% {
+  60%, 67% {
     background-image: url(../img/dancing/7.png);
     visibility: visible;
     left: 11.36364%; }
-  66%, 70.49% {
+  67.001%, 69.999% {
     background-image: none;
     visibility: hidden; }
-  72%, 74.99% {
+  70%, 77% {
     background-image: url(../img/dancing/8.png);
     visibility: visible;
     left: 27.27273%; }
-  75%, 79.49% {
+  77.001%, 79.999% {
     background-image: none;
     visibility: hidden; }
-  81%, 83.99% {
+  80%, 87% {
     background-image: url(../img/dancing/9.png);
     visibility: visible;
     left: 43.18182%; }
-  84%, 88.49% {
+  87.001%, 89.999% {
     background-image: none;
     visibility: hidden; }
-  90%, 92.99% {
+  90%, 97% {
     background-image: url(../img/dancing/10.png);
     visibility: visible;
     left: 59.09091%; }
-  93%, 97.49% {
+  97.001%, 99.999% {
     background-image: none;
     visibility: hidden; }
-  97.5%, 100% {
+  100% {
     left: 75%;
     visibility: visible;
     background-image: url(../img/dancing/11.png); } }
@@ -100,8 +96,13 @@
     .body-container.bio .bio-container h3 {
       text-align: left;
       padding: 5px 0px; }
+    .body-container.bio .bio-container img {
+      height: 135px;
+      float: left;
+      margin: 0px 15px 0px 0px; }
     .body-container.bio .bio-container p {
       display: inline-block;
+      word-wrap: break-word;
       color: white;
       text-align: justify;
       opacity: 0; }
@@ -130,6 +131,11 @@
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 750ms;
         animation-delay: 750ms; }
+      .body-container.bio .bio-container p:nth-child(6) {
+        -webkit-animation: fadeIn 300ms linear forwards;
+        animation: fadeIn 300ms linear forwards;
+        -webkit-animation-delay: 900ms;
+        animation-delay: 900ms; }
     .body-container.bio .bio-container .bio-highlight {
       color: #4d6bd9;
       font-weight: 700; }
