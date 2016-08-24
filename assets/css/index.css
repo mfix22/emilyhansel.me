@@ -269,6 +269,14 @@ h4 {
   color: white;
   text-transform: lowercase; }
 
+.flip {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; }
+
 .media .home-button {
   left: 5px; }
 .media h3 {
@@ -332,11 +340,16 @@ h4 {
   font-style: "Lato", sans-serif;
   font-weight: lighter;
   position: fixed;
-  top: 5px;
-  left: 25px; }
+  top: 10px;
+  left: 25px;
+  padding: 0px 5px 3px;
+  border: 4px solid white; }
   .home-button a {
     display: flex;
-    align-items: center; }
+    height: 72px;
+    line-height: 72px;
+    align-items: center;
+    vertical-align: middle; }
     .home-button a * {
       display: inline-block;
       height: 60px;
@@ -472,8 +485,8 @@ h4 {
   background-position: center;
   background-repeat: no-repeat; }
   .dancing-image.dance {
-    animation: dance 3.5s linear forwards;
-    -webkit-animation: dance 3.5s linear forwards; }
+    animation: dance 3.2s linear forwards;
+    -webkit-animation: dance 3.2s linear forwards; }
   .dancing-image:not(.dance) {
     left: 75%;
     background-image: url(../img/dancing/13.png); }
