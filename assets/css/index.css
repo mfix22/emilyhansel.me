@@ -413,7 +413,8 @@ h4 {
     padding: 20px;
     position: absolute;
     margin-top: 50px;
-    width: auto; }
+    width: auto;
+    font-family: "Lato", sans-serif; }
     .body-container.choreo .choreo-container h3 {
       text-align: left; }
     .body-container.choreo .choreo-container h4 {
@@ -422,9 +423,11 @@ h4 {
       .body-container.choreo .choreo-container h4:after {
         content: ""; }
     .body-container.choreo .choreo-container p {
-      text-align: justify; }
+      text-align: justify;
+      font-weight: 300; }
     .body-container.choreo .choreo-container .choreo-box {
-      display: table;
+      display: flex;
+      align-items: center;
       margin-top: 30px;
       padding-bottom: 40px;
       padding-top: 30px;
@@ -435,21 +438,11 @@ h4 {
       .body-container.choreo .choreo-container .choreo-box .visual, .body-container.choreo .choreo-container .choreo-box .copy {
         vertical-align: middle;
         width: 45%;
-        margin: 0% 1%; }
-      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n+1) .visual {
-        float: right;
-        clear: right; }
-      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n+1) .copy {
-        float: left;
-        clear: left; }
-      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n) .visual {
-        float: left;
-        clear: left; }
-      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n) .copy {
-        float: right;
-        clear: right; }
-      .body-container.choreo .choreo-container .choreo-box .copy {
-        height: 100%; }
+        margin: 0% 2.5%; }
+      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n) {
+        flex-direction: row; }
+      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n+1) {
+        flex-direction: row-reverse; }
     .body-container.choreo .choreo-container .choreo-box:nth-of-type(1) {
       -webkit-animation: fadeIn 300ms linear forwards;
       animation: fadeIn 300ms linear forwards;
