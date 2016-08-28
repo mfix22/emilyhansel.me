@@ -87,6 +87,95 @@
     left: 75%;
     visibility: visible;
     background-image: url(../img/dancing/11.png); } }
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  height: 100vh;
+  min-height: 100%;
+  background-color: black; }
+
+p {
+  color: white; }
+
+a, a:visited, a:hover, a:focus {
+  text-decoration: none;
+  color: currentColor; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+textarea {
+  resize: none; }
+
+h1 {
+  font-size: 80px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 auto; }
+
+h3 {
+  font-size: 40px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 auto; }
+
+h4 {
+  font-weight: 300;
+  font-size: 26px;
+  margin: 0;
+  color: white;
+  text-transform: lowercase; }
+
+.flip {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH"; }
+
+.media .home-button {
+  left: 5px; }
+.media h3 {
+  padding: 40px 0px 20px;
+  text-align: center; }
+.media .media-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .media .media-container .card {
+    width: 350px;
+    height: 200px; }
+    .media .media-container .card iframe {
+      width: 100%;
+      height: 100%; }
+  .media .media-container.video-container .carousel {
+    transform: translateY(-100px);
+    height: 80vh; }
+.media .carousel {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  z-index: -1; }
+  .media .carousel img, .media .carousel .card {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0px) scale(1.5);
+    transform-origin: top center; }
+.media .caption {
+  display: inline-block;
+  color: white;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  margin-top: 50px; }
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -229,91 +318,137 @@
       color: #4d6bd9;
       font-weight: 700; }
 
-body {
-  padding: 0px;
-  margin: 0px;
-  font-family: "Lato", sans-serif;
-  height: 100vh;
-  min-height: 100%;
-  background-color: black; }
-
-a, a:visited, a:hover, a:focus {
-  text-decoration: none;
-  color: currentColor; }
-
-ul {
-  list-style: none;
-  padding: 0; }
-
-textarea {
-  resize: none; }
-
-h1 {
-  font-size: 80px;
-  font-weight: 100;
-  text-transform: uppercase;
-  color: white;
-  margin: 0 auto; }
-
-h3 {
-  font-size: 40px;
-  font-weight: 100;
-  text-transform: uppercase;
-  color: white;
-  margin: 0 auto; }
-
-h4 {
-  font-weight: 300;
-  font-size: 26px;
-  margin: 0;
-  color: white;
-  text-transform: lowercase; }
-
-.flip {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH"; }
-
-.media .home-button {
-  left: 5px; }
-.media h3 {
-  padding: 40px 0px 20px;
-  text-align: center; }
-.media .media-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-  .media .media-container .card {
-    width: 350px;
-    height: 200px; }
-    .media .media-container .card iframe {
-      width: 100%;
-      height: 100%; }
-  .media .media-container.video-container .carousel {
-    transform: translateY(-100px);
-    height: 80vh; }
-.media .carousel {
-  width: 100%;
-  height: 50vh;
-  position: relative;
-  z-index: -1; }
-  .media .carousel img, .media .carousel .card {
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes dance {
+  0%, 7% {
+    background-image: url(../img/dancing/1.png);
+    visibility: visible;
+    left: -84.09091%; }
+  7.001%, 9.999% {
+    background-image: none;
+    visibility: hidden; }
+  10%, 17% {
+    background-image: url(../img/dancing/2.png);
+    visibility: visible;
+    left: -68.18182%; }
+  17.001%, 19.999% {
+    background-image: none;
+    visibility: hidden; }
+  20%, 27% {
+    background-image: url(../img/dancing/3.png);
+    visibility: visible;
+    left: -52.27273%; }
+  27.001%, 29.999% {
+    background-image: none;
+    visibility: hidden; }
+  30%, 37% {
+    background-image: url(../img/dancing/4.png);
+    visibility: visible;
+    left: -36.36364%; }
+  37.001%, 39.999% {
+    background-image: none;
+    visibility: hidden; }
+  40%, 47% {
+    background-image: url(../img/dancing/5.png);
+    visibility: visible;
+    left: -20.45455%; }
+  47.001%, 49.999% {
+    background-image: none;
+    visibility: hidden; }
+  50%, 57% {
+    background-image: url(../img/dancing/6.png);
+    visibility: visible;
+    left: -4.54545%; }
+  57.001%, 59.999% {
+    background-image: none;
+    visibility: hidden; }
+  60%, 67% {
+    background-image: url(../img/dancing/7.png);
+    visibility: visible;
+    left: 11.36364%; }
+  67.001%, 69.999% {
+    background-image: none;
+    visibility: hidden; }
+  70%, 77% {
+    background-image: url(../img/dancing/8.png);
+    visibility: visible;
+    left: 27.27273%; }
+  77.001%, 79.999% {
+    background-image: none;
+    visibility: hidden; }
+  80%, 87% {
+    background-image: url(../img/dancing/9.png);
+    visibility: visible;
+    left: 43.18182%; }
+  87.001%, 89.999% {
+    background-image: none;
+    visibility: hidden; }
+  90%, 97% {
+    background-image: url(../img/dancing/10.png);
+    visibility: visible;
+    left: 59.09091%; }
+  97.001%, 99.999% {
+    background-image: none;
+    visibility: hidden; }
+  100% {
+    left: 75%;
+    visibility: visible;
+    background-image: url(../img/dancing/11.png); } }
+.body-container.choreo {
+  top: 0px;
+  width: 70%;
+  margin-left: -35%;
+  position: relative; }
+  .body-container.choreo .choreo-container {
+    border: 10px solid white;
+    padding: 20px;
     position: absolute;
-    display: none;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, 0px) scale(1.5);
-    transform-origin: top center; }
-.media .caption {
-  display: inline-block;
-  color: white;
-  font-size: 40px;
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  margin-top: 50px; }
+    margin-top: 50px;
+    width: auto; }
+    .body-container.choreo .choreo-container h3 {
+      text-align: left; }
+    .body-container.choreo .choreo-container h4 {
+      text-transform: uppercase;
+      letter-spacing: 0px; }
+      .body-container.choreo .choreo-container h4:after {
+        content: ""; }
+    .body-container.choreo .choreo-container p {
+      text-align: justify; }
+    .body-container.choreo .choreo-container .choreo-box {
+      display: table;
+      margin-top: 30px;
+      padding-bottom: 40px;
+      padding-top: 30px;
+      border-bottom: 4px solid white; }
+      .body-container.choreo .choreo-container .choreo-box:last-child {
+        border-bottom: none; }
+      .body-container.choreo .choreo-container .choreo-box .visual, .body-container.choreo .choreo-container .choreo-box .copy {
+        vertical-align: middle;
+        width: 45%;
+        margin: 0% 1%; }
+      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n+1) .visual {
+        float: right;
+        clear: right; }
+      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n+1) .copy {
+        float: left;
+        clear: left; }
+      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n) .visual {
+        float: left;
+        clear: left; }
+      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n) .copy {
+        float: right;
+        clear: right; }
+      .body-container.choreo .choreo-container .choreo-box .copy {
+        height: 100%; }
 
 .load-images {
   visibility: hidden;
@@ -447,7 +582,7 @@ h4 {
     .contact-form input:focus, .contact-form textarea:focus {
       border-color: #1e3c59; }
   .contact-form input:not([type='submit']) {
-    margin: 0 1%;
+    margin: 0 0.5%;
     height: 3em;
     padding: 5px;
     width: 44%; }

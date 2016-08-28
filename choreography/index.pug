@@ -1,0 +1,83 @@
+extends ../pug/_main_template.pug
+block title
+  title Emily Hansel | Choreography
+  link(rel="shortcut icon", href="../assets/img/favicon.ico")
+  link(rel="icon", href="../assets/img/favicon.ico", type="image/x-icon")
+  link(rel="stylesheet", href="../assets/css/index.css")
+block content
+  .home-button
+    a(href="/" alt="Emily") E
+      img.flip(src="../assets/img/dancing/crop/1.png")
+  .body-container.choreo
+    .choreo-container
+      h3 Choreography
+      .choreo-box
+        .copy
+          h4 untitled_37.txt (2016)
+          p.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        img.visual(src="../assets/img/choreo/untitled37.png" alt="Untitled_37.txt")        
+      .choreo-box
+        .copy
+          h4 No Reason (2015)
+          p A work in progress, set to premiere in December, 2015. A piece in which there is a reason for everything.
+        img.visual(src="../assets/img/choreo/noreason.png" alt="No Reason")
+      .choreo-box
+        .copy 
+          h4 Vertical Words (2015)
+          p Choreographed and performed by Emily Hansel at Micadanses in Paris.
+          p.
+            <i>Vertical Words</i> is an attempt to prove that the perception of meaning is 
+            inevitable, regardless of whether or not the artist intended any meaning. The 
+            choreographic process was inspired by the "word sculptures" of minimalist sculptor, Carl Andre.
+        iframe.visual(width="480" height="277" src="https://www.youtube.com/embed/xsECKU9nBCY" frameborder="0" allowfullscreen)
+      .choreo-box
+        .copy
+          h4 Not Empty (2015)
+          p Choreographed, performed, and directed by Emily Hansel.
+          p.
+            This film is a response to a performance of Angelin Preljocaj's "Empty Moves" 
+            (performed by Ballet Preljocaj). The show's program notes included this statement:
+          p.
+            “To highlight his process [Preljocaj] turns to John Cage’s "Empty Words," a 
+            random string of phonemes, read by Cage during his performance in Milan – a 
+            demonstrative act to show that the abstract exists and that it is unbearable 
+            to the audience who responds by jeering at the unperturbed performer….[Preljocaj's 
+            four dancers onstage] are paid homage by an audience, who although not 
+            necessarily willing to listen, has at least agreed to look upon abstraction.”
+          p.
+            John Cage and his partner Merce Cunningham were two artists who refused to seduce 
+            audiences through romanticism, narrative, or encoded meanings. They often referred 
+            to their work as "meaningless" or "purposeless." But this attempt to signify nothing 
+            signifies something. The attempt to remove purpose is a purpose itself.
+        iframe.visual(width="480" height="277" src="https://www.youtube.com/embed/L8l2vXdaTiY" frameborder="0" allowfullscreen)
+      .choreo-box
+        .copy
+          h4 Insatiable (2015)
+          p.
+            Choreographed and performed by Emily Hansel and Jessica Zizzo.<br>Music by ltlp, additional audio from Patrick McCarty.
+          p.
+            Insatiable was created in 2015 at the University of South Florida. It is the product of an exploration 
+            of the benefits and downfalls of selfishness and unceasing ambition – such persistence can lead to great 
+            accomplishments as well as disasters. This includes an investigation of Plato and Aristotle’s ideas on 
+            human appetite (or passion) versus reason (which allegedly governs the passions).
+          p.
+            The piece was invited to be performed in a full-scale concert in USF's dance department 
+            as well as other performances at USF. This successful partnership between these two 
+            choreogrpahers has led to further collaboration. Right now, the two are in the process 
+            of creating an e-book which cohesively incorporates dance and poetry (with poetry by Patrick McCarty).
+        iframe.visual(width="480" height="277" src="https://www.youtube.com/embed/KgTw8PLSSlw" frameborder="0" allowfullscreen)
+      .choreo-box
+        .copy
+          h4 Scream (2014)
+          p.
+            <b>Choreographed</b> by Emily Hansel.<br>
+            <b>Performed</b> by Hannah Luckow, Alyssa Marchand, Robert Kelley, Hannah Mainellis, Monica Moneses, Cloe Leppard, and Dayne Davis.<br>
+            <b>Music</b> by Philip Glass and Yo-Yo Ma.<br>
+          p Inspired by Edvard Munch's "The Scream."
+        img.visual(src="../assets/img/choreo/scream.png" alt="Scream")
+block scripts
+  script sessionStorage.seen = true;

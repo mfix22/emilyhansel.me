@@ -1,0 +1,52 @@
+@import animations, palette
+.body-container.choreo
+  top: 0px
+  width: 70%
+  margin-left: -35%
+  position: relative
+  .choreo-container
+    border: 10px solid white
+    padding: 20px
+    position: absolute
+    margin-top: 50px
+    width: auto
+
+    h3
+      text-align: left
+
+    h4
+      text-transform: uppercase
+      letter-spacing: 0px
+      &:after
+        content: ''
+    p
+      text-align: justify
+
+    .choreo-box
+      display: table
+      margin-top: 30px
+      padding-bottom: 40px
+      padding-top: 30px
+      border-bottom: 4px solid white
+      &:last-child
+        border-bottom: none
+      .visual, .copy
+        vertical-align: middle
+        width: 45%
+        margin: 0% 1%
+      &:nth-last-of-type(2n+1)
+        .visual
+          float: right
+          clear: right
+        .copy
+          float: left
+          clear: left
+      &:nth-last-of-type(2n)
+        .visual
+          float: left
+          clear: left
+        .copy
+          float: right
+          clear: right
+      .copy
+        height: 100%
