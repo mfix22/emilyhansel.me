@@ -28,6 +28,7 @@
       padding-bottom: 40px
       padding-top: 30px
       border-bottom: 4px solid white
+      opacity: 0
       &:last-child
         border-bottom: none
       .visual, .copy
@@ -50,3 +51,8 @@
           clear: right
       .copy
         height: 100%
+    .choreo-box
+      @for $i from 1 through 7
+        &:nth-of-type(#{$i})
+          +fade(300ms)
+          +delay(#{$i * 200}ms)
