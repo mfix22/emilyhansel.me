@@ -580,6 +580,8 @@ h4 {
       .body-container .menu-item .menu-button:hover {
         cursor: pointer;
         color: #4d6bd9; }
+      .body-container .menu-item.active .sub-menu li .site-link {
+        transform: translate3d(0%, 0px, 0px); }
     .body-container .menu .sub-menu {
       position: absolute;
       padding: 0 20px;
@@ -597,8 +599,6 @@ h4 {
           transform: translate3d(-200%, 0px, 0px); }
           .body-container .menu .sub-menu li .site-link:hover {
             color: #4d6bd9; }
-          .body-container .menu .sub-menu li .site-link.active {
-            transform: translate3d(0%, 0px, 0px); }
 
 .contact-form {
   z-index: 2;

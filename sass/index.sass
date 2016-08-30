@@ -82,6 +82,9 @@
       .menu-button:hover
         cursor: pointer
         color: $link-color
+      &.active
+        .sub-menu li .site-link
+          transform: translate3d(0%, 0px, 0px)
 
     .sub-menu
       position: absolute
@@ -100,8 +103,6 @@
           transform: translate3d(-200%, 0px, 0px)
           &:hover
             color: $link-color
-          &.active
-            transform: translate3d(0%, 0px, 0px)
 
 .contact-form
   z-index: 2
