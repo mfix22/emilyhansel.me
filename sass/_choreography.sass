@@ -2,15 +2,24 @@
 .choreo
   top: 0px
   width: 100%
+  .rightImage
+    position: fixed
+    z-index: -1
+    width: 40%
+    height: 40%
+    bottom: 200px
+    right: 15%
+    right: 15vw
+
   .choreo-container
     border: 10px solid white
     padding: 20px
     position: absolute
     margin-top: 50px
     font-family: $font-lato
-    width: 70%
+    width: 60%
     left: 50%
-    margin-left: -35%
+    margin-left: -30%
     h3
       text-align: left
 
@@ -25,6 +34,7 @@
 
     .choreo-box
       display: flex
+      justify-content: center
       align-items: center
       margin-top: 30px
       padding-bottom: 40px
@@ -41,13 +51,15 @@
         flex-direction: row
       &:nth-last-of-type(2n+1)
         flex-direction: row-reverse
-    .choreo-box
+
       @for $i from 1 through 7
         &:nth-of-type(#{$i})
           +fade(300ms)
           +delay(#{$i * 200}ms)
-    @media screen and (max-width: 640px)
-      .choreo-box
-        flex-direction: column
-        .visual, .copy
-          width: 80%
+
+@media screen and (max-width: 640px)
+  .choreo .choreo-container .choreo-box
+    &:nth-of-type(n)
+      flex-direction: column
+    .visual, .copy
+      width: 100%

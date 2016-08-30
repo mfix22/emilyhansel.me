@@ -138,6 +138,9 @@ h4 {
   filter: FlipH;
   -ms-filter: "FlipH"; }
 
+@media screen and (max-width: 540px) {
+  h3 {
+    font-size: 32px; } }
 .media .home-button {
   left: 5px; }
 .media h3 {
@@ -423,15 +426,23 @@ h4 {
 .choreo {
   top: 0px;
   width: 100%; }
+  .choreo .rightImage {
+    position: fixed;
+    z-index: -1;
+    width: 40%;
+    height: 40%;
+    bottom: 200px;
+    right: 15%;
+    right: 15vw; }
   .choreo .choreo-container {
     border: 10px solid white;
     padding: 20px;
     position: absolute;
     margin-top: 50px;
     font-family: "Lato", sans-serif;
-    width: 70%;
+    width: 60%;
     left: 50%;
-    margin-left: -35%; }
+    margin-left: -30%; }
     .choreo .choreo-container h3 {
       text-align: left; }
     .choreo .choreo-container h4 {
@@ -444,6 +455,7 @@ h4 {
       font-weight: 300; }
     .choreo .choreo-container .choreo-box {
       display: flex;
+      justify-content: center;
       align-items: center;
       margin-top: 30px;
       padding-bottom: 40px;
@@ -459,47 +471,47 @@ h4 {
         flex-direction: row; }
       .choreo .choreo-container .choreo-box:nth-last-of-type(2n+1) {
         flex-direction: row-reverse; }
-    .choreo .choreo-container .choreo-box:nth-of-type(1) {
-      -webkit-animation: fadeIn 300ms linear forwards;
-      animation: fadeIn 300ms linear forwards;
-      -webkit-animation-delay: 200ms;
-      animation-delay: 200ms; }
-    .choreo .choreo-container .choreo-box:nth-of-type(2) {
-      -webkit-animation: fadeIn 300ms linear forwards;
-      animation: fadeIn 300ms linear forwards;
-      -webkit-animation-delay: 400ms;
-      animation-delay: 400ms; }
-    .choreo .choreo-container .choreo-box:nth-of-type(3) {
-      -webkit-animation: fadeIn 300ms linear forwards;
-      animation: fadeIn 300ms linear forwards;
-      -webkit-animation-delay: 600ms;
-      animation-delay: 600ms; }
-    .choreo .choreo-container .choreo-box:nth-of-type(4) {
-      -webkit-animation: fadeIn 300ms linear forwards;
-      animation: fadeIn 300ms linear forwards;
-      -webkit-animation-delay: 800ms;
-      animation-delay: 800ms; }
-    .choreo .choreo-container .choreo-box:nth-of-type(5) {
-      -webkit-animation: fadeIn 300ms linear forwards;
-      animation: fadeIn 300ms linear forwards;
-      -webkit-animation-delay: 1000ms;
-      animation-delay: 1000ms; }
-    .choreo .choreo-container .choreo-box:nth-of-type(6) {
-      -webkit-animation: fadeIn 300ms linear forwards;
-      animation: fadeIn 300ms linear forwards;
-      -webkit-animation-delay: 1200ms;
-      animation-delay: 1200ms; }
-    .choreo .choreo-container .choreo-box:nth-of-type(7) {
-      -webkit-animation: fadeIn 300ms linear forwards;
-      animation: fadeIn 300ms linear forwards;
-      -webkit-animation-delay: 1400ms;
-      animation-delay: 1400ms; }
-    @media screen and (max-width: 640px) {
-      .choreo .choreo-container .choreo-box {
-        flex-direction: column; }
-        .choreo .choreo-container .choreo-box .visual, .choreo .choreo-container .choreo-box .copy {
-          width: 80%; } }
+      .choreo .choreo-container .choreo-box:nth-of-type(1) {
+        -webkit-animation: fadeIn 300ms linear forwards;
+        animation: fadeIn 300ms linear forwards;
+        -webkit-animation-delay: 200ms;
+        animation-delay: 200ms; }
+      .choreo .choreo-container .choreo-box:nth-of-type(2) {
+        -webkit-animation: fadeIn 300ms linear forwards;
+        animation: fadeIn 300ms linear forwards;
+        -webkit-animation-delay: 400ms;
+        animation-delay: 400ms; }
+      .choreo .choreo-container .choreo-box:nth-of-type(3) {
+        -webkit-animation: fadeIn 300ms linear forwards;
+        animation: fadeIn 300ms linear forwards;
+        -webkit-animation-delay: 600ms;
+        animation-delay: 600ms; }
+      .choreo .choreo-container .choreo-box:nth-of-type(4) {
+        -webkit-animation: fadeIn 300ms linear forwards;
+        animation: fadeIn 300ms linear forwards;
+        -webkit-animation-delay: 800ms;
+        animation-delay: 800ms; }
+      .choreo .choreo-container .choreo-box:nth-of-type(5) {
+        -webkit-animation: fadeIn 300ms linear forwards;
+        animation: fadeIn 300ms linear forwards;
+        -webkit-animation-delay: 1000ms;
+        animation-delay: 1000ms; }
+      .choreo .choreo-container .choreo-box:nth-of-type(6) {
+        -webkit-animation: fadeIn 300ms linear forwards;
+        animation: fadeIn 300ms linear forwards;
+        -webkit-animation-delay: 1200ms;
+        animation-delay: 1200ms; }
+      .choreo .choreo-container .choreo-box:nth-of-type(7) {
+        -webkit-animation: fadeIn 300ms linear forwards;
+        animation: fadeIn 300ms linear forwards;
+        -webkit-animation-delay: 1400ms;
+        animation-delay: 1400ms; }
 
+@media screen and (max-width: 640px) {
+  .choreo .choreo-container .choreo-box:nth-of-type(n) {
+    flex-direction: column; }
+  .choreo .choreo-container .choreo-box .visual, .choreo .choreo-container .choreo-box .copy {
+    width: 100%; } }
 .load-images {
   visibility: hidden;
   height: 0;
@@ -515,6 +527,7 @@ h4 {
   font-style: "Lato", sans-serif;
   font-weight: lighter;
   position: fixed;
+  z-index: 1000;
   top: 10px;
   left: 25px;
   padding: 0px 5px 3px;
@@ -535,7 +548,7 @@ h4 {
 .body-container {
   position: fixed;
   width: 100%;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate3d(0px, -50%, 0px);
   margin-left: -50%;
@@ -564,16 +577,7 @@ h4 {
       position: relative;
       display: block;
       padding: 5px 10px; }
-      .body-container .menu-item:nth-child(1) .menu-button:hover {
-        cursor: pointer;
-        color: #4d6bd9; }
-      .body-container .menu-item:nth-child(2) .menu-button:hover {
-        cursor: pointer;
-        color: #4d6bd9; }
-      .body-container .menu-item:nth-child(3) .menu-button:hover {
-        cursor: pointer;
-        color: #4d6bd9; }
-      .body-container .menu-item:nth-child(4) .menu-button:hover {
+      .body-container .menu-item .menu-button:hover {
         cursor: pointer;
         color: #4d6bd9; }
     .body-container .menu .sub-menu {
