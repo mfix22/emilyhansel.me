@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$font-lato".
-        on line 13 of sass/choreography.sass
+        on line 10 of sass/choreography.sass
 
-8:     border: 10px solid white
-9:     padding: 20px
-10:     position: absolute
-11:     margin-top: 50px
-12:     width: auto
-13:     font-family: $font-lato
-14: 
-15:     h3
-16:       text-align: left
-17: 
-18:     h4
+5:   .choreo-container
+6:     border: 10px solid white
+7:     padding: 20px
+8:     position: absolute
+9:     margin-top: 50px
+10:     font-family: $font-lato
+11:     width: 70%
+12:     left: 50%
+13:     margin-left: -35%
+14:     h3
+15:       text-align: left
 
 Backtrace:
-sass/choreography.sass:13
+sass/choreography.sass:10
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -76,4 +76,4 @@ C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adap
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-lato\".\A         on line 13 of sass/choreography.sass\A \A 8:     border: 10px solid white\A 9:     padding: 20px\A 10:     position: absolute\A 11:     margin-top: 50px\A 12:     width: auto\A 13:     font-family: $font-lato\A 14: \A 15:     h3\A 16:       text-align: left\A 17: \A 18:     h4"; }
+  content: "Error: Undefined variable: \"$font-lato\".\A         on line 10 of sass/choreography.sass\A \A 5:   .choreo-container\A 6:     border: 10px solid white\A 7:     padding: 20px\A 8:     position: absolute\A 9:     margin-top: 50px\A 10:     font-family: $font-lato\A 11:     width: 70%\A 12:     left: 50%\A 13:     margin-left: -35%\A 14:     h3\A 15:       text-align: left"; }

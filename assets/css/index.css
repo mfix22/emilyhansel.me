@@ -405,29 +405,29 @@ h4 {
     left: 60%;
     visibility: visible;
     background-image: url(../img/dancing/11.png); } }
-.body-container.choreo {
+.choreo {
   top: 0px;
-  width: 70%;
-  margin-left: -35%;
-  position: relative; }
-  .body-container.choreo .choreo-container {
+  width: 100%; }
+  .choreo .choreo-container {
     border: 10px solid white;
     padding: 20px;
     position: absolute;
     margin-top: 50px;
-    width: auto;
-    font-family: "Lato", sans-serif; }
-    .body-container.choreo .choreo-container h3 {
+    font-family: "Lato", sans-serif;
+    width: 70%;
+    left: 50%;
+    margin-left: -35%; }
+    .choreo .choreo-container h3 {
       text-align: left; }
-    .body-container.choreo .choreo-container h4 {
+    .choreo .choreo-container h4 {
       text-transform: uppercase;
       letter-spacing: 0px; }
-      .body-container.choreo .choreo-container h4:after {
+      .choreo .choreo-container h4:after {
         content: ""; }
-    .body-container.choreo .choreo-container p {
+    .choreo .choreo-container p {
       text-align: justify;
       font-weight: 300; }
-    .body-container.choreo .choreo-container .choreo-box {
+    .choreo .choreo-container .choreo-box {
       display: flex;
       align-items: center;
       margin-top: 30px;
@@ -435,53 +435,54 @@ h4 {
       padding-top: 30px;
       border-bottom: 4px solid white;
       opacity: 0; }
-      .body-container.choreo .choreo-container .choreo-box:last-child {
-        border-bottom: none;
+      .choreo .choreo-container .choreo-box .visual, .choreo .choreo-container .choreo-box .copy {
         width: 45%;
-        margin: 0% 2.5%; }
-      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n) {
+        margin: 0 2.5%; }
+      .choreo .choreo-container .choreo-box:last-child {
+        border-bottom: none; }
+      .choreo .choreo-container .choreo-box:nth-last-of-type(2n) {
         flex-direction: row; }
-      .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n+1) {
+      .choreo .choreo-container .choreo-box:nth-last-of-type(2n+1) {
         flex-direction: row-reverse; }
-    .body-container.choreo .choreo-container .choreo-box:nth-of-type(1) {
+    .choreo .choreo-container .choreo-box:nth-of-type(1) {
       -webkit-animation: fadeIn 300ms linear forwards;
       animation: fadeIn 300ms linear forwards;
       -webkit-animation-delay: 200ms;
       animation-delay: 200ms; }
-    .body-container.choreo .choreo-container .choreo-box:nth-of-type(2) {
+    .choreo .choreo-container .choreo-box:nth-of-type(2) {
       -webkit-animation: fadeIn 300ms linear forwards;
       animation: fadeIn 300ms linear forwards;
       -webkit-animation-delay: 400ms;
       animation-delay: 400ms; }
-    .body-container.choreo .choreo-container .choreo-box:nth-of-type(3) {
+    .choreo .choreo-container .choreo-box:nth-of-type(3) {
       -webkit-animation: fadeIn 300ms linear forwards;
       animation: fadeIn 300ms linear forwards;
       -webkit-animation-delay: 600ms;
       animation-delay: 600ms; }
-    .body-container.choreo .choreo-container .choreo-box:nth-of-type(4) {
+    .choreo .choreo-container .choreo-box:nth-of-type(4) {
       -webkit-animation: fadeIn 300ms linear forwards;
       animation: fadeIn 300ms linear forwards;
       -webkit-animation-delay: 800ms;
       animation-delay: 800ms; }
-    .body-container.choreo .choreo-container .choreo-box:nth-of-type(5) {
+    .choreo .choreo-container .choreo-box:nth-of-type(5) {
       -webkit-animation: fadeIn 300ms linear forwards;
       animation: fadeIn 300ms linear forwards;
       -webkit-animation-delay: 1000ms;
       animation-delay: 1000ms; }
-    .body-container.choreo .choreo-container .choreo-box:nth-of-type(6) {
+    .choreo .choreo-container .choreo-box:nth-of-type(6) {
       -webkit-animation: fadeIn 300ms linear forwards;
       animation: fadeIn 300ms linear forwards;
       -webkit-animation-delay: 1200ms;
       animation-delay: 1200ms; }
-    .body-container.choreo .choreo-container .choreo-box:nth-of-type(7) {
+    .choreo .choreo-container .choreo-box:nth-of-type(7) {
       -webkit-animation: fadeIn 300ms linear forwards;
       animation: fadeIn 300ms linear forwards;
       -webkit-animation-delay: 1400ms;
       animation-delay: 1400ms; }
     @media screen and (max-width: 640px) {
-      .body-container.choreo .choreo-container .choreo-box {
+      .choreo .choreo-container .choreo-box {
         flex-direction: column; }
-        .body-container.choreo .choreo-container .choreo-box .visual, .body-container.choreo .choreo-container .choreo-box .copy {
+        .choreo .choreo-container .choreo-box .visual, .choreo .choreo-container .choreo-box .copy {
           width: 80%; } }
 
 .load-images {

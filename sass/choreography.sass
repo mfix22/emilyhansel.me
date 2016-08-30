@@ -1,17 +1,16 @@
 @import animations, palette
-.body-container.choreo
+.choreo
   top: 0px
-  width: 70%
-  margin-left: -35%
-  position: relative
+  width: 100%
   .choreo-container
     border: 10px solid white
     padding: 20px
     position: absolute
     margin-top: 50px
-    width: auto
     font-family: $font-lato
-
+    width: 70%
+    left: 50%
+    margin-left: -35%
     h3
       text-align: left
 
@@ -32,10 +31,12 @@
       padding-top: 30px
       border-bottom: 4px solid white
       opacity: 0
+
+      .visual, .copy
+        width: 45%
+        margin: 0 2.5%
       &:last-child
         border-bottom: none
-        width: 45%
-        margin: 0% 2.5%
       &:nth-last-of-type(2n)
         flex-direction: row
       &:nth-last-of-type(2n+1)
