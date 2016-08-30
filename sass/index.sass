@@ -43,19 +43,19 @@
     color: $accent
 .body-container
   position: fixed
-  width: 40vw
+  width: 100%
   // height: auto
   top: 50%
   left: 50%
   transform: translate3d(0px, -50%, 0px)
-  margin-left: -20vw
+  margin-left: -50%
   text-align: center
 
 
   h4
     display: inline-block
     letter-spacing: 9px
-    @media screen and (min-width: 1120px)
+    @media screen and (min-width: 414px)
       &:first-of-type:after
         content: " | "
 
@@ -73,7 +73,7 @@
     list-style: none
     font-size: 20px
     margin-bottom: 0
-    // margin-left: 10vw
+    padding-left: 27vw
     &-item
       position: relative
       display: block
@@ -178,7 +178,7 @@
   &.dance
     +dance(3.2s)
   &:not(.dance)
-    left: 75%
+    left: 60%
     background-image: url(../img/dancing/11.png)
 
 .leftImage

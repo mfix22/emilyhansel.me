@@ -13,7 +13,7 @@ $(function() {
     $('.contact-form').fadeOut(300);
   });
 
-  $('.menu-button').hover(function() {
+  $('.menu-button').on('mouseover click', function() {
     $('.site-link.active').removeClass('active');
     $(this).siblings().find('.site-link').addClass('active')
   });
