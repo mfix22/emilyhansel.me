@@ -57,9 +57,12 @@
           +fade(300ms)
           +delay(#{$i * 200}ms)
 
-@media screen and (max-width: 640px)
+@media screen and (max-width: 700px)
   .choreo .choreo-container .choreo-box
     &:nth-of-type(n)
       flex-direction: column
     .visual, .copy
       width: 100%
+@media screen and (max-width: 620px)
+  .choreo-container
+    left: 65%

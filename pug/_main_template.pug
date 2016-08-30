@@ -23,7 +23,9 @@ html
         .nav-item
           a.site-link(href="/statement" alt="artist statement") artist statement
         .nav-item
-          a.site-link(href="/media" alt="video") media
+          a.site-link(href="/photo" alt="photo") photo
+        .nav-item
+          a.site-link(href="/video" alt="video") video
         .nav-item
           span.contact contact
     .contact-form
@@ -36,4 +38,6 @@ html
         textarea(tabindex="3",  name="message" placeholder="Type your message here")
         input(tabindex="4",  type="submit" value="Send")
     block content
+    script(src="/assets/js/jquery.js")
+    script(src="/assets/js/index.js")
     block scripts

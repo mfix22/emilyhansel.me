@@ -25,7 +25,7 @@
   font-style: $font-caption
   font-weight: lighter
   position: fixed
-  z-index: 1000
+  z-index: 800
   top: 10px
   left: 25px
   padding: 0px 5px 3px
@@ -110,10 +110,12 @@
   display: none
   height: 280px
   width: 550px
+  max-width: 90%
   padding: 10px 10px
   left: 50%
   top: 50%
-  margin: -140px 0px 0px -275px
+  margin-top: -140px
+  transform: translateX(-50%)
   font-family: monospace
   background-color: white
   transform-origin: bottom left
@@ -193,7 +195,7 @@
 
 
 .nav-opener
-  z-index: 3
+  z-index: 901
   cursor: pointer
   position: fixed
   padding: 2px
@@ -203,7 +205,7 @@
   &.active
     color: black
 .mobile-nav
-  z-index: 2
+  z-index: 900
   position: fixed
   height: 100%
   width: 25%
@@ -223,14 +225,26 @@
       cursor: pointer
 
 
-@media screen and (min-width: 992px)
-  .mobile-nav, .nav-items, .nav-opener
-    display: none
 @media screen and (max-width: 992px)
   .home-button
     top: 50px
     left: 5px
-
+@media screen and (max-width: 500px)
+  .home-button
+    top: 65px
+    left: 5px
 @media screen and (max-width: 700px)
   .mobile-nav
-    width: 50%
+    width: 60%
+@media screen and (min-width: 500px)
+  .mobile-nav, .nav-items, .nav-opener
+    display: none
+
+@media screen and (max-width: 400px)
+  .menu-item
+    display: none
+    visibility: hidden
+  .dancing-image
+    top: 35%
+    left: 40%
+    margin-left: -60%
