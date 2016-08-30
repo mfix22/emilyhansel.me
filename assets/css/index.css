@@ -434,9 +434,7 @@ h4 {
       border-bottom: 4px solid white;
       opacity: 0; }
       .body-container.choreo .choreo-container .choreo-box:last-child {
-        border-bottom: none; }
-      .body-container.choreo .choreo-container .choreo-box .visual, .body-container.choreo .choreo-container .choreo-box .copy {
-        vertical-align: middle;
+        border-bottom: none;
         width: 45%;
         margin: 0% 2.5%; }
       .body-container.choreo .choreo-container .choreo-box:nth-last-of-type(2n) {
@@ -478,6 +476,11 @@ h4 {
       animation: fadeIn 300ms linear forwards;
       -webkit-animation-delay: 1400ms;
       animation-delay: 1400ms; }
+    @media screen and (max-width: 640px) {
+      .body-container.choreo .choreo-container .choreo-box {
+        flex-direction: column; }
+        .body-container.choreo .choreo-container .choreo-box .visual, .body-container.choreo .choreo-container .choreo-box .copy {
+          width: 80%; } }
 
 .load-images {
   visibility: hidden;
@@ -590,6 +593,7 @@ h4 {
   .contact-form form {
     text-align: center; }
   .contact-form p {
+    color: black;
     margin: 0px auto 5px;
     letter-spacing: 0.2px; }
   .contact-form a {
