@@ -20,33 +20,29 @@ $(function() {
   //   });
   // });
 
+  $('.prev').click(function(e) {
+    e.preventDefault();
+    carouselBack();
+  });
+
+  $('.next').click(function(e) {
+    e.preventDefault();
+    carouselNext();
+  });
+
+
   $(document).keydown(function(e) {
     switch(e.which) {
-      case 37: // left
-        images.each(function(i, value) {
-          var child = $(value);
-          var deg = child.data('deg');
-          child.data('deg', child.data('deg') - slice);
-          debounce(slideView(child, child.data('deg')), 500);
-        });
-        topImage = topImage.prev();
-        if (topImage.length == 0) topImage = images.last();
-        $('.caption').html(topImage.data('caption'));
+      case 37: // right
         e.preventDefault();
+        carouselBack();
       break;
 
-      case 39: // right
-        images.each(function(i, value) {
-          var child = $(value);
-          var deg = child.data('deg');
-          child.data('deg', child.data('deg') + slice);
-          debounce(slideView(child, child.data('deg')), 500) ;
-        });
-        topImage = topImage.next();
-        if (topImage.length == 0) topImage = images.first();
-        $('.caption').html(topImage.data('caption'));
+      case 39: // left
         e.preventDefault();
+        carouselNext();
       break;
+
     } // prevent the default action (scroll / move caret)
   });
 
@@ -81,6 +77,30 @@ $(function() {
     }).animate({
       left: newPos
     }, 300);
+  }
+
+  function carouselBack() {
+    images.each(function(i, value) {
+      var child = $(value);
+      var deg = child.data('deg');
+      child.data('deg', child.data('deg') + slice);
+      slideView(child, child.data('deg'));
+    });
+    topImage = topImage.next();
+    if (topImage.length == 0) topImage = images.first();
+    $('.caption').html(topImage.data('caption'));
+  }
+
+  function carouselNext() {
+    images.each(function(i, value) {
+      var child = $(value);
+      var deg = child.data('deg');
+      child.data('deg', child.data('deg') - slice);
+      slideView(child, child.data('deg'));
+    });
+    topImage = topImage.prev();
+    if (topImage.length == 0) topImage = images.last();
+    $('.caption').html(topImage.data('caption'));
   }
 });
 

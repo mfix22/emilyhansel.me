@@ -153,6 +153,21 @@ h4 {
     .media .media-container .card iframe {
       width: 100%;
       height: 100%; }
+  .media .media-container .prev, .media .media-container .next {
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    margin-top: -25px;
+    font-size: 60px;
+    font-family: "Lato", sans-serif;
+    color: white;
+    cursor: pointer; }
+  .media .media-container .prev {
+    float: left;
+    left: 5%; }
+  .media .media-container .next {
+    float: right;
+    right: 5%; }
   .media .media-container.video-container .carousel {
     transform: translateY(-100px);
     height: 80vh; }

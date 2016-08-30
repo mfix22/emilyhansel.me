@@ -15,10 +15,28 @@
       iframe
         width: 100%
         height: 100%
+    .prev, .next
+      position: absolute
+      top: 50%
+      height: 50px
+      margin-top: -25px
+      font-size: 60px
+      font-family: $font-lato
+      color: white
+      cursor: pointer
+    .prev
+      float: left
+      left: 5%
+    .next
+      float: right
+      right: 5%
+
+
     &.video-container
       .carousel
         transform: translateY(-100px)
         height: 80vh
+
 
   .carousel
     width: 100%
