@@ -6,7 +6,7 @@ $(function() {
     $('.nav-opener').toggleClass('active').children().toggleClass('ion-navicon').addClass('ion-navicon');
     $('.contact-form').fadeIn(300);
   });
-  $('form').click(function(e) {
+  $('form input:not([type="submit"]), form textarea').click(function(e) {
     e.stopPropagation();
     return false;
   });

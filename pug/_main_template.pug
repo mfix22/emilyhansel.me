@@ -30,12 +30,17 @@ html
           span.contact contact
     .contact-form
       span x
-      form(method="POST", action="https://formspree.io/emilylhansel@gmail.com")
+      //- <form action="http://formspree.io/your@email.com" method="POST">
+      //-     <input type="text" name="name">
+      //-     <input type="email" name="_replyto">
+      //-     <input type="submit" value="Send">
+      //- </form>
+      form(method="POST", action="http://formspree.io/emilylhansel@gmail.com")
         p Fill out the form below to contact me
-        input(tabindex="1",  type="text", name="name", placeholder="Name")
-        input(tabindex="2",  type="email", name="_replyto", placeholder="Email")
-        textarea(tabindex="3",  name="message" placeholder="Type your message here")
-        input.email-send(tabindex="4",  type="submit" value="Send")
+        input(tabindex="1"  type="text" name="name" placeholder="Name")
+        input(tabindex="2"  type="email" name="_replyto" placeholder="Email")
+        textarea(tabindex="3"  name="message" placeholder="Type your message here")
+        input.email-send(tabindex="4"  type="submit" value="Send")
     block content
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
