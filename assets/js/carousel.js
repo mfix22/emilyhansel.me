@@ -9,6 +9,7 @@ $(function() {
     setView($(this), start);
     start += slice;
   });
+  topImage.addClass('active');
   // $(document).on('mousewheel', function(event) {
   //   event.preventDefault();
   //   var width = $('.carousel').width();
@@ -28,6 +29,11 @@ $(function() {
   $('.next').click(function(e) {
     e.preventDefault();
     carouselNext();
+  });
+
+  $('img').click(function(e) {
+    var $this = $(this);
+    if ($this.hasClass('active')) $this.toggleClass('jumbo');
   });
 
 
@@ -86,9 +92,12 @@ $(function() {
       child.data('deg', child.data('deg') + slice);
       slideView(child, child.data('deg'));
     });
-    topImage = topImage.next();
-    if (topImage.length == 0) topImage = images.first();
+    topImage = topImage.prev();
+    if (topImage.length == 0) topImage = images.last();
     $('.caption').html(topImage.data('caption'));
+    images.removeClass('active');
+    topImage.addClass('active');
+    $('.jumbo').removeClass('jumbo');
   }
 
   function carouselNext() {
@@ -98,9 +107,12 @@ $(function() {
       child.data('deg', child.data('deg') - slice);
       slideView(child, child.data('deg'));
     });
-    topImage = topImage.prev();
-    if (topImage.length == 0) topImage = images.last();
+    topImage = topImage.next();
+    if (topImage.length == 0) topImage = images.first();
     $('.caption').html(topImage.data('caption'));
+    images.removeClass('active');
+    topImage.addClass('active');
+    $('.jumbo').removeClass('jumbo');
   }
 });
 

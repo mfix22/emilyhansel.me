@@ -25,9 +25,13 @@
       color: white
       cursor: pointer
     .prev
+      position: fixed
+      z-index: 999
       float: left
       left: 5%
     .next
+      position: fixed
+      z-index: 999
       float: right
       right: 5%
 
@@ -42,7 +46,15 @@
     width: 100%
     height: 50vh
     position: relative
-    z-index: -1
+    z-index: 1
+
+    img
+      height: 200px
+      -webkit-transition: height 300ms ease-in-out
+      transition: height 300ms ease-in-out
+      &.jumbo
+        height: 350px
+        transform: scale(1)
 
     img, .card
       border: 4px solid white
@@ -52,6 +64,10 @@
       left: 50%
       transform: translate3d(-50%, -50%, 0px) scale(1.5)
       transform-origin: top center
+
+      &.active
+        cursor: -webkit-zoom-in
+        cursor: zoom-in
   .caption
     text-align: center
     display: inline-block
