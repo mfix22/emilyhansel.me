@@ -314,16 +314,15 @@ h4 {
   right: 15vw; }
 
 .body-container.bio {
-  top: 0px;
+  top: 50px;
+  position: relative;
   width: 60%;
   margin-left: -30%;
-  position: relative; }
+  transform: none; }
   .body-container.bio .bio-container {
     border: 10px solid white;
     padding: 20px;
-    position: absolute;
-    margin-top: 50px;
-    margin-bottom: 50px; }
+    margin-bottom: 40px; }
     .body-container.bio .bio-container h1 {
       text-align: left;
       font-size: 40px;
@@ -473,13 +472,10 @@ h4 {
   .choreo .choreo-container {
     border: 10px solid white;
     padding: 20px;
-    position: absolute;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px auto;
     font-family: "Lato", sans-serif;
     width: 70%;
-    left: 50%;
-    margin-left: -35%; }
+    left: 50%; }
     .choreo .choreo-container h1 {
       text-align: left;
       font-size: 40px;
@@ -581,20 +577,14 @@ h4 {
     width: 0; }
 
 .credits {
-  position: absolute;
   display: inline-block;
   bottom: 0;
   width: 100%;
-  color: white;
-  font-size: 8px;
-  font-family: monospace;
-  text-transform: uppercase;
   text-align: center;
-  opacity: 0;
-  -webkit-animation: fadeIn 600ms linear forwards;
-  animation: fadeIn 600ms linear forwards;
-  -webkit-animation-delay: 3.6s;
-  animation-delay: 3.6s; }
+  color: white;
+  font-size: 9px;
+  font-family: monospace;
+  text-transform: uppercase; }
 
 .home-button {
   color: white;
