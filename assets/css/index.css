@@ -182,9 +182,8 @@ h4 {
   height: 50vh;
   position: relative;
   z-index: -1; }
-  .media .carousel img {
-    border: 4px solid white; }
   .media .carousel img, .media .carousel .card {
+    border: 4px solid white;
     position: absolute;
     display: none;
     top: 50%;
@@ -192,9 +191,10 @@ h4 {
     transform: translate3d(-50%, -50%, 0px) scale(1.5);
     transform-origin: top center; }
 .media .caption {
+  text-align: center;
   display: inline-block;
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   font-family: "Lato", sans-serif;
   font-weight: 100;
   margin-top: 50px; }
@@ -284,6 +284,15 @@ h4 {
     left: 60%;
     visibility: visible;
     background-image: url(../img/dancing/11.png); } }
+.rightImage {
+  position: fixed;
+  z-index: -1;
+  width: 40%;
+  height: 40%;
+  bottom: 200px;
+  right: 15%;
+  right: 15vw; }
+
 .body-container.bio {
   top: 0px;
   width: 60%;
@@ -293,7 +302,8 @@ h4 {
     border: 10px solid white;
     padding: 20px;
     position: absolute;
-    margin-top: 50px; }
+    margin-top: 50px;
+    margin-bottom: 50px; }
     .body-container.bio .bio-container h3 {
       text-align: left;
       padding: 5px 0px; }
@@ -434,33 +444,38 @@ h4 {
 .choreo {
   top: 0px;
   width: 100%; }
-  .choreo .rightImage {
-    position: fixed;
-    z-index: -1;
-    width: 40%;
-    height: 40%;
-    bottom: 200px;
-    right: 15%;
-    right: 15vw; }
   .choreo .choreo-container {
     border: 10px solid white;
     padding: 20px;
     position: absolute;
     margin-top: 50px;
+    margin-bottom: 50px;
     font-family: "Lato", sans-serif;
-    width: 60%;
+    width: 70%;
     left: 50%;
-    margin-left: -30%; }
+    margin-left: -35%; }
     .choreo .choreo-container h3 {
       text-align: left; }
     .choreo .choreo-container h4 {
-      text-transform: uppercase;
-      letter-spacing: 0px; }
+      text-transform: none;
+      font-weight: bold;
+      letter-spacing: 0px;
+      text-align: center; }
       .choreo .choreo-container h4:after {
         content: ""; }
+    .choreo .choreo-container h6 {
+      margin: 0;
+      color: white;
+      font-size: 18px;
+      font-weight: lighter;
+      text-align: center; }
     .choreo .choreo-container p {
-      text-align: justify;
+      text-align: left;
       font-weight: 300; }
+    .choreo .choreo-container a {
+      color: #4d6bd9; }
+      .choreo .choreo-container a:hover {
+        text-decoration: underline; }
     .choreo .choreo-container .choreo-box {
       display: flex;
       justify-content: center;
@@ -470,6 +485,8 @@ h4 {
       padding-top: 30px;
       border-bottom: 4px solid white;
       opacity: 0; }
+      .choreo .choreo-container .choreo-box .visual {
+        border: 4px solid white; }
       .choreo .choreo-container .choreo-box .visual, .choreo .choreo-container .choreo-box .copy {
         width: 45%;
         margin: 0 2.5%; }
@@ -574,8 +591,8 @@ h4 {
     opacity: 0;
     -webkit-animation: fadeIn 600ms linear forwards;
     animation: fadeIn 600ms linear forwards;
-    -webkit-animation-delay: 3.2s;
-    animation-delay: 3.2s; }
+    -webkit-animation-delay: 3.6s;
+    animation-delay: 3.6s; }
   .body-container .menu {
     color: white;
     padding: 0;

@@ -18,4 +18,9 @@ $(function() {
     $(this).toggleClass('active').children().toggleClass('ion-navicon').addClass('ion-close');
     $('.mobile-nav').toggleClass('active');
   });
+
+  // $('.email-send').submit(function(e) {
+  //   console.log('submitted');
+  //   $('.contact-form').fadeOut(300);
+  // });
 })
