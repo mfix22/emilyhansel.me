@@ -564,7 +564,7 @@ h4 {
     width: 0; }
 
 .credits {
-  position: fixed;
+  position: absolute;
   display: inline-block;
   bottom: 0;
   width: 100%;
