@@ -146,7 +146,13 @@ h4 {
     font-size: 28px; } }
 .media .home-button {
   left: 5px; }
-.media h3 {
+.media h1 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 auto;
   padding: 40px 0px 20px;
   text-align: center; }
 .media .media-container {
@@ -318,7 +324,13 @@ h4 {
     position: absolute;
     margin-top: 50px;
     margin-bottom: 50px; }
-    .body-container.bio .bio-container h3 {
+    .body-container.bio .bio-container h1 {
+      text-align: left;
+      font-size: 40px;
+      font-weight: 100;
+      text-transform: uppercase;
+      color: white;
+      margin: 0 auto;
       text-align: left;
       padding: 5px 0px; }
     .body-container.bio .bio-container img {
@@ -468,8 +480,13 @@ h4 {
     width: 70%;
     left: 50%;
     margin-left: -35%; }
-    .choreo .choreo-container h3 {
-      text-align: left; }
+    .choreo .choreo-container h1 {
+      text-align: left;
+      font-size: 40px;
+      font-weight: 100;
+      text-transform: uppercase;
+      color: white;
+      margin: 0 auto; }
     .choreo .choreo-container h4 {
       text-transform: none;
       font-weight: bold;
