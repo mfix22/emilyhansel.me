@@ -563,6 +563,22 @@ h4 {
     height: 0;
     width: 0; }
 
+.credits {
+  position: fixed;
+  display: inline-block;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  font-size: 8px;
+  font-family: monospace;
+  text-transform: uppercase;
+  text-align: center;
+  opacity: 0;
+  -webkit-animation: fadeIn 600ms linear forwards;
+  animation: fadeIn 600ms linear forwards;
+  -webkit-animation-delay: 3.6s;
+  animation-delay: 3.6s; }
+
 .home-button {
   color: white;
   font-size: 70px;
