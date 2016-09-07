@@ -12,6 +12,81 @@
     opacity: 0; }
   100% {
     opacity: 1; } }
+@-webkit-keyframes fadeIn {
+  0%, 7% {
+    background-image: url(../img/dancing/1.png);
+    visibility: visible;
+    left: -12.72727%; }
+  7.001%, 9.999% {
+    background-image: none;
+    visibility: hidden; }
+  10%, 17% {
+    background-image: url(../img/dancing/2.png);
+    visibility: visible;
+    left: -5.45455%; }
+  17.001%, 19.999% {
+    background-image: none;
+    visibility: hidden; }
+  20%, 27% {
+    background-image: url(../img/dancing/3.png);
+    visibility: visible;
+    left: 1.81818%; }
+  27.001%, 29.999% {
+    background-image: none;
+    visibility: hidden; }
+  30%, 37% {
+    background-image: url(../img/dancing/4.png);
+    visibility: visible;
+    left: 9.09091%; }
+  37.001%, 39.999% {
+    background-image: none;
+    visibility: hidden; }
+  40%, 47% {
+    background-image: url(../img/dancing/5.png);
+    visibility: visible;
+    left: 16.36364%; }
+  47.001%, 49.999% {
+    background-image: none;
+    visibility: hidden; }
+  50%, 57% {
+    background-image: url(../img/dancing/6.png);
+    visibility: visible;
+    left: 23.63636%; }
+  57.001%, 59.999% {
+    background-image: none;
+    visibility: hidden; }
+  60%, 67% {
+    background-image: url(../img/dancing/7.png);
+    visibility: visible;
+    left: 30.90909%; }
+  67.001%, 69.999% {
+    background-image: none;
+    visibility: hidden; }
+  70%, 77% {
+    background-image: url(../img/dancing/8.png);
+    visibility: visible;
+    left: 38.18182%; }
+  77.001%, 79.999% {
+    background-image: none;
+    visibility: hidden; }
+  80%, 87% {
+    background-image: url(../img/dancing/9.png);
+    visibility: visible;
+    left: 45.45455%; }
+  87.001%, 89.999% {
+    background-image: none;
+    visibility: hidden; }
+  90%, 97% {
+    background-image: url(../img/dancing/10.png);
+    visibility: visible;
+    left: 52.72727%; }
+  97.001%, 99.999% {
+    background-image: none;
+    visibility: hidden; }
+  100% {
+    left: 60%;
+    visibility: visible;
+    background-image: url(../img/dancing/11.png); } }
 @keyframes dance {
   0%, 7% {
     background-image: url(../img/dancing/1.png);
@@ -229,6 +304,81 @@ h4 {
     opacity: 0; }
   100% {
     opacity: 1; } }
+@-webkit-keyframes fadeIn {
+  0%, 7% {
+    background-image: url(../img/dancing/1.png);
+    visibility: visible;
+    left: -12.72727%; }
+  7.001%, 9.999% {
+    background-image: none;
+    visibility: hidden; }
+  10%, 17% {
+    background-image: url(../img/dancing/2.png);
+    visibility: visible;
+    left: -5.45455%; }
+  17.001%, 19.999% {
+    background-image: none;
+    visibility: hidden; }
+  20%, 27% {
+    background-image: url(../img/dancing/3.png);
+    visibility: visible;
+    left: 1.81818%; }
+  27.001%, 29.999% {
+    background-image: none;
+    visibility: hidden; }
+  30%, 37% {
+    background-image: url(../img/dancing/4.png);
+    visibility: visible;
+    left: 9.09091%; }
+  37.001%, 39.999% {
+    background-image: none;
+    visibility: hidden; }
+  40%, 47% {
+    background-image: url(../img/dancing/5.png);
+    visibility: visible;
+    left: 16.36364%; }
+  47.001%, 49.999% {
+    background-image: none;
+    visibility: hidden; }
+  50%, 57% {
+    background-image: url(../img/dancing/6.png);
+    visibility: visible;
+    left: 23.63636%; }
+  57.001%, 59.999% {
+    background-image: none;
+    visibility: hidden; }
+  60%, 67% {
+    background-image: url(../img/dancing/7.png);
+    visibility: visible;
+    left: 30.90909%; }
+  67.001%, 69.999% {
+    background-image: none;
+    visibility: hidden; }
+  70%, 77% {
+    background-image: url(../img/dancing/8.png);
+    visibility: visible;
+    left: 38.18182%; }
+  77.001%, 79.999% {
+    background-image: none;
+    visibility: hidden; }
+  80%, 87% {
+    background-image: url(../img/dancing/9.png);
+    visibility: visible;
+    left: 45.45455%; }
+  87.001%, 89.999% {
+    background-image: none;
+    visibility: hidden; }
+  90%, 97% {
+    background-image: url(../img/dancing/10.png);
+    visibility: visible;
+    left: 52.72727%; }
+  97.001%, 99.999% {
+    background-image: none;
+    visibility: hidden; }
+  100% {
+    left: 60%;
+    visibility: visible;
+    background-image: url(../img/dancing/11.png); } }
 @keyframes dance {
   0%, 7% {
     background-image: url(../img/dancing/1.png);
@@ -391,6 +541,81 @@ h4 {
     opacity: 0; }
   100% {
     opacity: 1; } }
+@-webkit-keyframes fadeIn {
+  0%, 7% {
+    background-image: url(../img/dancing/1.png);
+    visibility: visible;
+    left: -12.72727%; }
+  7.001%, 9.999% {
+    background-image: none;
+    visibility: hidden; }
+  10%, 17% {
+    background-image: url(../img/dancing/2.png);
+    visibility: visible;
+    left: -5.45455%; }
+  17.001%, 19.999% {
+    background-image: none;
+    visibility: hidden; }
+  20%, 27% {
+    background-image: url(../img/dancing/3.png);
+    visibility: visible;
+    left: 1.81818%; }
+  27.001%, 29.999% {
+    background-image: none;
+    visibility: hidden; }
+  30%, 37% {
+    background-image: url(../img/dancing/4.png);
+    visibility: visible;
+    left: 9.09091%; }
+  37.001%, 39.999% {
+    background-image: none;
+    visibility: hidden; }
+  40%, 47% {
+    background-image: url(../img/dancing/5.png);
+    visibility: visible;
+    left: 16.36364%; }
+  47.001%, 49.999% {
+    background-image: none;
+    visibility: hidden; }
+  50%, 57% {
+    background-image: url(../img/dancing/6.png);
+    visibility: visible;
+    left: 23.63636%; }
+  57.001%, 59.999% {
+    background-image: none;
+    visibility: hidden; }
+  60%, 67% {
+    background-image: url(../img/dancing/7.png);
+    visibility: visible;
+    left: 30.90909%; }
+  67.001%, 69.999% {
+    background-image: none;
+    visibility: hidden; }
+  70%, 77% {
+    background-image: url(../img/dancing/8.png);
+    visibility: visible;
+    left: 38.18182%; }
+  77.001%, 79.999% {
+    background-image: none;
+    visibility: hidden; }
+  80%, 87% {
+    background-image: url(../img/dancing/9.png);
+    visibility: visible;
+    left: 45.45455%; }
+  87.001%, 89.999% {
+    background-image: none;
+    visibility: hidden; }
+  90%, 97% {
+    background-image: url(../img/dancing/10.png);
+    visibility: visible;
+    left: 52.72727%; }
+  97.001%, 99.999% {
+    background-image: none;
+    visibility: hidden; }
+  100% {
+    left: 60%;
+    visibility: visible;
+    background-image: url(../img/dancing/11.png); } }
 @keyframes dance {
   0%, 7% {
     background-image: url(../img/dancing/1.png);
@@ -735,8 +960,8 @@ h4 {
   background-position: center;
   background-repeat: no-repeat; }
   .dancing-image.dance {
-    animation: dance 3.2s linear forwards;
-    -webkit-animation: dance 3.2s linear forwards; }
+    -webkit-animation: dance 3.2s linear forwards;
+    animation: dance 3.2s linear forwards; }
   .dancing-image:not(.dance) {
     left: 60%;
     background-image: url(../img/dancing/11.png); }
@@ -748,6 +973,7 @@ h4 {
   left: -170px; }
   .leftImage.fadeInLate {
     opacity: 0;
+    -webkit-animation: fadeIn 500ms forwards 3s;
     animation: fadeIn 500ms forwards 3s; }
 
 .nav-opener {

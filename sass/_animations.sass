@@ -10,8 +10,8 @@
     opacity: 1
 
 =dance($duration)
-  animation: dance $duration linear forwards
   -webkit-animation: dance $duration linear forwards
+  animation: dance $duration linear forwards
 
 
 =delay($seconds)
@@ -23,7 +23,20 @@
   animation: fadeIn $time linear forwards
 
 $numphotos: 11
-// @-webkit-keyframes fadeIn
+@-webkit-keyframes fadeIn
+  @for $i from 1 through 10
+    #{($i)*100/10 - 100/10}%, #{($i)*100/10 - 100/10 + 7}%
+      background-image: url(../img/dancing/#{$i}.png)
+      visibility: visible
+      left: -20% + $i*80%/11%
+    #{($i)*100/10 - 100/10 + 7.001}%, #{($i)*100/10 - 0.001}%
+      background-image: none
+      visibility: hidden
+  100%
+    left: 60%
+    visibility: visible
+    background-image: url(../img/dancing/#{$numphotos}.png)
+
 @keyframes dance
   @for $i from 1 through 10
     #{($i)*100/10 - 100/10}%, #{($i)*100/10 - 100/10 + 7}%
