@@ -5,7 +5,8 @@ $(function() {
   });
 });
 
-if (!sessionStorage.seen) {
+// animation does not work in Firefox
+if (!sessionStorage.seen && (navigator.userAgent.toLowerCase().indexOf('firefox') <= -1)) {
   $('.dancing-image').addClass('dance');
   $('.leftImage').addClass('fadeInLate');
   $('.body-container').addClass('menu-fade-in');
