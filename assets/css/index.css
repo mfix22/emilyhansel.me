@@ -7,12 +7,92 @@
     opacity: 0; }
   100% {
     opacity: 1; } }
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 @keyframes fadeIn {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes dance {
+  0%, 7% {
+    background-image: url(../img/dancing/1.png);
+    visibility: visible;
+    left: -12.72727%; }
+  7.001%, 9.999% {
+    background-image: none;
+    visibility: hidden; }
+  10%, 17% {
+    background-image: url(../img/dancing/2.png);
+    visibility: visible;
+    left: -5.45455%; }
+  17.001%, 19.999% {
+    background-image: none;
+    visibility: hidden; }
+  20%, 27% {
+    background-image: url(../img/dancing/3.png);
+    visibility: visible;
+    left: 1.81818%; }
+  27.001%, 29.999% {
+    background-image: none;
+    visibility: hidden; }
+  30%, 37% {
+    background-image: url(../img/dancing/4.png);
+    visibility: visible;
+    left: 9.09091%; }
+  37.001%, 39.999% {
+    background-image: none;
+    visibility: hidden; }
+  40%, 47% {
+    background-image: url(../img/dancing/5.png);
+    visibility: visible;
+    left: 16.36364%; }
+  47.001%, 49.999% {
+    background-image: none;
+    visibility: hidden; }
+  50%, 57% {
+    background-image: url(../img/dancing/6.png);
+    visibility: visible;
+    left: 23.63636%; }
+  57.001%, 59.999% {
+    background-image: none;
+    visibility: hidden; }
+  60%, 67% {
+    background-image: url(../img/dancing/7.png);
+    visibility: visible;
+    left: 30.90909%; }
+  67.001%, 69.999% {
+    background-image: none;
+    visibility: hidden; }
+  70%, 77% {
+    background-image: url(../img/dancing/8.png);
+    visibility: visible;
+    left: 38.18182%; }
+  77.001%, 79.999% {
+    background-image: none;
+    visibility: hidden; }
+  80%, 87% {
+    background-image: url(../img/dancing/9.png);
+    visibility: visible;
+    left: 45.45455%; }
+  87.001%, 89.999% {
+    background-image: none;
+    visibility: hidden; }
+  90%, 97% {
+    background-image: url(../img/dancing/10.png);
+    visibility: visible;
+    left: 52.72727%; }
+  97.001%, 99.999% {
+    background-image: none;
+    visibility: hidden; }
+  100% {
+    left: 60%;
+    visibility: visible;
+    background-image: url(../img/dancing/11.png); } }
+@-moz-keyframes dance {
   0%, 7% {
     background-image: url(../img/dancing/1.png);
     visibility: visible;
@@ -294,7 +374,15 @@ h4 {
   font-weight: 100;
   margin-top: 100px; }
 
+.video-container .caption {
+  margin-top: -50px; }
+
 @-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
   0% {
     opacity: 0; }
   100% {
@@ -304,7 +392,82 @@ h4 {
     opacity: 0; }
   100% {
     opacity: 1; } }
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes dance {
+  0%, 7% {
+    background-image: url(../img/dancing/1.png);
+    visibility: visible;
+    left: -12.72727%; }
+  7.001%, 9.999% {
+    background-image: none;
+    visibility: hidden; }
+  10%, 17% {
+    background-image: url(../img/dancing/2.png);
+    visibility: visible;
+    left: -5.45455%; }
+  17.001%, 19.999% {
+    background-image: none;
+    visibility: hidden; }
+  20%, 27% {
+    background-image: url(../img/dancing/3.png);
+    visibility: visible;
+    left: 1.81818%; }
+  27.001%, 29.999% {
+    background-image: none;
+    visibility: hidden; }
+  30%, 37% {
+    background-image: url(../img/dancing/4.png);
+    visibility: visible;
+    left: 9.09091%; }
+  37.001%, 39.999% {
+    background-image: none;
+    visibility: hidden; }
+  40%, 47% {
+    background-image: url(../img/dancing/5.png);
+    visibility: visible;
+    left: 16.36364%; }
+  47.001%, 49.999% {
+    background-image: none;
+    visibility: hidden; }
+  50%, 57% {
+    background-image: url(../img/dancing/6.png);
+    visibility: visible;
+    left: 23.63636%; }
+  57.001%, 59.999% {
+    background-image: none;
+    visibility: hidden; }
+  60%, 67% {
+    background-image: url(../img/dancing/7.png);
+    visibility: visible;
+    left: 30.90909%; }
+  67.001%, 69.999% {
+    background-image: none;
+    visibility: hidden; }
+  70%, 77% {
+    background-image: url(../img/dancing/8.png);
+    visibility: visible;
+    left: 38.18182%; }
+  77.001%, 79.999% {
+    background-image: none;
+    visibility: hidden; }
+  80%, 87% {
+    background-image: url(../img/dancing/9.png);
+    visibility: visible;
+    left: 45.45455%; }
+  87.001%, 89.999% {
+    background-image: none;
+    visibility: hidden; }
+  90%, 97% {
+    background-image: url(../img/dancing/10.png);
+    visibility: visible;
+    left: 52.72727%; }
+  97.001%, 99.999% {
+    background-image: none;
+    visibility: hidden; }
+  100% {
+    left: 60%;
+    visibility: visible;
+    background-image: url(../img/dancing/11.png); } }
+@-moz-keyframes dance {
   0%, 7% {
     background-image: url(../img/dancing/1.png);
     visibility: visible;
@@ -494,33 +657,45 @@ h4 {
       opacity: 0; }
       .body-container.bio .bio-container p:nth-child(1) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 150ms;
+        -moz-animation-delay: 150ms;
         animation-delay: 150ms; }
       .body-container.bio .bio-container p:nth-child(2) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 300ms;
+        -moz-animation-delay: 300ms;
         animation-delay: 300ms; }
       .body-container.bio .bio-container p:nth-child(3) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 450ms;
+        -moz-animation-delay: 450ms;
         animation-delay: 450ms; }
       .body-container.bio .bio-container p:nth-child(4) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 600ms;
+        -moz-animation-delay: 600ms;
         animation-delay: 600ms; }
       .body-container.bio .bio-container p:nth-child(5) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 750ms;
+        -moz-animation-delay: 750ms;
         animation-delay: 750ms; }
       .body-container.bio .bio-container p:nth-child(6) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 900ms;
+        -moz-animation-delay: 900ms;
         animation-delay: 900ms; }
     .body-container.bio .bio-container .bio-highlight {
       color: #4d6bd9;
@@ -536,12 +711,92 @@ h4 {
     opacity: 0; }
   100% {
     opacity: 1; } }
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 @keyframes fadeIn {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes dance {
+  0%, 7% {
+    background-image: url(../img/dancing/1.png);
+    visibility: visible;
+    left: -12.72727%; }
+  7.001%, 9.999% {
+    background-image: none;
+    visibility: hidden; }
+  10%, 17% {
+    background-image: url(../img/dancing/2.png);
+    visibility: visible;
+    left: -5.45455%; }
+  17.001%, 19.999% {
+    background-image: none;
+    visibility: hidden; }
+  20%, 27% {
+    background-image: url(../img/dancing/3.png);
+    visibility: visible;
+    left: 1.81818%; }
+  27.001%, 29.999% {
+    background-image: none;
+    visibility: hidden; }
+  30%, 37% {
+    background-image: url(../img/dancing/4.png);
+    visibility: visible;
+    left: 9.09091%; }
+  37.001%, 39.999% {
+    background-image: none;
+    visibility: hidden; }
+  40%, 47% {
+    background-image: url(../img/dancing/5.png);
+    visibility: visible;
+    left: 16.36364%; }
+  47.001%, 49.999% {
+    background-image: none;
+    visibility: hidden; }
+  50%, 57% {
+    background-image: url(../img/dancing/6.png);
+    visibility: visible;
+    left: 23.63636%; }
+  57.001%, 59.999% {
+    background-image: none;
+    visibility: hidden; }
+  60%, 67% {
+    background-image: url(../img/dancing/7.png);
+    visibility: visible;
+    left: 30.90909%; }
+  67.001%, 69.999% {
+    background-image: none;
+    visibility: hidden; }
+  70%, 77% {
+    background-image: url(../img/dancing/8.png);
+    visibility: visible;
+    left: 38.18182%; }
+  77.001%, 79.999% {
+    background-image: none;
+    visibility: hidden; }
+  80%, 87% {
+    background-image: url(../img/dancing/9.png);
+    visibility: visible;
+    left: 45.45455%; }
+  87.001%, 89.999% {
+    background-image: none;
+    visibility: hidden; }
+  90%, 97% {
+    background-image: url(../img/dancing/10.png);
+    visibility: visible;
+    left: 52.72727%; }
+  97.001%, 99.999% {
+    background-image: none;
+    visibility: hidden; }
+  100% {
+    left: 60%;
+    visibility: visible;
+    background-image: url(../img/dancing/11.png); } }
+@-moz-keyframes dance {
   0%, 7% {
     background-image: url(../img/dancing/1.png);
     visibility: visible;
@@ -750,38 +1005,52 @@ h4 {
         flex-direction: row-reverse; }
       .choreo .choreo-container .choreo-box:nth-of-type(1) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 200ms;
+        -moz-animation-delay: 200ms;
         animation-delay: 200ms; }
       .choreo .choreo-container .choreo-box:nth-of-type(2) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 400ms;
+        -moz-animation-delay: 400ms;
         animation-delay: 400ms; }
       .choreo .choreo-container .choreo-box:nth-of-type(3) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 600ms;
+        -moz-animation-delay: 600ms;
         animation-delay: 600ms; }
       .choreo .choreo-container .choreo-box:nth-of-type(4) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 800ms;
+        -moz-animation-delay: 800ms;
         animation-delay: 800ms; }
       .choreo .choreo-container .choreo-box:nth-of-type(5) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 1000ms;
+        -moz-animation-delay: 1000ms;
         animation-delay: 1000ms; }
       .choreo .choreo-container .choreo-box:nth-of-type(6) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 1200ms;
+        -moz-animation-delay: 1200ms;
         animation-delay: 1200ms; }
       .choreo .choreo-container .choreo-box:nth-of-type(7) {
         -webkit-animation: fadeIn 300ms linear forwards;
+        -moz-animation: fadeIn 300ms linear forwards;
         animation: fadeIn 300ms linear forwards;
         -webkit-animation-delay: 1400ms;
+        -moz-animation-delay: 1400ms;
         animation-delay: 1400ms; }
 
 @media screen and (max-width: 700px) {
@@ -852,8 +1121,10 @@ h4 {
   .body-container.menu-fade-in h1, .body-container.menu-fade-in h4, .body-container.menu-fade-in .menu .menu-item {
     opacity: 0;
     -webkit-animation: fadeIn 600ms linear forwards;
+    -moz-animation: fadeIn 600ms linear forwards;
     animation: fadeIn 600ms linear forwards;
     -webkit-animation-delay: 3.6s;
+    -moz-animation-delay: 3.6s;
     animation-delay: 3.6s; }
   .body-container .menu {
     color: white;
@@ -961,6 +1232,7 @@ h4 {
   background-repeat: no-repeat; }
   .dancing-image.dance {
     -webkit-animation: dance 3.2s linear forwards;
+    -moz-animation: dance 3.2s linear forwards;
     animation: dance 3.2s linear forwards; }
   .dancing-image:not(.dance) {
     left: 60%;
@@ -974,6 +1246,7 @@ h4 {
   .leftImage.fadeInLate {
     opacity: 0;
     -webkit-animation: fadeIn 500ms forwards 3s;
+    -moz-animation: fadeIn 500ms forwards 3s;
     animation: fadeIn 500ms forwards 3s; }
 
 .nav-opener {
