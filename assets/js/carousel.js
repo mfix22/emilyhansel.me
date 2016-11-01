@@ -33,7 +33,9 @@ $(function() {
 
   $('img').click(function(e) {
     var $this = $(this);
-    if ($this.hasClass('active')) $this.toggleClass('jumbo');
+    if ($this.hasClass('active')) $this.toggleClass('jumbo').css({
+      transform: '',
+    });
   });
 
 
