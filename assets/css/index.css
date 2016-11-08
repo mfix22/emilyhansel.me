@@ -373,9 +373,11 @@ h4 {
   font-family: "Lato", sans-serif;
   font-weight: 100;
   margin-top: 100px; }
+  .media .caption small {
+    font-size: medium; }
 
 .video-container .caption {
-  margin-top: -50px; }
+  margin-top: -120px; }
 
 @-webkit-keyframes fadeIn {
   0% {
