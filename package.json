@@ -6,13 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch sass:assets/css",
-    "pug" : "pug -P --watch .",
-    "jade" : "npm run pug",
-    "serve" : "python -m SimpleHTTPServer 8000",
-    "start" : "concurrently --kill-others \"npm run serve\" \"npm run sass\" \"npm run pug\""
+    "pug": "pug -P --watch .",
+    "jade": "npm run pug",
+    "serve": "python -m SimpleHTTPServer 8000",
+    "start": "concurrently --kill-others \"npm run serve\" \"npm run sass\" \"npm run pug\""
   },
   "keywords": [
     "portfolio"
   ],
-  "author": "Michael Fix"
+  "author": "Michael Fix",
+  "dependencies": {
+    "jstransformer-markdown-it": "^2.0.0"
+  }
 }
