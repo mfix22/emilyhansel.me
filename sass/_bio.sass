@@ -40,11 +40,11 @@
       color: white
       text-align: justify
       opacity: 0
-      @for $i from 1 through 6
+      @for $i from 1 through 7
         &:nth-child(#{$i})
           +fade(300ms)
           +delay(#{$i * 150}ms)
-    .bio-highlight
+    a
       color: $accent
       font-weight: 700
 
