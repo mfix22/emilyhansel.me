@@ -24,4 +24,4 @@ communicate ideas about my choreography via spoken or written language. Dance is
 expressing different things than words can, and I do not attempt to impose the confines of
 language upon dance. Thus, I usually let my work speak for itself."
 
-`-` Emily Hansel
+— Emily Hansel
