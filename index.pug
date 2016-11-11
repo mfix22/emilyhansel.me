@@ -1,5 +1,5 @@
 extends ./pug/_main_template.pug
-block title 
+block title
   title Emily Hansel
   link(rel="stylesheet", href="./assets/css/index.css")
 block content
@@ -9,29 +9,29 @@ block content
     h4 Dancer
     h4 Choreographer
     ul.menu
-      .menu-item 
+      .menu-item
         span.menu-button about
         ul.sub-menu
-          li 
+          li
             a.site-link(href="/bio" alt="bio") bio
-          li 
-            a.site-link(href="assets/resume.pdf" target="_blank" alt="resume") resume
-      .menu-item 
+          li
+            a.site-link(href="/assets/resume.pdf" target="_blank" alt="resume") resume
+      .menu-item
         span.menu-button works
-        ul.sub-menu 
-          li 
+        ul.sub-menu
+          li
             a.site-link(href="/choreography" alt="choreography") choreography
-          li 
-            a.site-link(href="/statement" alt="artist statement") artist statement          
-      .menu-item 
+          li
+            a.site-link(href="/statement" alt="artist statement") artist statement
+      .menu-item
         span.menu-button  media
-        ul.sub-menu 
-          li 
+        ul.sub-menu
+          li
             a.site-link(href="/photo" alt="photo") photo
-          li 
+          li
             a.site-link(href="/video" alt="video") video
-      .menu-item 
-        span.menu-button.contact contact 
+      .menu-item
+        span.menu-button.contact contact
       .dancing-image
   //- img.leftImage(src='assets/img/dancing/5.png')
   .load-images(style="display: none;")
