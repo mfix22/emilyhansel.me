@@ -2,20 +2,21 @@
   "name": "ELH",
   "version": "0.1.0",
   "description": "Portfolio",
-  "main": "me.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --watch sass:assets/css",
     "pug": "pug -P --watch .",
-    "jade": "npm run pug",
     "serve": "python -m SimpleHTTPServer 8000",
-    "start": "concurrently --kill-others \"npm run serve\" \"npm run sass\" \"npm run pug\""
+    "dev": "concurrently --kill-others \"npm run serve\" \"npm run sass\" \"npm run pug\"",
+    "build": "pug && sass",
+    "start": "echo 'Started!'"
   },
   "keywords": [
     "portfolio"
   ],
   "author": "Michael Fix",
   "dependencies": {
-    "jstransformer-markdown-it": "^2.0.0"
+    "jstransformer-markdown-it": "^2.0.0",
+    "jstransformer-marked": "^1.0.2"
   }
 }
