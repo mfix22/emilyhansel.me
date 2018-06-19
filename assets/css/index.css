@@ -710,6 +710,8 @@ h4 {
     .body-container.bio .bio-container a {
       color: #687bbe;
       font-weight: 700; }
+      .body-container.bio .bio-container a:hover {
+        text-decoration: underline; }
 
 .statement-container p:last-of-type {
   text-align: center; }
