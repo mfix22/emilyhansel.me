@@ -1,2 +1,2 @@
-# Emily Lynn Hansel
-Emily Hansel's Portfolio Site
+# Emily Hansel's Portfolio Site
+
