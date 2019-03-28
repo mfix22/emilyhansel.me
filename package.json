@@ -4,11 +4,11 @@
   "description": "Portfolio",
   "main": "index.html",
   "scripts": {
-    "sass": "sass --watch sass:assets/css",
+    "sass": "sass --watch sass:assets/css --style compressed",
     "pug": "pug -P --watch .",
     "serve": "python -m SimpleHTTPServer 8000",
     "dev": "concurrently --kill-others \"npm run serve\" \"npm run sass\" \"npm run pug\"",
-    "build": "pug && sass",
+    "build": "pug . && npm run sass",
     "start": "echo 'Started!'"
   },
   "keywords": [
