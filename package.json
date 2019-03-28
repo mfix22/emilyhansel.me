@@ -6,7 +6,7 @@
   "scripts": {
     "sass": "sass --watch sass:assets/css --style compressed",
     "pug": "pug -P --watch .",
-    "serve": "python -m SimpleHTTPServer 8000",
+    "serve": "serve",
     "dev": "concurrently --kill-others \"npm run serve\" \"npm run sass\" \"npm run pug\"",
     "build": "pug . && npm run sass",
     "start": "echo 'Started!'"
