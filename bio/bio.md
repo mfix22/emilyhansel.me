@@ -1,9 +1,42 @@
-![Emily Hansel](../assets/img/headshot.jpg) Emily Hansel is a San Francisco-based dancer and choreographer. She currently performs with SOULSKIN Dance as well as several independent Bay Area choreographers. Emily recently presented choreography at Little Boxes Theater and she is now creating a new work that will be performed at the Joe Goode Annex in March, 2017.
+# Bio
 
-Emily began her dance training in Rochester, Minnesota at Allegro School of Dance and Minnesota Youth Ballet Academy. She performed with Minneapolis’s Metropolitan Ballet, danced in several projects at the Ritz Theater in Minneapolis, and founded the Summer Choreography Workshop in Rochester. She attended the summer intensives of Alonzo King LINES Ballet, the San Francisco Conservatory of Dance, and American Ballet Theatre. In 2012, at age 17, Emily received the Homer Avila Award from Alonzo King LINES Ballet.
+![Emily Hansel](../assets/img/headshot-2.jpg) Emily Hansel
+is a San Francisco-based dancer and choreographer.
+Originally from Rochester, Minnesota, she received her BFA in Dance
+from the University of South Florida in 2016. Since then, Emily
+has performed with [The Anata Project](http://theanataproject.org/),
+[Mark Foehringer Dance Project](http://mfdpsf.org/),
+[Marika Brussel](https://www.marikabrussel.com/),
+Brannigan Dance Works, SOULSKIN Dance, and as a guest
+with Robert Moses' Kin. Emily's choreography has been presented at the
+Joe Goode Annex, CounterPulse, Little Boxes Theater, SAFEhouse for the Performing Arts,
+LEVYsalon, and various venues in Tampa, West Palm Beach, and Atlanta.
 
-Emily received her BFA in Dance Performance from the [University of South Florida](https://theatreanddance.arts.usf.edu/content/go/dance/), where she established herself as a dynamic performer, choreographer, scholar, and leader. She performed in works by Ohad Naharin, Alonzo King, Robert Moses, Maurice Causey, Bliss Kohlmyer, Paula Nunez, Andrew Carroll, and Jeanne Travers. In 2015, she performed at the International Creative Dance Seminar at the Beijing Dance Academy and travelled to France with USF’s Dance in Paris Program. In 2014, Emily attended the American Dance Festival School where she worked with choreographer Carl Flink and performed in his ADF-commissioned piece, Unkindness of Ravens.
+Emily has trained for 12 years in ballet, modern, jazz, tap, contact improvisation,
+Gaga, and Countertechnique. She began her dance training in Rochester,
+Minnesota at Allegro School of Dance and Minnesota Youth Ballet Academy.
+Emily performed with Minneapolis’s Metropolitan Ballet, danced in
+several projects at the Ritz Theater in Minneapolis, and founded
+the Summer Choreography Workshop in Rochester. She attended the summer
+intensives of Alonzo King LINES Ballet, the San Francisco Conservatory of Dance,
+and American Ballet Theatre. In 2012, Emily received the Homer Avila Award
+from Alonzo King LINES Ballet.
 
-Emily’s choreography has been presented several times in USF’s annual Student Dance Production among other shows at the University and throughout Florida. Her work, No Reason, was selected to be presented at the Southeast ACDA Conference in March 2016. It received rave reviews from the adjudicators for its originality as a “sophisticated fusion of dance theater, improvisation, and contemporary movement.”
+Emily received her BFA in Dance Performance from the
+[University of South Florida](http://theatreanddance.arts.usf.edu/content/go/dance/),
+where she established herself as a dynamic performer, choreographer,
+scholar, and leader. She performed in works by Ohad Naharin, Alonzo King,
+Robert Moses, Katie Faulkner, Maurice Causey, Bliss Kohlmyer, Paula Nunez,
+Andrew Carroll, Jeanne Travers, and Xiao Xiang Rong among others. In 2015,
+she performed at the International Creative Dance Seminar at the Beijing
+Dance Academy and travelled to France with USF’s Dance in Paris Program.
+In 2014, Emily attended the American Dance Festival School where she worked
+with choreographer Carl Flink and performed in his ADF-commissioned piece,
+_Unkindness of Ravens_.
 
-In addition to performance and choreography, Emily continually finds herself drawn to jobs that revolve around administration and operations. She served as the President of USF’s Student Dance Production Board, which involved overseeing every aspect of production for the annual student-run and student-choreographed concert among other managerial and organizational responsibilities. She worked on the TEDxUSF Affairs Team for two years and held various other leadership positions in the USF community. Emily graduated summa cum laude in May 2016 as a King O'Neal Scholar and a Provost's Scholar with a BFA in Dance Performance and an Honors College Degree.
+While in college, Emily served as the President of USF’s Student Dance
+Production Board, worked on the TEDxUSF Affairs Team, and held various
+other leadership positions in the USF community. Emily graduated summa
+cum laude in May 2016 as a King O'Neal Scholar and a Provost's Scholar
+with a BFA in Dance Performance and an Honors College Degree. Following
+graduation, Emily moved to San Francisco to pursue her professional dance career.
