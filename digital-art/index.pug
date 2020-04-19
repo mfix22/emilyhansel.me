@@ -1,17 +1,19 @@
 extends ../pug/_main_template.pug
 block title
-  title Emily Hansel | Artist Statement
+  title Emily Hansel | Digital Art
   link(rel="stylesheet", href="../assets/css/index.css")
 block content
   .home-button
-    a(href="/" alt="Emily") E
+    a(href="/" alt="Emily")
       img(src="../assets/img/dancing/crop/3.png")
   .rightImage
     img(src="../assets/img/insatiable.png")
   .body-container.bio
-    .bio-container.statement-container
-      h1 Artist Statement
-      include:marked ./statement.md
-    include ../pug/_footer.pug
+    .bio-container.digital-art-container
+      h1 Digital Art
+      br 
+      br
+      br
+      p.no-animation Coming soon
 block scripts
   script sessionStorage.seen = true;
