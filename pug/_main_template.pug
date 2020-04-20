@@ -37,10 +37,10 @@ html
     .contact-form
       span x
       form(method="POST", action="https://formspree.io/emilylhansel@gmail.com")
-        p Fill out the form below to contact me
-        input(tabindex="1"  type="text" name="name" placeholder="Name")
-        input(tabindex="2"  type="email" name="_replyto" placeholder="Email")
-        textarea(tabindex="3"  name="message" placeholder="Type your message here")
+        p Fill out the form below to contact Emily
+        input(tabindex="1"  type="text" name="name" placeholder="Name" required)
+        input(tabindex="2"  type="email" name="_replyto" placeholder="Email" required)
+        textarea(tabindex="3"  name="message" placeholder="Type your message here" required)
         input.email-send(tabindex="4"  type="submit" value="Send")
         //- input(type="hidden" name="_next" value="//emilyhansel.me/sent")
     block content

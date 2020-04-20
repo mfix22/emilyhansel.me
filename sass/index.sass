@@ -23,7 +23,7 @@
   text-align: center
   color: white
   font-size: 12px
-  font-family: monospace
+  font-family: $font-mono
   text-transform: uppercase
 .home-button
   color: white
@@ -114,30 +114,30 @@
   z-index: 2
   position: fixed
   display: none
-  height: 280px
   width: 550px
   max-width: 90%
-  padding: 10px 10px
+  padding: 12px 12px 32px
   left: 50%
   top: 50%
   margin-top: -140px
   transform: translateX(-50%)
-  font-family: monospace
+  font-family: $font-mono
   background-color: white
   transform-origin: bottom left
   form
     text-align: center
   p
     color: black
-    margin: 0px auto 5px
+    margin: 0px 0px 12px 28px
     letter-spacing: .2px
+    text-align: left
   a
     color: $form-color
     &:hover
       color: darken($form-color, 10%)
   span
     position: absolute
-    top: 0
+    top: 2px
     right: 8px
     cursor: pointer
   input, textarea

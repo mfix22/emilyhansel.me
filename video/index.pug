@@ -9,20 +9,28 @@ block content
     .home-button
       a(href="/" alt="Emily")
         img(src="../assets/img/dancing/crop/5.png")
-    h1#photo Video
-    .media-container.video-container
-      .prev &lt;
-      .next &gt;
-      .carousel
-        .card(data-caption="<i>PHANTOM</i><small><br>2019<br>Directed, choreographed, and performed by Emily Hansel</small>")
-          iframe.visual(src="https://www.youtube.com/embed/uJ4H6y7Gza8?showinfo=0" frameborder="0" allowfullscreen)
-        .card(data-caption="<i>(dis)connect</i><small><br>2017<br>Choreographed by Dylan Elmore</small>")
-          iframe(src="https://www.youtube.com/embed/K7ND7d_9pXU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen)
-        .card(data-caption="<i>Unkindness of Ravens</i><small><br>2014<br>Choreographed by Carl Flink</small>")
-          iframe(src="https://www.youtube.com/embed/sANlYpQEVgo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen)
+    .video-container
+      h1 Video
+      .card
+        iframe.visual(src="https://www.youtube.com/embed/uJ4H6y7Gza8?showinfo=0" frameborder="0" allowfullscreen)
       .caption
+        i PHANTOM (2019)
+        br
+        small Directed, choreographed, and performed by Emily Hansel
+      .card
+        iframe(src="https://www.youtube.com/embed/K7ND7d_9pXU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen)
+      .caption
+        i (dis)connect (2017)
+        br
+        small Choreographed by Dylan Elmore
+      .card
+        iframe(src="https://www.youtube.com/embed/sANlYpQEVgo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen)
+      .caption
+        i Unkindness of Ravens (2014)
+        br
+        small Choreographed by Carl Flink
+
 block scripts
   script(src="https://code.jquery.com/jquery-3.3.1.min.js")
   script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js")
-  script(src="../assets/js/carousel.js")
   script sessionStorage.seen = true;
