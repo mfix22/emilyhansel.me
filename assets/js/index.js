@@ -10,7 +10,11 @@ $(function () {
       .addClass('ion-navicon')
     $('.contact-form').fadeIn(300)
   })
-  $('form input:not([type="submit"]), form textarea').click(function (e) {
+  $('.contact-form > span').click(function (e) {
+    $('.contact-form').fadeOut(300)
+    e.stopPropagation()
+  })
+  $('.contact-form').click(function (e) {
     e.stopPropagation()
     return false
   })
