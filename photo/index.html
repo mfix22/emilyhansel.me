@@ -44,11 +44,19 @@
       <div class="home-button"><a href="/" alt="Emily"><img src="../assets/img/dancing/crop/4.png"></a></div>
       <h1 id="photo">Photo</h1>
       <div class="media-container photo-container">
-        <div class="prev">&lt;</div>
-        <div class="next">&gt;</div>
-        <div class="carousel"><img src="../assets/img/dancing/carousel/11.jpg" height="200px" data-caption="&lt;small&gt;2018&lt;br&gt;Photograph by Stephen Texeira&lt;/small&gt;"><img src="../assets/img/dancing/carousel/10.jpg" height="200px" data-caption="&lt;small&gt;2018&lt;br&gt;Photograph by Stephen Texeira&lt;/small&gt;"><img src="../assets/img/dancing/carousel/12.jpg" height="200px" data-caption="&lt;i&gt;Point of Dissolve&lt;/i&gt;&lt;br&gt;&lt;small&gt;2017&lt;br&gt;Photograph for The Anata Project courtesy of Meets the Eye Studios&lt;/small&gt;"><img src="../assets/img/dancing/carousel/2.jpg" height="200px" data-caption="&lt;i&gt;Threshold&lt;/i&gt;&lt;small&gt;&lt;br&gt;2015&lt;br&gt;Choreography by Andrew Carroll&lt;br&gt;Photograph by Kyle Scharf&lt;/small&gt;"><img src="../assets/img/dancing/carousel/4.jpg" height="200px" data-caption="&lt;i&gt;Cause&lt;/i&gt;&lt;small&gt;&lt;br&gt;2016&lt;br&gt;Choreography by Robert Moses&lt;br&gt;Photograph by Kyle Scharf&lt;/small&gt;"><img src="../assets/img/dancing/carousel/5.jpg" height="200px" data-caption="&lt;i&gt;Fingerprints&lt;/i&gt;&lt;small&gt;&lt;br&gt;2016&lt;br&gt;Choreography by Paula Nunez&lt;br&gt;Photograph by Kyle Scharf&lt;/small&gt;"><img src="../assets/img/dancing/carousel/7.jpg" height="200px" data-caption="&lt;i&gt;KOTO&lt;/i&gt;&lt;small&gt;&lt;br&gt;2015&lt;br&gt;Choreography by Alonzo King&lt;br&gt;Photrograph by Kyle Scharf&lt;/small&gt;"><img src="../assets/img/dancing/carousel/9.jpg" height="200px" data-caption="&lt;i&gt;3:00am&lt;/i&gt;&lt;small&gt;&lt;br&gt;2014/2016&lt;br&gt;Choreography by Andrew Carroll&lt;br&gt;Photograph by Candace Kaw/Soho Images&lt;/small&gt;"><img src="../assets/img/dancing/carousel/1.jpg" height="200px" data-caption="&lt;small&gt;2016&lt;br&gt;Photograph by Jason Lam&lt;/small&gt;"></div>
-        <div class="caption"></div>
+        <div class="grid js-masonry" data-masonry="{ &quot;itemSelector&quot;: &quot;.grid-item&quot;, &quot;columnWidth&quot;: 266 }">
+          <div class="grid-item"><img src="../assets/img/dancing/carousel/11.jpg" data-action="zoom" data-caption="2018 | Photograph by Stephen Texeira"></div>
+          <div class="grid-item"><img src="../assets/img/dancing/carousel/10.jpg" data-action="zoom" data-caption="2018 | Photograph by Stephen Texeira"></div>
+          <div class="grid-item"><img src="../assets/img/dancing/carousel/12.jpg" data-action="zoom" data-caption="&lt;i&gt;Point of Dissolve&lt;/i&gt; | 2017 | Photograph for The Anata Project courtesy of Meets the Eye Studios"></div>
+          <div class="grid-item"><img src="../assets/img/dancing/carousel/2.jpg" data-action="zoom" data-caption="&lt;i&gt;Threshold&lt;/i&gt; | 2015 | Choreography by Andrew Carroll | Photograph by Kyle Scharf"></div>
+          <div class="grid-item"><img src="../assets/img/dancing/carousel/4.jpg" data-action="zoom" data-caption="&lt;i&gt;Cause&lt;/i&gt; | 2016 | Choreography by Robert Moses | Photograph by Kyle Scharf"></div>
+          <div class="grid-item"><img src="../assets/img/dancing/carousel/5.jpg" data-action="zoom" data-caption="&lt;i&gt;Fingerprints&lt;/i&gt; | 2016 | Choreography by Paula Nunez | Photograph by Kyle Scharf"></div>
+          <div class="grid-item"><img src="../assets/img/dancing/carousel/7.jpg" data-action="zoom" data-caption="&lt;i&gt;KOTO&lt;/i&gt; | 2015 | Choreography by Alonzo King | Photrograph by Kyle Scharf"></div>
+          <div class="grid-item"><img src="../assets/img/dancing/carousel/9.jpg" data-action="zoom" data-caption="&lt;i&gt;3:00am&lt;/i&gt; | 2014/2016 | Choreography by Andrew Carroll | Photograph by Candace Kaw/Soho Images"></div>
+          <div class="grid-item"><img src="../assets/img/dancing/carousel/1.jpg" data-action="zoom" data-caption="2016 | Photograph by Jason Lam"></div>
+        </div>
       </div>
+      <div class="caption"></div>
     </div>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -64,6 +72,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="../assets/js/carousel.js"></script>
+    <script src="../assets/js/zoom.js"></script>
     <script>sessionStorage.seen = true;</script>
   </body>
 </html>
