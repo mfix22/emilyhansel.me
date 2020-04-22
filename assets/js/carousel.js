@@ -1,21 +1,19 @@
 $(function () {
-  $('img').click(function (e) {
-    var $this = $(this)
-    if (!$this.hasClass('active')) {
-      e.stopPropagation()
-      $this.addClass('active')
-      $('.caption').html($this.data('caption'))
-    } else {
-      $this.removeClass('active')
-      $('.caption').html('')
-    }
+  $('img').click(function () {
+    $('.full-screen-caption').html($(this).data('caption'))
   })
-  $('body').click(function (e) {
-    if ($('img.active').length) {
-      $('img.active').removeClass('active')
-      $('.caption').html('')
-    }
-  })
+  // $('body').click(function (e) {
+  //   if ($('img.active').length) {
+  //     $('img.active').removeClass('active')
+  //     $('.caption').html('')
+  //   }
+  // })
+  // $('body').click(function (e) {
+  //   if ($('img.active').length) {
+  //     $('img.active').removeClass('active')
+  //     $('.caption').html('')
+  //   }
+  // })
 })
 //   var start = 90
 //   var images = $('.carousel').children()

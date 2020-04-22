@@ -1,7 +1,31 @@
 @import fonts
+
+.full-screen-caption
+  opacity: 0
+  position: fixed
+  bottom: 12px
+  width: 100%
+  z-index: 999
+  text-align: center
+  color: white
+  font-size: medium
+  font-family: $font-lato
+  font-weight: 100
+  margin-top: 100px
+  transition: all 200ms ease-in
+
+  i
+    margin-right: 2px
+
+body.zoom-overlay-open
+  .full-screen-caption
+    display: block
+    opacity: 1
+
 .media
   .home-button
-    left: 5px
+    left: 6px
+
   h1
     font-size: 40px
     font-weight: 100
@@ -10,35 +34,11 @@
     margin: 0 auto
     padding: 40px 0px 20px
     text-align: center
-  .media-container
+
+  .photo-container
     display: flex
     flex-wrap: wrap
     justify-content: space-around
-    .card
-      width: 350px
-      height: 200px
-      iframe
-        width: 100%
-        height: 100%
-    .prev, .next
-      position: absolute
-      top: 50%
-      height: 50px
-      margin-top: -25px
-      font-size: 60px
-      font-family: $font-lato
-      color: white
-      cursor: pointer
-    .prev
-      position: fixed
-      z-index: 999
-      float: left
-      left: 5%
-    .next
-      position: fixed
-      z-index: 999
-      float: right
-      right: 5%
 
   .grid
     width: 800px
@@ -49,50 +49,6 @@
 
     img
       width: 100%
-      height: 156px
-
-  .photo-container
-    .caption
-      position: fixed
-      bottom: 12px
-      width: 100%
-      z-index: 999
-      text-align: center
-      color: white
-      font-size: medium
-      font-family: $font-lato
-      font-weight: 100
-      margin-top: 100px
-
-      i
-        margin-right: 2px
-
-  .carousel
-    width: 100%
-    height: 42vh
-    position: relative
-    z-index: 1
-
-    img
-      height: 200px
-      -webkit-transition: height 300ms ease-in-out
-      transition: height 300ms ease-in-out
-
-    img, .card
-      border: 4px solid white
-      position: absolute
-      display: none
-      top: 50%
-      left: 50%
-      transform: translate3d(-50%, -50%, 0px) scale(1.5)
-      transform-origin: top center
-
-      &.active
-        cursor: -webkit-zoom-in
-        cursor: zoom-in
-        &.jumbo
-          height: 350px
-          cursor: zoom-out
 
 .video-container
   position: relative
@@ -113,14 +69,15 @@
     width: 100%
     height: 28vw
 
-  .caption
-    color: white
-    margin: 16px 0 64px
-
   iframe
     width: 100%
     height: 100%
 
+  .caption
+    color: white
+    margin: 16px 0 64px
+
+// Zoom.css
 img[data-action="zoom"]
   cursor: pointer
   cursor: -webkit-zoom-in
@@ -129,7 +86,7 @@ img[data-action="zoom"]
 .zoom-img,
 .zoom-img-wrap
   position: relative
-  z-index: 666
+  z-index: 700
   -webkit-transition: all 300ms
   -o-transition: all 300ms
   transition: all 300ms
