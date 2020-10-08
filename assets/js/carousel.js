@@ -5,15 +5,15 @@ $(function () {
 
   /**
    * Relayout masonry after every image load
-   *
-   * IDEA: use imagesloaded as demonstrated:
-   *  - https://masonry.desandro.com/layout.html
-   *  - https://imagesloaded.desandro.com/
    */
-  const grid = $('.grid')
-  grid.find('img').each(() => {
-    $(this).on('load', () => {
-      grid.masonry('layout')
-    })
+  const grid = $('.grid').masonry({
+    initlayout: false,
+    itemSelector: '.grid-item',
+    columnWidth: 316,
+    fitWidth: true,
+  })
+  grid.imagesLoaded().progress(function () {
+    console.log('lksjdfslkd')
+    grid.masonry('layout')
   })
 })
