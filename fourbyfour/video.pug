@@ -1,0 +1,32 @@
+extends ../pug/_main_template.pug
+block title
+  title Emily Hansel | Four by Four | Ask
+  link(rel="stylesheet", href="../assets/css/index.css?v=2")
+block content
+  .body-container.bio
+    .bio-container.no-animation
+      .heading 
+        h1 Four by Four — Video
+
+      p A film version of <i>Four by Four</i> will be available on-demand July 1-31, 2022. This video will include open captions in English. You will be emailed instructions for accessing the film on or before July 1, 2022.
+
+      p This film is available at a variety of price points and patrons are encouraged to consider their economic status when deciding which price to pay.
+
+      p How much would you like to pay to access the <i>Four by Four</i> film?
+
+      ul 
+        li 
+          a(href="" target="_blank") $0  
+        li 
+          a(href="" target="_blank") $5
+        li 
+          a(href="" target="_blank") $10
+        li 
+          a(href="" target="_blank") $15
+        li 
+          a(href="" target="_blank") $20
+        li 
+          a(href="" target="_blank") $25
+
+block scripts
+  script sessionStorage.seen = true;

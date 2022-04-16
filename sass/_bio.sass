@@ -28,12 +28,29 @@
       margin: 0 auto 32px
       padding: 5px 0px
 
+    h2
+      color: white
+      font-size: 32px
+      font-weight: 100
+      text-transform: uppercase
+      margin: 20px auto 16px
+      padding: 5px 0px
+
+    .heading
+      h1, h2, p, ul
+        text-align: center
+      li
+        list-style: none
+      ul
+        margin: 0
+
     img
       float: left
       margin: 0px 15px 0px 0px
       border-radius: 4px
     p
       font-size: 16px
+      font-weight: 300
       line-height: 22px
       display: inline-block
       word-wrap: break-word
@@ -42,12 +59,6 @@
       width: 100%
       margin: 0 0 16px
 
-      &:not(.no-animation)
-        opacity: 0
-        @for $i from 1 through 7
-          &:nth-child(#{$i})
-            +fade(300ms)
-            +delay(#{$i * 150}ms)
     a
       color: $accent
       font-weight: 700
@@ -55,11 +66,32 @@
       &:hover
         text-decoration: underline
 
+    button
+      appearance: none
+      cursor: pointer
+      text-transform: uppercase
+      // color: white
+      background: white // $link-color
+      border-radius: 4px
+      border: none
+      padding: 6px 8px
+      font-size: 16px
+      margin: 32px auto 32px
+      &:hover
+        background: rgba(255, 255, 255, 0.9)
+
     ul
       color: white
       text-align: left
       list-style: initial
       margin: 0 0 16px 16px
+
+  .bio-container:not(.no-animation) p
+    opacity: 0
+    @for $i from 1 through 7
+      &:nth-child(#{$i})
+        +fade(300ms)
+        +delay(#{$i * 150}ms)
 
 .statement-container p:last-of-type
   text-align: center
