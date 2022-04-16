@@ -4,29 +4,29 @@ block title
   link(rel="stylesheet", href="../assets/css/index.css?v=2")
 block content
   .body-container.bio
+    h1
+      a(href="/fourbyfour")
+        img(class="hero" src="../../assets/img/fourbyfour/title.png" alt="Four by Four" width="96%")
     .bio-container.no-animation
-      .heading 
-        h1 Four by Four — Video
-
       p A film version of <i>Four by Four</i> will be available on-demand July 1-31, 2022. This video will include open captions in English. You will be emailed instructions for accessing the film on or before July 1, 2022.
 
       p This film is available at a variety of price points and patrons are encouraged to consider their economic status when deciding which price to pay.
 
       p How much would you like to pay to access the <i>Four by Four</i> film?
 
-      ul 
-        li 
-          a(href="" target="_blank") $0  
-        li 
-          a(href="" target="_blank") $5
-        li 
-          a(href="" target="_blank") $10
-        li 
-          a(href="" target="_blank") $15
-        li 
-          a(href="" target="_blank") $20
-        li 
-          a(href="" target="_blank") $25
+      ul.button-group
+        a(href="" target="_blank") 
+          button $0  
+        a(href="" target="_blank")
+          button  $5
+        a(href="" target="_blank")
+          button $10
+        a(href="" target="_blank")
+          button  $15
+        a(href="" target="_blank")
+          button $20
+        a(href="" target="_blank")
+          button $25
 
 block scripts
   script sessionStorage.seen = true;

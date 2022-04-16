@@ -1,0 +1,32 @@
+extends ../pug/_main_template.pug
+block title
+  title Emily Hansel | Four by Four | Ask
+  link(rel="stylesheet", href="../assets/css/index.css?v=2")
+block content
+  .body-container.bio
+    h1
+      a(href="/fourbyfour")
+        img(class="hero" src="../../assets/img/fourbyfour/title.png" alt="Four by Four" width="96%")
+    .bio-container.no-animation
+      p An English audio description of the <i>Four by Four</i> film will be available on-demand July 1-31, 2022. You will be emailed instructions for accessing the audio description on or before July 1, 2022.
+
+      p This audio description is available at a variety of price points and patrons are encouraged to consider their economic status when deciding which price to pay.
+
+      p How much would you like to pay to access the <i>Four by Four</i> audio description?
+
+      ul.button-group
+        a(href="" target="_blank") 
+          button(tabindex="-1") $0  
+        a(href="" target="_blank")
+          button(tabindex="-1")  $5
+        a(href="" target="_blank")
+          button(tabindex="-1") $10
+        a(href="" target="_blank")
+          button(tabindex="-1")  $15
+        a(href="" target="_blank")
+          button(tabindex="-1") $20
+        a(href="" target="_blank")
+          button(tabindex="-1") $25
+
+block scripts
+  script sessionStorage.seen = true;
