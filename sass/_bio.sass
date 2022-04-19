@@ -124,6 +124,9 @@
       &:nth-child(#{$i})
         +fade(300ms)
         +delay(#{$i * 150}ms)
+    &:nth-child(n + 8)
+      +fade(300ms)
+      +delay(1200ms)
 
 .statement-container p:last-of-type
   text-align: center
