@@ -1,0 +1,61 @@
+extends ../pug/_main_template.pug
+block title
+  title Emily Hansel | Four by Four | Kids
+  link(rel="stylesheet", href="../assets/css/index.css?v=2")
+block content
+  .body-container.bio
+    h1.hero
+      a(href="/fourbyfour")
+        img(src="../../assets/img/fourbyfour/kids/title.png" alt="Theater takeover workshop with teacher Emily" width="96%")
+    .bio-container.no-animation
+      p
+        b Saturday, May 28th at 3:00pm
+        br
+        | Followed by a 4:00 performance of Emily’s new production, 
+        i <a href="/fourbyfour">Four by Four</a>
+
+      p
+        b For kids ages 5-12 
+        | (who are fully vaccinated)
+
+      p
+        b At <a href="https://goo.gl/maps/Yi3HGVvcA7W7RpcL6" target="_blank">ODC Theater</a> 
+        | in San Francisco’s Mission District
+
+      p Come at 3:00pm to get a special backstage tour from Emily, meet the performers, learn about the different elements of the theater, dance on the stage, and even try out some choreography from the show!
+
+      p 
+        | If you’d like, stick around for the 4:00pm performance of 
+        i <a href="/fourbyfour">Four by Four</a>
+        | , produced and choreographed by Emily. It’s a kid-friendly show with a runtime of 1 hour, consisting of 3 sections that are each 15-20 minutes long, with an intermission between each.
+      
+      p 
+        b The workshop is FREE
+        | . Tickets to the performance of 
+        i Four by Four
+        | are available on a sliding scale, suggested price is $15 for a child’s ticket.
+
+      p 
+        b RSVP is required. 
+        | Please RSVP early (this event will be capped at 16 participants), and no later than May 27th.
+
+      p 
+        .button-group
+          a(href="https://docs.google.com/forms/d/e/1FAIpQLSdNnwVSXSXs7-iyGaaoKuNJ8m3Sk6qnH6V4mx2c2Wka8tQTEA/viewform?usp=sf_link" target="_blank") 
+            button.yellow RSVP for the workshop
+          a(href="https://odc.dance/fourbyfour" target="_blank") 
+            button.yellow Get tickets to <i>Four by Four</i>
+      
+      br
+      br
+
+      p Please don’t hesitate to reach out to Emily at <a href="mailto:emily@emilyhansel.me" target="_blank">emily@emilyhansel.me</a> with any questions!
+
+      br
+      br
+      p 
+        img(src='../../assets/img/fourbyfour/kids/tiles.png' width="240px")
+
+
+block scripts
+  script sessionStorage.seen = true;
