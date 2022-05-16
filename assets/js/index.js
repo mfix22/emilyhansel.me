@@ -14,13 +14,13 @@ $(function () {
     $('.contact-form').fadeOut(300)
     e.stopPropagation()
   })
-  $('.contact-form').click(function (e) {
-    e.stopPropagation()
-    return false
-  })
-  $('body').click(function () {
-    $('.contact-form').fadeOut(300)
-  })
+  // $('.contact-form').click(function (e) {
+  //   e.stopPropagation()
+  //   return false
+  // })
+  // $('body').click(function () {
+  //   $('.contact-form').fadeOut(300)
+  // })
   $(document).keyup(function (e) {
     if (e.keyCode === 27) $('.contact-form').fadeOut(200)
   })
