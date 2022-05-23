@@ -212,12 +212,13 @@
   position: fixed
   height: 100%
   width: 25%
+  left: -25%
   background-color: white
-  transform: translateX(-100%)
+  transform: translateX(0%)
   -webkit-transition: transform 300ms ease-out
   transition: transform 300ms ease-out
   &.active
-    transform: translateX(0px)
+    transform: translateX(100%)
 
   .nav-items
     font-size: 24px
@@ -240,6 +241,7 @@
 @media screen and (max-width: 700px)
   .mobile-nav
     width: 60%
+    left: -60%
 @media screen and (min-width: 500px)
   .mobile-nav, .nav-items, .nav-opener
     display: none
