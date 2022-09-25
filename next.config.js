@@ -15,10 +15,6 @@ module.exports = withMarkdoc()({
         destination: '/choreography/index.html',
       },
       {
-        source: '/digital-art',
-        destination: '/digital-art/index.html',
-      },
-      {
         source: '/fourbyfour',
         destination: '/fourbyfour/index.html',
       },
