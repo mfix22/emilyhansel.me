@@ -13,7 +13,6 @@ $(function () {
     fitWidth: true,
   })
   grid.imagesLoaded().progress(function () {
-    console.log('lksjdfslkd')
     grid.masonry('layout')
   })
 })
