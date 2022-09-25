@@ -1,5 +1,17 @@
 @import animations, palette
 
+button
+  appearance: none
+  cursor: pointer
+  text-transform: uppercase
+  background: white
+  border-radius: 4px
+  border: none
+  padding: 6px 8px
+  font-size: 16px
+  &:hover
+    opacity: 0.8
+
 .rightImage
   position: fixed
   z-index: -1
@@ -82,17 +94,7 @@
         text-decoration: underline
 
     button
-      appearance: none
-      cursor: pointer
-      text-transform: uppercase
-      background: white
-      border-radius: 4px
-      border: none
-      padding: 6px 8px
-      font-size: 16px
       margin: 32px auto 32px
-      &:hover
-        opacity: 0.8
 
     .button-group
       margin: 0
