@@ -1,0 +1,56 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="description" content="Emily Hansel - Dancer, Choreographer - San Francisco, CA. Notable works include untitled_37.txt, No Reason, Vertical Words, Not Empty, Insatiable, and Scream ")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="shortcut icon", href="/assets/img/favicon2.ico")
+    link(rel="icon", href="/assets/img/favicon2.ico", type="image/x-icon")
+    meta(property="og:title" content="Emily Hansel")
+    meta(property="og:description" content="dancer | choreographer")
+    meta(property="og:type" content="website")
+    meta(property="og:url" content="https://emilyhansel.me")
+    meta(property="og:image" content="https://emilyhansel.me/assets/img/facebook.PNG")
+    block title
+  body
+    .nav-opener
+      ion-icon(name="menu-outline")
+    .mobile-nav
+      .nav-items
+        .nav-item
+          a.site-link(href="/" alt="home") home
+        .nav-item
+          a.site-link(href="/bio" alt="bio") bio
+        .nav-item
+          a.site-link(href="assets/resume.pdf?v=2" target="_blank" alt="resume") resume
+        .nav-item
+          a.site-link(href="/choreography" alt="choreography") choreography
+        .nav-item
+          a.site-link(href="/fourbyfour" alt="Four by Four art") Four by Four
+        .nav-item
+          a.site-link(href="/photos" alt="photos") photos
+        .nav-item
+          a.site-link(href="/videos" alt="videos") videos
+        .nav-item
+          span.contact contact
+    .contact-form
+      span x
+      form(method="POST", action="https://formspree.io/emilylhansel@gmail.com")
+        p Fill out the form below to contact Emily
+        input(type="text" name="name" placeholder="Name" required)
+        input(type="email" name="_replyto" placeholder="Email" required)
+        textarea(name="message" placeholder="Type your message here" required)
+        input.email-send(type="submit" value="Send")
+        //- input(type="hidden" name="_next" value="//emilyhansel.me/sent")
+    block content
+    script.
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-83432320-1', 'auto');
+      ga('send', 'pageview');
+    script(src="https://code.jquery.com/jquery-3.3.1.min.js")
+    script(src="/assets/js/index.js?v=2")
+    block scripts
