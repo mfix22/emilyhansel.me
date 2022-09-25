@@ -158,16 +158,6 @@ button
         &:hover:nth-child(4) img, &:focus-within:nth-child(4) img
           transform: translateY(-32px) rotate(3deg)
 
-  .bio-container:not(.no-animation) p
-    opacity: 0
-    @for $i from 1 through 7
-      &:nth-child(#{$i})
-        +fade(300ms)
-        +delay(#{$i * 150}ms)
-    &:nth-child(n + 8)
-      +fade(300ms)
-      +delay(1200ms)
-
 .statement-container p:last-of-type
   text-align: center
 
