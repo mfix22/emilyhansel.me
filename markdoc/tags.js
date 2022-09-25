@@ -1,7 +1,7 @@
 import { Tag } from '@markdoc/markdoc'
 import { Footer } from '../components/Footer'
 import { List } from '../components/List'
-import { Image } from '../components/image'
+import { Image } from '../components/Image'
 
 export { comment } from '@markdoc/next.js/tags'
 
