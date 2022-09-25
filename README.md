@@ -1,2 +1,1 @@
-# Emily Hansel's Portfolio Site
-
+# Emily Hansel's portfolio

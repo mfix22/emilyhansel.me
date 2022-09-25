@@ -1,22 +1,36 @@
 {
-  "name": "ELH",
-  "version": "0.1.0",
-  "description": "Portfolio",
-  "main": "index.html",
   "scripts": {
+    "build": "next build",
+    "export": "next export",
+    "dev": "next",
+    "start": "next start",
+    "prettier": "prettier --no-semi --single-quote --write **/*.{js,json}",
+    "deploy": "next build && next export && touch out/.nojekyll && git add out/",
+    "prod": "git subtree push --prefix out origin gh-pages",
     "sass": "sass --watch sass:assets/css --style compressed",
     "pug": "pug -P --watch .",
     "serve": "serve",
-    "dev": "concurrently --kill-others \"npm run serve\" \"npm run sass\" \"npm run pug\"",
-    "build": "pug . && npm run sass",
-    "start": "echo 'Started!'"
+    "dev:old": "concurrently --kill-others \"npm run serve\" \"npm run sass\" \"npm run pug\"",
+    "build:old": "pug . && npm run sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mfix22/me.git"
   },
   "keywords": [
     "portfolio"
   ],
   "author": "Michael Fix",
+  "license": "MIT",
   "dependencies": {
-    "jstransformer-markdown-it": "^2.1.0",
-    "jstransformer-marked": "^1.0.2"
+    "@markdoc/markdoc": "^0.1.10",
+    "@markdoc/next.js": "^0.1.8",
+    "next": "^12.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "visualint": "^0.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
   }
 }
