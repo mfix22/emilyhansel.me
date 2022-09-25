@@ -46,11 +46,8 @@
       justify-content: space-between
       align-items: center
       margin-top: 30px
-      // margin-bottom: 50px
       padding-bottom: 40px
       padding-top: 30px
-      // border-bottom: 4px solid white
-      opacity: 0
 
       *.left
         text-align: left
@@ -68,11 +65,6 @@
       &:nth-last-of-type(2n+1)
         flex-direction: row-reverse
         text-align: start
-
-      @for $i from 1 through 15
-        &:nth-of-type(#{$i})
-          +fade(300ms)
-          +delay(#{$i * 200}ms)
 
 @media screen and (max-width: 700px)
   .choreo .choreo-container .choreo-box
