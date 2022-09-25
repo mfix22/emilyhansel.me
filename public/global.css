@@ -154,13 +154,14 @@ body {
 
 main {
   /* padding: 48px 0 32px 64px; */
+  margin: 0 auto;
 }
 
 article {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   /* max-width: 680px;  */
-  max-width: 60%; 
+  /* max-width: 60%;  */
   margin: 0 auto;
   margin-top: 3rem;
 }

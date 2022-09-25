@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
         <nav>
           <Link href="/">{images[i.current]}</Link>
         </nav>
-        <main>
+        <main style={{ maxWidth: pageProps.markdoc.frontmatter.maxWidth || '60%' }}>
           <Component {...pageProps} />
         </main>
       </>
