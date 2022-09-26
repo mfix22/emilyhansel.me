@@ -5,6 +5,31 @@ maxWidth: 50vw
 
 # {% $markdoc.frontmatter.title %}
 
+{% video src="https://www.youtube.com/embed/uje65hHJcQ4" %}
+_Lyra (2021)_ | Trailer  
+**Presented by Post:ballet and The Living Earth Show**
+{% /video %}
+
+{% video src="https://www.youtube.com/embed/nIMAMlWp17g" %}
+_Swan Lake (2021)_  
+**Choreographed by Robin Dekkers for Post:ballet**
+{% /video %}
+
+{% video src="https://www.youtube.com/embed/uGBy0RYxghE" %}
+_Eight Whiskus (2021)_  
+**Choreographed by Robin Dekkers and Emily Hansel**
+{% /video %}
+
+{% video src="https://www.youtube.com/embed/Ru5H3LHiU1M" %}
+_Waltz of the Snowflakes (2020)_  
+**Choreographed by Robin Dekkers for Post:ballet**
+{% /video %}
+
+{% video src="https://embed.vhx.tv/videos/1375479" %}
+_Playing Changes: ‘fly, into the light…’ (2020)_  
+**Choreographed by Robin Dekkers**
+{% /video %}
+
 {% video src="https://www.youtube.com/embed/-s8Xh4VSxpA" %}
 _Emily Hansel Dance Reel_
 {% /video %}

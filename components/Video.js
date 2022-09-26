@@ -22,12 +22,10 @@ export function Video({ children, ...props }) {
           }
           figcaption {
             margin-top: 1rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
           }
           figcaption :global(p) {
             display: block;
+            text-align: center;
           }
           figcaption :global(em) {
             font-style: italic;
