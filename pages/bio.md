@@ -4,7 +4,7 @@ title: Bio
 
 # {% $markdoc.frontmatter.title %}
 
-{% image className="profile" src="/assets/img/headshot-2.jpg" alt="Emily Hansel" width=150 height=150 /%}
+{% image className="profile" src="/assets/img/headshot-2.jpg" alt="Emily Hansel" width=166 height=166 /%}
 
 Emily Hansel (she/they) is a San Francisco-based dancer, choreographer, dance teacher, arts administrator, and artist advocate.
 
