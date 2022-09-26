@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 
 import { Link } from '../components/Link'
 import { Image } from '../components/Image'
@@ -15,7 +16,15 @@ const images = [
 ]
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter()
   const i = React.useRef(Math.floor(Math.random() * 5))
+
+  React.useEffect(() => {
+    if (router.pathname !== '/') {
+      sessionStorage.seen = true
+    }
+  }, [router.pathname])
+
   let children
   if (pageProps.markdoc) {
     children = (
