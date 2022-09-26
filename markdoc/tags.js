@@ -7,14 +7,18 @@ import { Video } from '../components/Video'
 
 export { comment } from '@markdoc/next.js/tags'
 
+function findFigure(n) {
+  return n.name === 'Image' || n.name === 'Video'
+}
+
 export const figure = {
   render: Figure,
   attributes: {},
   transform(node, config) {
     let children = node.transformChildren(config)
 
-    const image = children.find((child) => child.name === 'Image')
-    children = children.filter((child) => child.name !== 'Image')
+    const image = children.find(findFigure)
+    children = children.filter((c) => !findFigure(c))
 
     return new Tag(this.render, { image }, children)
   },

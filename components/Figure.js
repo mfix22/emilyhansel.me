@@ -31,8 +31,19 @@ export function Figure({ children, image }) {
           }
 
           .figure :global(img) {
+            display: block;
             border: 4px solid #fff;
             user-select: none;
+          }
+
+          .figure :global(img),
+          .figure :global(.video) {
+            margin: 0 0 0 auto;
+          }
+
+          .figure:nth-last-of-type(2n) :global(img),
+          .figure:nth-last-of-type(2n) :global(.video) {
+            margin: 0 auto 0 0;
           }
 
           .figure :global(p) {
