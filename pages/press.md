@@ -24,7 +24,7 @@ Life as a Modern Dancer
 Interview with Sima Belmar for Dance Cast  
 July 19, 2022
 
-{% image src="/assets/img/press/3.jpg" alt="" width=320 height=180 /%}
+{% image src="/assets/img/press/3.jpg" alt="" width=400 height=225 /%}
 
 {% /figure %}
 
@@ -71,7 +71,7 @@ By Sofia Gonzalez-Rodriguez
 April 5, 2021  
 The Stanford Daily
 
-{% image src="/assets/img/dancing/masonry/18.jpg" alt="" width=320 height=320 /%}
+{% image src="/assets/img/dancing/masonry/18.jpg" alt="" width=400 height=400 /%}
 
 {% /figure %}
 
@@ -83,7 +83,7 @@ By Jill Randall
 April 5, 2022  
 Life as a Modern Dancer
 
-{% image src="/assets/img/press/4.jpg" alt="" width=320 height=480 /%}
+{% image src="/assets/img/press/4.jpg" alt="" width=400 height=600 /%}
 
 {% /figure %}
 
@@ -95,7 +95,7 @@ By Heather Desaulniers
 October 26, 2021  
 DanceTabs
 
-{% image src="/assets/img/press/9.jpg" alt="" width=320 height=313 /%}
+{% image src="/assets/img/press/9.jpg" alt="" width=400 height=266 /%}
 
 {% /figure %}
 
@@ -143,7 +143,7 @@ Rachel Howard
 March 23, 2021  
 San Francisco Chronicle
 
-{% image src="/assets/img/press/10.jpg" alt="" width=320 height=180 /%}
+{% image src="/assets/img/press/10.jpg" alt="" width=400 height=225 /%}
 
 {% /figure %}
 
@@ -166,7 +166,7 @@ By Sam Lefebvre
 Aug 26, 2019  
 KQED
 
-{% image src="/assets/img/press/11.jpg" alt="" width=320 height=180 /%}
+{% image src="/assets/img/press/11.jpg" alt="" width=400 height=225 /%}
 
 {% /figure %}
 
@@ -202,7 +202,7 @@ By Claudia Bauer
 June 4, 2019  
 San Francisco Chronicle
 
-{% image src="/assets/img/press/13.jpg" alt="" width=320 height=180 /%}
+{% image src="/assets/img/press/13.jpg" alt="" width=400 height=225 /%}
 
 {% /figure %}
 
@@ -214,6 +214,6 @@ By Sam Whiting
 January 21, 2018  
 San Francisco Chronicle
 
-{% image src="/assets/img/press/5.jpg" alt="" width=320 height=320 /%}
+{% image src="/assets/img/press/5.jpg" alt="" width=400 height=400 /%}
 
 {% /figure %}
