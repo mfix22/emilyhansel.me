@@ -181,9 +181,12 @@ p, h1, h2, h3, h4, h5, h6, li {
 }
 
 p {
-  line-height: 26px;
-  margin-bottom: 0.75rem;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
   text-align: justify; /* TODO set this with a class */
+  word-wrap: break-word;
+  margin-bottom: 1rem;
 }
 
 .small {
