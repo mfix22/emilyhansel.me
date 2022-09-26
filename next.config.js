@@ -46,10 +46,6 @@ module.exports = withMarkdoc()({
         source: '/photos',
         destination: '/photos/index.html',
       },
-      {
-        source: '/writing',
-        destination: '/writing/index.html',
-      },
     ]
   },
 })

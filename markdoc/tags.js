@@ -1,10 +1,24 @@
 import { Tag } from '@markdoc/markdoc'
+import { Figure } from '../components/Figure'
 import { Footer } from '../components/Footer'
 import { List } from '../components/List'
 import { Image } from '../components/Image'
 import { Video } from '../components/Video'
 
 export { comment } from '@markdoc/next.js/tags'
+
+export const figure = {
+  render: Figure,
+  attributes: {},
+  transform(node, config) {
+    let children = node.transformChildren(config)
+
+    const image = children.find((child) => child.name === 'Image')
+    children = children.filter((child) => child.name !== 'Image')
+
+    return new Tag(this.render, { image }, children)
+  },
+}
 
 export const footer = {
   render: Footer,
