@@ -13,15 +13,6 @@
     "dev:old": "concurrently --kill-others \"npm run serve\" \"npm run sass\" \"npm run pug\"",
     "build:old": "pug . && npm run sass"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mfix22/me.git"
-  },
-  "keywords": [
-    "portfolio"
-  ],
-  "author": "Michael Fix",
-  "license": "MIT",
   "dependencies": {
     "@markdoc/markdoc": "^0.1.10",
     "@markdoc/next.js": "^0.1.8",
