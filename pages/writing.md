@@ -7,7 +7,7 @@ maxWidth: 70%
 
 {% figure %}
 
-#### ["Adelante: A celebratory affair for AXIS Dance Company”](https://medium.com/odc-dance-stories/plenty-to-see-in-the-observatory-81f85a1ecfd4](https://medium.com/odc-dance-stories/axis-dance-company-moves-forward-in-adelante-55194c109992)
+#### ["Adelante": A celebratory affair for AXIS Dance Company](https://medium.com/odc-dance-stories/axis-dance-company-moves-forward-in-adelante-55194c109992)
 
 September 28, 2022  
 ODC Dance Stories
