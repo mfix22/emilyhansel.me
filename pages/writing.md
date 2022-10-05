@@ -12,7 +12,7 @@ maxWidth: 70%
 September 28, 2022  
 ODC Dance Stories
 
-{% image src="/assets/img/writing/observatory.jpeg" alt="Observatory" width=403 height=397 /%}
+{% image src="/assets/img/writing/adelante.jpeg" alt="Observatory" width=403 height=212 /%}
 
 {% /figure %}
 
