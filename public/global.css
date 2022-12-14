@@ -232,7 +232,6 @@ a:hover {
 }
 
 ul {
-  list-style-type: '☛';
   margin-left: 1ch;
 }
 
@@ -243,10 +242,6 @@ li {
 
 li::marker {
   font-size: 14px;
-}
-
-li a {
-  color: inherit;
 }
 
 li strong {
