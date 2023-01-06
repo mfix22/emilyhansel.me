@@ -7,6 +7,18 @@ maxWidth: 70%
 
 {% figure %}
 
+#### [The 2022 Recap: 10 Posts and Projects on the Blog and Beyond](https://blog.lifeasamoderndancer.com/2022/12/the-recap-10-posts-and-projects-on-the-blog-in-2022.html)
+
+By Jill Randall  
+December 31, 2022  
+Life as a Modern Dancer
+
+{% image src="/assets/img/writing/contingency.jpeg" alt="" width=403 height=269 /%}
+
+{% /figure %}
+
+{% figure %}
+
 #### [In Full Sunlight: Jennifer Perfilio Movement Works in “Small Dances”](https://blog.lifeasamoderndancer.com/2022/09/in-full-sunlight-jennifer-perfilio-movement-works-in-small-dances.html)
 
 By Jill Randall  
