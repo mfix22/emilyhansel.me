@@ -43,7 +43,7 @@ ODC Dance Stories
 #### [Holding juxtaposition: post-performance reflections on "Four by Four"](https://blog.lifeasamoderndancer.com/2022/07/holding-juxtaposition-post-performance-reflections-on-four-by-four-.html)
 
 July 4, 2022  
-Life As A Modern Dancer
+Life as a Modern Dancer
 
 {% image src="/assets/img/choreo/four_by_four.jpg" alt="Four by Four" width=403 height=269 /%}
 
@@ -54,9 +54,9 @@ Life As A Modern Dancer
 #### [Empowering Dancers through Contracts](https://blog.lifeasamoderndancer.com/2022/01/empowering-dancers-through-contracts-by-emily-hansel.html)
 
 January 29, 2022  
-Life As A Modern Dancer
+Life as a Modern Dancer
 
-{% image src="/assets/img/writing/laamd_1.jpg" alt="Rehearsal image from Life As A Modern Dancer" width=403 height=295 /%}
+{% image src="/assets/img/writing/laamd_1.jpg" alt="Rehearsal image from Life as a Modern Dancer" width=403 height=295 /%}
 
 {% /figure %}
 
@@ -65,9 +65,9 @@ Life As A Modern Dancer
 #### [Cultivating Healthy, Equitable Workplaces for Dancers](https://blog.lifeasamoderndancer.com/2021/04/cultivating-healthy-equitable-workplaces-for-dancers.html)
 
 April 4, 2021  
-Life As A Modern Dancer
+Life as a Modern Dancer
 
-{% image src="/assets/img/writing/laamd_2.jpg" alt="Rehearsal image from Life As A Modern Dancer" width=403 height=269 /%}
+{% image src="/assets/img/writing/laamd_2.jpg" alt="Rehearsal image from Life as a Modern Dancer" width=403 height=269 /%}
 
 {% /figure %}
 
@@ -76,8 +76,8 @@ Life As A Modern Dancer
 #### [Relearning Agency: A Dancer’s Call for Collective Action](https://blog.lifeasamoderndancer.com/2021/01/relearning-agency-a-dancers-call-for-collective-action.html)
 
 January 9, 2021  
-Life As A Modern Dancer
+Life as a Modern Dancer
 
-{% image src="/assets/img/writing/laamd_3.jpg" alt="Rehearsal image from Life As A Modern Dancer" width=403 height=269 /%}
+{% image src="/assets/img/writing/laamd_3.jpg" alt="Rehearsal image from Life as a Modern Dancer" width=403 height=269 /%}
 
 {% /figure %}
