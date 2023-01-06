@@ -7,12 +7,23 @@ maxWidth: 70%
 
 {% figure %}
 
+#### [Contingency plans that support dancers’ mental and physical health](https://blog.lifeasamoderndancer.com/2022/12/contingency-plans-that-support-dancers-mental-and-physical-health.html)
+
+December 26, 2022  
+Life as a Modern Dancer
+
+{% image src="/assets/img/writing/contingency.jpeg" alt="" width=403 height=269 /%}
+
+{% /figure %}
+
+{% figure %}
+
 #### ["Adelante": A celebratory affair for AXIS Dance Company](https://medium.com/odc-dance-stories/axis-dance-company-moves-forward-in-adelante-55194c109992)
 
-September 28, 2022  
+September 28, 2022    
 ODC Dance Stories
 
-{% image src="/assets/img/writing/adelante.jpeg" alt="Observatory" width=403 height=212 /%}
+{% image src="/assets/img/writing/adelante.jpeg" alt="" width=403 height=212 /%}
 
 {% /figure %}
 
@@ -23,7 +34,7 @@ ODC Dance Stories
 August 31, 2022  
 ODC Dance Stories
 
-{% image src="/assets/img/writing/observatory.jpeg" alt="Observatory" width=403 height=397 /%}
+{% image src="/assets/img/writing/observatory.jpeg" alt="" width=403 height=397 /%}
 
 {% /figure %}
 
