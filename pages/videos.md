@@ -44,10 +44,6 @@ _Playing Changes: ‘fly, into the light…’ (2020)_\
 **Choreographed by Robin Dekkers**
 {% /video %}
 
-{% video src="https://www.youtube.com/embed/-s8Xh4VSxpA" %}
-_Emily Hansel Dance Reel_
-{% /video %}
-
 {% video src="https://www.youtube.com/embed/uJ4H6y7Gza8?showinfo=0" %}
 _PHANTOM (2019)_\
 **Directed, choreographed, and performed by Emily Hansel**
