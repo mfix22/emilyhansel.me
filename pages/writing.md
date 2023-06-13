@@ -7,6 +7,17 @@ maxWidth: 70%
 
 {% figure %}
 
+#### [“We Aren’t Alone Here” Invites The Audience To React](https://medium.com/odc-dance-stories/we-arent-alone-here-invites-the-audience-to-react-103d7f2a7b26)
+
+May 30, 2023  
+ODC Dance Stories
+
+{% image src="/assets/img/writing/erin.webp" alt="" width=403 height=302 /%}
+
+{% /figure %}
+
+{% figure %}
+
 #### [Contingency plans that support dancers’ mental and physical health](https://blog.lifeasamoderndancer.com/2022/12/contingency-plans-that-support-dancers-mental-and-physical-health.html)
 
 December 26, 2022  
