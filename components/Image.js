@@ -1,6 +1,6 @@
-import React from 'react'
-import NextImage from 'next/future/image'
+import React from 'react';
+import NextImage from 'next/image';
 
 export function Image(props) {
-  return <NextImage {...props} />
+  return <NextImage {...props} />;
 }
