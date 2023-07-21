@@ -280,7 +280,11 @@ img.profile {
 }
 
 @media screen and (max-width: 600px) {
+  nav {
+    position: relative;
+  }
+  
   h1 {
-    font-size: 61px
+    font-size: 40px
   }  
 }

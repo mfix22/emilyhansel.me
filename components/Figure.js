@@ -39,6 +39,7 @@ export function Figure({ children, image }) {
           .figure :global(img),
           .figure :global(.video) {
             margin: 0 0 0 auto;
+            max-width: 100%;
           }
 
           .figure:nth-last-of-type(2n) :global(img),
@@ -80,6 +81,22 @@ export function Figure({ children, image }) {
 
           .figure :global(ul p) {
             text-align: left !important;
+          }
+
+          @media screen and (max-width: 1000px) {
+            .figure,
+            .figure:nth-last-of-type(2n) {
+              flex-direction: column;
+            }
+
+            .figure:nth-last-of-type(2n) :global(.copy),
+            .figure:nth-last-of-type(2n) :global(.copy p) {
+              text-align: start;
+            }
+
+            .figure .col {
+              width: 100%;
+            }
           }
         `}
       </style>
