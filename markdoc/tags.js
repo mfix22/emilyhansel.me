@@ -6,6 +6,7 @@ import { Footer } from "../components/Footer";
 import { Link } from "../components/Link";
 import { List } from "../components/List";
 import { Image } from "../components/Image";
+import { ImageGrid } from "../components/ImageGrid";
 import { Video } from "../components/Video";
 export { comment } from "@markdoc/next.js/tags";
 
@@ -60,6 +61,11 @@ export const image = {
     width: { required: true, type: Number },
     height: { required: true, type: Number },
   },
+};
+
+export const imageGrid = {
+  render: ImageGrid,
+  attributes: {},
 };
 
 export const video = {
