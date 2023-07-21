@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
 
-export function Video({ children, ...props }) {
+export function Video({ children, height = "28vw", ...props }) {
   return (
     <div className="video">
       <figure>
         <div className="card">
-          <iframe {...props} className="visual" frameBorder="0" allowFullScreen={true} />
+          <iframe
+            {...props}
+            className="visual"
+            frameBorder="0"
+            allowFullScreen={true}
+          />
         </div>
         <figcaption>{children}</figcaption>
       </figure>
@@ -36,10 +41,10 @@ export function Video({ children, ...props }) {
           .card {
             border: 4px solid #fff;
             width: 100%;
-            height: 28vw;
+            height: ${height};
           }
         `}
       </style>
     </div>
-  )
+  );
 }

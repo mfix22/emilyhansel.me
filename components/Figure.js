@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export function Figure({ children, image }) {
   return (
@@ -48,16 +48,41 @@ export function Figure({ children, image }) {
 
           .figure :global(p) {
             font-weight: 300;
+            margin-top: 1rem;
           }
 
           .figure :global(h4) {
             font-weight: bold;
             font-size: 26px;
-            margin: 0 0 1rem;
+            margin: 0;
             letter-spacing: 0px;
+          }
+
+          .figure :global(h5) {
+            margin: 0;
+            font-size: 18px;
+            text-align: left;
+          }
+
+          .figure :global(h6) {
+            margin: 0;
+            font-size: 18px;
+            font-weight: lighter;
+          }
+
+          .figure :global(ul) {
+            margin: 0;
+          }
+
+          .figure :global(ul li) {
+            padding: 0;
+          }
+
+          .figure :global(ul p) {
+            text-align: left !important;
           }
         `}
       </style>
     </div>
-  )
+  );
 }

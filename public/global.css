@@ -190,6 +190,10 @@ p {
   margin-bottom: 1rem;
 }
 
+em {
+  font-style: italic;
+}
+
 .small {
   font-size: 0.75em;
 }
