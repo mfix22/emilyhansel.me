@@ -62,7 +62,7 @@ export default function App({ Component, pageProps }) {
       <style jsx global>
         {`
           main {
-            max-width: ${pageProps.markdoc.frontmatter.maxWidth || "60%"};
+            max-width: ${pageProps.markdoc?.frontmatter?.maxWidth || "60%"};
           }
 
           @media screen and (max-width: 1000px) {
