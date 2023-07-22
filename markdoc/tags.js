@@ -1,10 +1,12 @@
+import { link as linkNode } from "@markdoc/next.js/tags";
+
 import { Tag } from "@markdoc/markdoc";
 import { Figure } from "../components/Figure";
 import { Footer } from "../components/Footer";
+import { Link } from "../components/Link";
 import { List } from "../components/List";
 import { Image } from "../components/Image";
 import { Video } from "../components/Video";
-
 export { comment } from "@markdoc/next.js/tags";
 
 function findFigure(n) {
@@ -27,6 +29,11 @@ export const figure = {
 export const footer = {
   render: Footer,
   attributes: {},
+};
+
+export const link = {
+  ...linkNode,
+  render: Link,
 };
 
 export const list = {
