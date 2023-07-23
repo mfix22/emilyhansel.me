@@ -271,6 +271,16 @@ img.hero {
   margin-bottom: 3rem;
 }
 
+figcaption, figcaption p  {
+  font-style: italic;
+  font-weight: 300;
+  font-size: small;
+}
+
+.fill {
+  width: 100%;
+}
+
 .list {
   list-style: initial;
 }
