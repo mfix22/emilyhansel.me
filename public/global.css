@@ -165,6 +165,7 @@ article {
   /* max-width: 60%;  */
   margin: 0 auto;
   margin-top: 3rem;
+  padding-bottom: 2.5rem;
 }
 
 
@@ -192,6 +193,10 @@ p {
 
 em {
   font-style: italic;
+}
+
+strong {
+  font-weight: bold;
 }
 
 .small {
