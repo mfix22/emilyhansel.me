@@ -9,11 +9,18 @@ maxWidth: 70%
 
 #### Knock
 
-###### (In progress)
+###### (2023)
 
-A work commissioned by Post:ballet for their collaboration with the Kronos Quartet which will premiere in April, 2023 at YBCA in San Francisco, CA
+Choreographed by Emily Hansel\
+Performed by Post:ballet dancers Crystaldawn Bell, Mia J. Chong, Colin Frederick, Caitlin Hicks, Moscelyne ParkeHarrison, Anthony Pucci, and Benjamin Warner\
+Music composed by Joan Jeanrenaud\
+Performed by musicians from the San Francisco Conservatory of Music\
+Lighting design by David Robertson and Thomas Bowersox\
+Costume design by Aine Dorman
 
-{% image src="/assets/img/choreo/knock.jpg" alt="Photo of 7 dancers" width=400 height=267 /%}
+_Knock_ was commissioned by Post:ballet as part of their collaboration with Kronos Quartet entitled, _still be here_. Knock premiered April 20-22, 2023 at the YBCA Forum, San Francisco, CA.
+
+{% video src="https://www.youtube.com/embed/Tz9adF7V2JE" height="240px"  /%}
 
 {% /figure %}
 
