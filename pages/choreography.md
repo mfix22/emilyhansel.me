@@ -98,7 +98,7 @@ _Rabble_ was commissioned by Berkeley Ballet Theater and premiered at BAMPFA in 
 Co-choreographed by Robin Dekkers and Emily Hansel  
 Performed by Emily Hansel
 
-A site-specific dance for film co-choreographed with Robert Dekkers for Post:ballet which premiered virtually on January 7, 2021.
+A site-specific dance for film co-choreographed with Robin Dekkers for Post:ballet which premiered virtually on January 7, 2021.
 
 {% video src="https://www.youtube.com/embed/uGBy0RYxghE?showinfo=0" height="240px"  /%}
 
