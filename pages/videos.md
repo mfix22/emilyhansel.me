@@ -29,24 +29,9 @@ _Swan Lake_ (2021)\
 **Choreographed by Robin Dekkers for Post:ballet**
 {% /video %}
 
-{% video src="https://www.youtube.com/embed/uGBy0RYxghE" %}
-_Eight Whiskus_ (2021)\
-**Choreographed by Robin Dekkers and Emily Hansel**
-{% /video %}
-
-{% video src="https://www.youtube.com/embed/Ru5H3LHiU1M" %}
-_Waltz of the Snowflakes_ (2020)\
-**Choreographed by Robin Dekkers for Post:ballet**
-{% /video %}
-
 {% video src="https://embed.vhx.tv/videos/1375479" %}
 _Playing Changes: ‘fly, into the light…’_ (2020)\
 **Choreographed by Robin Dekkers**
-{% /video %}
-
-{% video src="https://www.youtube.com/embed/uJ4H6y7Gza8?showinfo=0" %}
-_PHANTOM_ (2019)\
-**Directed, choreographed, and performed by Emily Hansel**
 {% /video %}
 
 {% video
