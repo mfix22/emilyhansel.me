@@ -5,11 +5,6 @@ maxWidth: 50vw
 
 # {% $markdoc.frontmatter.title %}
 
-{% video src="https://www.youtube.com/embed/Tz9adF7V2JE" %}
-_Knock_ (2023)\
-**Choreographed by Emily Hansel for Post:ballet**
-{% /video %}
-
 {% video src="https://www.youtube.com/embed/yLoN1b8jCGU" %}
 _skull_ (2022)\
 **Concept, choreography, and performance by Emily Hansel**
