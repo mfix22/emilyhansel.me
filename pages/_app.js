@@ -57,7 +57,6 @@ export default function App({ Component, pageProps }) {
         />
       </Head>
       <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js" />
-      <script src="https://unpkg.com/masonry-rows" />
       {children}
 
       <style jsx global>
