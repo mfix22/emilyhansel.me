@@ -61,7 +61,6 @@ export const image = {
     width: { required: true, type: Number },
     height: { required: true, type: Number },
     action: { type: String },
-    caption: { type: String },
   },
 };
 

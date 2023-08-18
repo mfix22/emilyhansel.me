@@ -1,24 +1,23 @@
 import React from "react";
 import NextImage from "next/image";
 
-export function Image({ children, action, caption, ...props }) {
+import { useContext } from "./ImageGrid";
+
+export function Image({ children, action, ...props }) {
+  const setCaption = useContext();
+
   const image = (
     <NextImage
       {...props}
       data-action={action}
-      onClick={() => {
-        if (caption) {
-          // TODO: use React instead
-          document.querySelector(".full-screen-caption").innerHTML = caption;
-        }
-      }}
+      onClick={action === "zoom" ? () => setCaption(children) : undefined}
     />
   );
 
   return children ? (
     <figure>
       {image}
-      <figcaption>{children}</figcaption>
+      {action === "zoom" ? null : <figcaption>{children}</figcaption>}
     </figure>
   ) : (
     image
