@@ -100,7 +100,7 @@ TODO: use children for captions
   src="/assets/img/dancing/masonry/18.jpg"
   action="zoom"
   alt="The Soft Solace of a Slightly Descended Lost Life (Suck It) | Choreography by Robert Moses | captiontograph by Steve Disenhof | 2021"
-  alt="<i>The Soft Solace of a Slightly Descended Lost Life (Suck It)</i> | Choreography by Robert Moses | Photograph by Steve Disenhof | 2021"
+  caption="<i>The Soft Solace of a Slightly Descended Lost Life (Suck It)</i> | Choreography by Robert Moses | Photograph by Steve Disenhof | 2021"
 /%}
 
 {% image
@@ -108,7 +108,7 @@ TODO: use children for captions
   src="/assets/img/dancing/masonry/17.png"
   action="zoom"
   alt="Post:ballet's Nutcracker | Choreography by Robin Dekkers | Photograph by Reneff-Olson captionductions | 2021"
-  alt="Post:ballet's <i>Nutcracker</i> | Choreography by Robin Dekkers | Photograph by Reneff-Olson Productions | 2021"
+  caption="Post:ballet's <i>Nutcracker</i> | Choreography by Robin Dekkers | Photograph by Reneff-Olson Productions | 2021"
 /%}
 
 {% image
@@ -124,7 +124,7 @@ TODO: use children for captions
   src="/assets/img/dancing/masonry/1.jpg"
   action="zoom"
   alt="The Exceptionally Elderly Overweight Black Man Phoenix | Choreography by Robert Moses | captiontograph by Jim Coleman | 2019"
-  alt="<i>The Exceptionally Elderly Overweight Black Man Phoenix</i> | Choreography by Robert Moses | Photograph by Jim Coleman | 2019"
+  caption="<i>The Exceptionally Elderly Overweight Black Man Phoenix</i> | Choreography by Robert Moses | Photograph by Jim Coleman | 2019"
 /%}
 
 {% image
@@ -140,7 +140,7 @@ TODO: use children for captions
   src="/assets/img/dancing/masonry/3.jpg"
   action="zoom"
   alt="Belong Not | Choreography by Chuck Wilt for Post:ballet | Photograph by Alexander captioneff-Olson | 2020"
-  alt="<i>Belong Not</i> | Choreography by Chuck Wilt for Post:ballet | Photograph by Alexander Reneff-Olson | 2020"
+  caption="<i>Belong Not</i> | Choreography by Chuck Wilt for Post:ballet | Photograph by Alexander Reneff-Olson | 2020"
 /%}
 
 {% image
@@ -179,8 +179,8 @@ TODO: use children for captions
   width=360 height=228
   src="/assets/img/dancing/masonry/9.jpg"
   action="zoom"
-  alt="The Exceptionally Elderly Overweight Black Man Phoenix | Choreography by Robert Moses | captiontograph by Jim Coleman | 2019"
-  alt="<i>The Exceptionally Elderly Overweight Black Man Phoenix</i> | Choreography by Robert Moses | Photograph by Jim Coleman | 2019"
+  alt="The Exceptionally Elderly Overweight Black Man Phoenix | Choreography by Robert Moses | Photograph by Jim Coleman | 2019"
+  caption="<i>The Exceptionally Elderly Overweight Black Man Phoenix</i> | Choreography by Robert Moses | Photograph by Jim Coleman | 2019"
 /%}
 
 {% image
@@ -196,7 +196,7 @@ TODO: use children for captions
   src="/assets/img/dancing/masonry/12.jpg"
   action="zoom"
   alt="Point of Dissolve | Photograph for The Anata Project courtesy of Meets the Eye Studios | caption7"
-  alt="<i>Point of Dissolve</i> | Photograph for The Anata Project courtesy of Meets the Eye Studios | 2017"
+  caption="<i>Point of Dissolve</i> | Photograph for The Anata Project courtesy of Meets the Eye Studios | 2017"
 /%}
 
 {% image
