@@ -1,6 +1,6 @@
 ---
 title: Photos
-maxWidth: 87vw
+maxWidth: 85vw
 ---
 
 # {% $markdoc.frontmatter.title %}
