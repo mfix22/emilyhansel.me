@@ -5,6 +5,10 @@ maxWidth: 87vw
 
 # {% $markdoc.frontmatter.title %}
 
+{% comment %}
+TODO: use children for captions
+{% /comment %}
+
 {% imageGrid %}
 
 {% image

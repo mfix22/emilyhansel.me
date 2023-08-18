@@ -8,7 +8,7 @@ export function Image({ children, action, caption, ...props }) {
       data-action={action}
       onClick={() => {
         if (caption) {
-          // TODO use React instead
+          // TODO: use React instead
           document.querySelector(".full-screen-caption").innerHTML = caption;
         }
       }}
