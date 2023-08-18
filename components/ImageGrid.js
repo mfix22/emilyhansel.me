@@ -1,9 +1,35 @@
 import React from "react";
 
+function useWindowWidth() {
+  const [windowWidth, setWindowWidth] = React.useState();
+
+  React.useEffect(() => {
+    function handler() {
+      setWindowWidth(window.innerWidth);
+    }
+    handler();
+    window.addEventListener("resize", handler);
+    return () => window.removeEventListener("resize", handler);
+  }, []);
+
+  return windowWidth;
+}
+
 export function ImageGrid({ children }) {
+  const windowWidth = useWindowWidth();
+
+  let numColumns = 3;
+  if (windowWidth) {
+    if (windowWidth <= 768) {
+      numColumns = 1;
+    } else if (windowWidth <= 1024) {
+      numColumns = 2;
+    }
+  }
+
   const grid = React.Children.toArray(children).reduce(
-    (grid, next, i, array) => {
-      let index = i % 3;
+    (grid, next, i) => {
+      let index = i % numColumns;
       grid[index].push(next);
       return grid;
     },
