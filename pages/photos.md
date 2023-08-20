@@ -39,18 +39,6 @@ _EPOCH_ | Choreography by Christy Funsch | Photograph by Robbie Sweeny | 2021
 _kid subjunctive_ | Choreography by Christy Funsch | Photograph by Robbie Sweeny | 2022
 {% /image %}
 
-{%comment%}
-
-{% image
-  width=360 height=360
-  src="/assets/img/dancing/masonry/22.jpg"
-  action="zoom"
-  alt="say i am you | Choreography by Moscelyne ParkeHarrison | Photograph by Natalia Perez | 2022" %}
-_say i am you_ | Choreography by Moscelyne ParkeHarrison | Photograph by Natalia Perez | 2022
-{% /image %}
-
-{% /comment %}
-
 {% image
   width=360 height=240
   src="/assets/img/dancing/masonry/27.jpg"
