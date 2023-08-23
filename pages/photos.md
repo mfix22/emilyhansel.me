@@ -8,6 +8,85 @@ maxWidth: 85vw
 {% imageGrid %}
 
 {% image
+  width=360 height=287
+  src="/assets/img/dancing/masonry/31.jpg"
+  action="zoom"
+  alt="Photograph by Maximillian Tortoriello for Post:ballet | 2022" %}
+Photograph by Maximillian Tortoriello for Post:ballet | 2022
+{% /image %}
+
+{% image
+  width=360 height=450
+  src="/assets/img/dancing/masonry/32.jpg"
+  action="zoom"
+  alt="Photograph by Maximillian Tortoriello for Post:ballet | 2022" %}
+Photograph by Maximillian Tortoriello for Post:ballet | 2022
+{% /image %}
+
+{% image
+  width=360 height=240
+  src="/assets/img/dancing/masonry/33.jpg"
+  action="zoom"
+  alt="The Broken Glass | Choreography by Bryan Arias | Photograph by Valentina Reneff-Olson for SFDanceworks| 2023" %}
+_The Broken Glass_ | Choreography by Bryan Arias | Photograph by Valentina Reneff-Olson for SFDanceworks| 2023
+{% /image %}
+
+{% image
+  width=360 height=240
+  src="/assets/img/dancing/masonry/34.jpg"
+  action="zoom"
+  alt="Before You Land | Choreography by Alba Castillo | Photograph by Valentina Reneff-Olson for SFDanceworks | 2023" %}
+_Before You Land_ | Choreography by Alba Castillo | Photograph by Valentina Reneff-Olson for SFDanceworks | 2023
+{% /image %}
+
+{% image
+  width=360 height=240
+  src="/assets/img/dancing/masonry/35.jpg"
+  action="zoom"
+  alt="La Bois | Choreography by Ihsan Rustem | Photograph by Natalia Perez for Post:ballet| 2023" %}
+_La Bois_ | Choreography by Ihsan Rustem | Photograph by Natalia Perez for Post:ballet| 2023
+{% /image %}
+
+{% image
+  width=360 height=577
+  src="/assets/img/dancing/masonry/30.png"
+  action="zoom"
+  alt="Photograph by Jason Lam | 2016" %}
+Photograph by Jason Lam | 2016
+{% /image %}
+
+{% image
+  width=360 height=539
+  src="/assets/img/dancing/masonry/36.jpg"
+  action="zoom"
+  alt="Interstitial for Three | Choreography by Mia J. Chong | Photograph by Natalia Perez for Post:ballet | 2023" %}
+_Interstitial for Three_ | Choreography by Mia J. Chong | Photograph by Natalia Perez for Post:ballet | 2023
+{% /image %}
+
+{% image
+  width=360 height=360
+  src="/assets/img/dancing/masonry/37.jpg"
+  action="zoom"
+  alt="Photograph by Alex Reneff-Olson for SFDanceworks | 2023" %}
+Photograph by Alex Reneff-Olson for SFDanceworks | 2023
+{% /image %}
+
+{% image
+  width=360 height=240
+  src="/assets/img/dancing/masonry/34.jpg"
+  action="zoom"
+  alt="Before You Land | Choreography by Alba Castillo | Photograph by Valentina Reneff-Olson for SFDanceworks | 2023" %}
+_Before You Land_ | Choreography by Alba Castillo | Photograph by Valentina Reneff-Olson for SFDanceworks | 2023
+{% /image %}
+{% image
+  width=360 height=240
+  src="/assets/img/dancing/masonry/34.jpg"
+  action="zoom"
+  alt="Before You Land | Choreography by Alba Castillo | Photograph by Valentina Reneff-Olson for SFDanceworks | 2023" %}
+_Before You Land_ | Choreography by Alba Castillo | Photograph by Valentina Reneff-Olson for SFDanceworks | 2023
+{% /image %}
+
+{% image
   width=360 height=450
   src="/assets/img/dancing/masonry/28.jpg"
   action="zoom"
