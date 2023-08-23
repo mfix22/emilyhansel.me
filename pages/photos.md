@@ -48,14 +48,6 @@ _La Bois_ | Choreography by Ihsan Rustem | Photograph by Natalia Perez for Post:
 {% /image %}
 
 {% image
-  width=360 height=577
-  src="/assets/img/dancing/masonry/30.png"
-  action="zoom"
-  alt="Photograph by Jason Lam | 2016" %}
-Photograph by Jason Lam | 2016
-{% /image %}
-
-{% image
   width=360 height=539
   src="/assets/img/dancing/masonry/36.jpg"
   action="zoom"
@@ -78,6 +70,15 @@ Photograph by Alex Reneff-Olson for SFDanceworks | 2023
   alt="Before You Land | Choreography by Alba Castillo | Photograph by Valentina Reneff-Olson for SFDanceworks | 2023" %}
 _Before You Land_ | Choreography by Alba Castillo | Photograph by Valentina Reneff-Olson for SFDanceworks | 2023
 {% /image %}
+
+{% image
+  width=360 height=577
+  src="/assets/img/dancing/masonry/30.png"
+  action="zoom"
+  alt="Photograph by Jason Lam | 2016" %}
+Photograph by Jason Lam | 2016
+{% /image %}
+
 {% image
   width=360 height=240
   src="/assets/img/dancing/masonry/34.jpg"
