@@ -260,6 +260,21 @@ li strong {
   color: var(--mint)
 }
 
+img.headshot {
+  display: inline-flex;
+  margin: 0px 2rem 0.5rem 0px;
+  border-radius: 4px;
+  flex: 1 0 0;
+  object-fit: cover;
+  width: calc((100% - 8rem) / 5);
+  height: calc((100% - 8rem) / 5);
+  aspect-ratio: 1;
+}
+
+img.headshot:last-of-type {
+  margin: 0;
+}
+
 img.profile {
   float: left;
   margin: 0px 15px 0px 0px;
