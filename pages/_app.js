@@ -58,6 +58,14 @@ export default function App({ Component, pageProps }) {
     }
   }, [router.pathname]);
 
+  React.useEffect(() => {
+    function handler(e) {
+      if (e.key === "Escape") setOpen(false);
+    }
+    window.addEventListener("keyup", handler);
+    return () => window.removeEventListener("keyup", handler);
+  }, []);
+
   let children;
   if (pageProps.markdoc) {
     children = (
@@ -70,7 +78,7 @@ export default function App({ Component, pageProps }) {
             {images[i.current]}
           </Link>
         </nav>
-        <nav className={`mobile-nav ${open ? "active" : ""}`}>
+        <nav className="mobile-nav-menu" style={{ left: open ? "0" : "-100%" }}>
           <div className="nav-closer" onClick={() => setOpen((o) => !o)}>
             <ion-icon name="close-outline"></ion-icon>
           </div>
@@ -110,7 +118,7 @@ export default function App({ Component, pageProps }) {
               font-size: 48px;
             }
 
-            .mobile-nav {
+            .mobile-nav-menu {
               display: none;
               z-index: 900;
               position: fixed;
@@ -126,16 +134,12 @@ export default function App({ Component, pageProps }) {
               transition: all 300ms ease-out;
             }
 
-            .mobile-nav.active {
-              left: 0;
-            }
-
-            .mobile-nav :global(a) {
+            .mobile-nav-menu :global(a) {
               color: black;
             }
 
             @media screen and (max-width: 600px) {
-              .mobile-nav {
+              .mobile-nav-menu {
                 display: flex;
               }
               .nav-opener {

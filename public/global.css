@@ -337,6 +337,7 @@ figcaption, figcaption p  {
 @media screen and (max-width: 600px) {
   nav {
     position: relative;
+    top: 1rem;
     left: 1rem;
   }
 
