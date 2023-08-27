@@ -176,7 +176,6 @@ export default function App({ Component, pageProps }) {
         nomodule
         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
       />
-      <script src="/assets/js/index.js" />
       {children}
 
       <style jsx global>
