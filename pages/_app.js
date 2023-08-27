@@ -86,8 +86,8 @@ export default function App({ Component, pageProps }) {
             <div className="nav-item" key={item.href}>
               <Link
                 {...item}
-                className="site-link"
                 onClick={() => setOpen(false)}
+                style={{ color: "black" }}
               />
             </div>
           ))}
@@ -132,10 +132,6 @@ export default function App({ Component, pageProps }) {
               left: -100%;
               background-color: #fff;
               transition: all 300ms ease-out;
-            }
-
-            .mobile-nav-menu :global(a) {
-              color: black;
             }
 
             @media screen and (max-width: 600px) {
