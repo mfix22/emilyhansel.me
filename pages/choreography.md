@@ -233,5 +233,3 @@ Music by Philip Glass and Yo-Yo Ma.
 {% image src="/assets/img/choreo/scream.png" alt="Scream" width=400 height=265 /%}
 
 {% /figure %}
-
-{% footer /%}

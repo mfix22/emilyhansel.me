@@ -172,8 +172,7 @@ article {
 nav {
   position: fixed;
   display: flex;
-  gap: 4px;
-  top: 1rem;
+  top: 2rem;
   left: 2rem;
   font-size: 24px;
 }
@@ -338,9 +337,15 @@ figcaption, figcaption p  {
 @media screen and (max-width: 600px) {
   nav {
     position: relative;
+    left: 1rem;
+  }
+
+  article {
+    margin-top: 1rem;
   }
   
   h1 {
-    font-size: 40px
+    font-size: 40px;
+    margin-bottom: 2rem;
   }  
 }

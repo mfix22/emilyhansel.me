@@ -23,5 +23,3 @@ Emily's [choreographic work](https://emilyhansel.me/choreography) centers the da
 Through their choreography, writing, speaking engagements, and other creative work, Emily advocates for equitable, ethical, and healthy working conditions for dancers. Emily is a proud member of the Leadership Committee at Dance Artists' National Collective, where they head up DANC's development of a [contract-building tool for dancers](https://danceartistsnationalcollective.org/guide-for-building-a-dancers-contract/). Emily is a passionate arts administrator and has worked in administrative roles for a number of artists/companies in addition to producing their own work.
 
 Emily occasionally teaches open classes and workshops for professional dancers and has taught ballet and contemporary to students ages 3 through 18 for seven years at Berkeley Ballet Theater, the ODC School, Steppin' Out Dance Studio, and other schools.
-
-{% footer /%}
