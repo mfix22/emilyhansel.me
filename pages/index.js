@@ -15,15 +15,6 @@ function Submenu({ menu, children, activeMenu, setActiveMenu }) {
       {children}
       <style jsx>
         {`
-          button {
-            appearance: none;
-            background: none;
-            border: none;
-            font-size: inherit;
-            cursor: pointer;
-            padding: 0;
-            margin: 0;
-          }
           li :global(ul) {
             transition: all 300ms ease-out;
             opacity: ${active ? 1 : 0};
@@ -39,6 +30,99 @@ function Submenu({ menu, children, activeMenu, setActiveMenu }) {
   );
 }
 
+function ContactForm({ active, onClose }) {
+  return (
+    <div className="contact-menu" onClick={onClose}>
+      <form
+        method="POST"
+        action="https://formspree.io/emilylhansel@gmail.com"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <p>Fill out the form below to contact Emily</p>
+        <div className="row">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="_replyto" placeholder="Email" required />
+        </div>
+        <textarea
+          name="message"
+          placeholder="Hey Emily…"
+          required
+          resize="none"
+        />
+        <input class="email-send" type="submit" value="Send" />
+      </form>
+      <style jsx>
+        {`
+          .contact-menu {
+            top: 0;
+            left: 0;
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 300ms ease-out;
+            opacity: ${active ? 1 : 0};
+            visibility: ${active ? "visible" : "hidden"};
+          }
+          .contact-menu input {
+            margin: 0;
+            height: 2rem;
+            padding: 0.25rem;
+          }
+          .contact-menu form {
+            background: white;
+            border-radius: 2px;
+            color: black;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            min-width: 420px;
+          }
+          .contact-menu textarea {
+            height: 8rem;
+            resize: none;
+          }
+          .contact-menu input,
+          .contact-menu textarea,
+          .contact-menu input[type="submit"] {
+            outline: none;
+            width: 100%;
+            font-family: inherit;
+            color: #123;
+            border: 2px solid #123;
+            transition: all 200ms ease-out;
+            border-radius: none !important;
+          }
+          .contact-menu p {
+            margin: 0 0 0.25rem;
+            font-weight: 500;
+          }
+          .contact-menu .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 0.5rem;
+          }
+          .contact-menu input[type="submit"] {
+            cursor: pointer;
+            height: 2rem;
+            color: white;
+            background-color: #123;
+          }
+          .contact-menu input[type="submit"]:hover,
+          .contact-menu input[type="submit"]:focus,
+          .contact-menu input[type="submit"]:active {
+            background-color: #1e3c59;
+            border-color: #1e3c59;
+          }
+        `}
+      </style>
+    </div>
+  );
+}
+
 export default function Home() {
   // TODO: pass as context
   const [activeMenu, setActiveMenu] = React.useState(null);
@@ -48,77 +132,83 @@ export default function Home() {
   }
 
   return (
-    <div className="container">
-      <h1>Emily Hansel</h1>
-      <h2>Dancer | Choreographer</h2>
-      <nav>
-        <ul>
-          <Submenu
-            menu="about"
-            activeMenu={activeMenu}
-            setActiveMenu={setActiveMenu}
-          >
-            <ul>
-              <li>
-                <Link href="/bio">bio</Link>
-              </li>
-              <li>
-                <Link href="/assets/resume.pdf?v=3" target="_blank">
-                  resume
-                </Link>
-              </li>
-            </ul>
-          </Submenu>
-          <Submenu
-            menu="work"
-            activeMenu={activeMenu}
-            setActiveMenu={setActiveMenu}
-          >
-            <ul>
-              <li>
-                <Link href="/choreography">choreography</Link>
-              </li>
-              <li>
-                <Link href="/writing">writing</Link>
-              </li>
-            </ul>
-          </Submenu>
-          <li>
-            <Link href="/press" onFocus={closeMenu}>
-              press
-            </Link>
-          </li>
-          <Submenu
-            menu="galleries"
-            activeMenu={activeMenu}
-            setActiveMenu={setActiveMenu}
-          >
-            <ul>
-              <li>
-                <Link href="/photos">photos</Link>
-              </li>
-              <li>
-                <Link href="/videos">videos</Link>
-              </li>
-            </ul>
-          </Submenu>
-          <li>
-            <Link href="#" tabindex="0" onFocus={closeMenu}>
-              contact
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://www.instagram.com/em_hansel/"
-              target="_blank"
-              rel="noreferrer noopener"
-              onFocus={closeMenu}
+    <div>
+      <div className="container">
+        <h1>Emily Hansel</h1>
+        <h2>Dancer | Choreographer</h2>
+        <nav>
+          <ul>
+            <Submenu
+              menu="about"
+              activeMenu={activeMenu}
+              setActiveMenu={setActiveMenu}
             >
-              <ion-icon name="logo-instagram" />
-            </Link>
-          </li>
-        </ul>
-      </nav>
+              <ul>
+                <li>
+                  <Link href="/bio">bio</Link>
+                </li>
+                <li>
+                  <Link href="/assets/resume.pdf?v=3" target="_blank">
+                    resume
+                  </Link>
+                </li>
+              </ul>
+            </Submenu>
+            <Submenu
+              menu="work"
+              activeMenu={activeMenu}
+              setActiveMenu={setActiveMenu}
+            >
+              <ul>
+                <li>
+                  <Link href="/choreography">choreography</Link>
+                </li>
+                <li>
+                  <Link href="/writing">writing</Link>
+                </li>
+              </ul>
+            </Submenu>
+            <li>
+              <Link href="/press" onFocus={closeMenu}>
+                press
+              </Link>
+            </li>
+            <Submenu
+              menu="galleries"
+              activeMenu={activeMenu}
+              setActiveMenu={setActiveMenu}
+            >
+              <ul>
+                <li>
+                  <Link href="/photos">photos</Link>
+                </li>
+                <li>
+                  <Link href="/videos">videos</Link>
+                </li>
+              </ul>
+            </Submenu>
+            <li>
+              <button
+                onFocus={closeMenu}
+                onClick={() => setActiveMenu("contact")}
+              >
+                contact
+              </button>
+            </li>
+            <li>
+              <Link
+                href="https://www.instagram.com/em_hansel/"
+                target="_blank"
+                rel="noreferrer noopener"
+                onFocus={closeMenu}
+              >
+                <ion-icon name="logo-instagram" />
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <ContactForm active={activeMenu === "contact"} onClose={closeMenu} />
       <style jsx>
         {`
           .container {
@@ -152,6 +242,15 @@ export default function Home() {
             text-align: left;
             list-style: none;
             font-size: 20px;
+          }
+          nav :global(button) {
+            appearance: none;
+            background: none;
+            border: none;
+            font-size: inherit;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
           }
           .container :global(a),
           .container :global(button) {
