@@ -267,10 +267,9 @@ export default function Home() {
             margin: 0;
             display: flex;
             flex-direction: column;
-            gap: 1rem;
           }
           ul :global(li) {
-            padding: 0;
+            padding: 0.5rem 0;
             margin: 0;
           }
           ul :global(li ul li) {
