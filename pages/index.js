@@ -134,7 +134,6 @@ function ContactForm() {
 }
 
 export default function Home() {
-  // TODO: pass as context
   const [activeMenu, setActiveMenu] = React.useState(null);
 
   function closeMenu() {
