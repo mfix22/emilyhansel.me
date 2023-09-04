@@ -1,8 +1,15 @@
 import React from "react";
 import { Link } from "../components/Link";
 
-function Submenu({ menu, children, activeMenu, setActiveMenu }) {
+const Context = React.createContext({
+  activeMenu: null,
+  setActiveMenu: () => {},
+});
+
+function Submenu({ menu, children }) {
+  const { activeMenu, setActiveMenu } = React.useContext(Context);
   const active = menu === activeMenu;
+
   return (
     <li onMouseLeave={() => setActiveMenu(null)}>
       <button
@@ -30,9 +37,12 @@ function Submenu({ menu, children, activeMenu, setActiveMenu }) {
   );
 }
 
-function ContactForm({ active, onClose }) {
+function ContactForm() {
+  const { activeMenu, setActiveMenu } = React.useContext(Context);
+  const active = activeMenu === "contact";
+
   return (
-    <div className="contact-menu" onClick={onClose}>
+    <div className="contact-menu" onClick={() => setActiveMenu(null)}>
       <form
         method="POST"
         action="https://formspree.io/emilylhansel@gmail.com"
@@ -132,17 +142,13 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <Context.Provider value={{ activeMenu, setActiveMenu }}>
       <div className="container">
         <h1>Emily Hansel</h1>
         <h2>Dancer | Choreographer</h2>
         <nav>
           <ul>
-            <Submenu
-              menu="about"
-              activeMenu={activeMenu}
-              setActiveMenu={setActiveMenu}
-            >
+            <Submenu menu="about">
               <ul>
                 <li>
                   <Link href="/bio">bio</Link>
@@ -154,11 +160,7 @@ export default function Home() {
                 </li>
               </ul>
             </Submenu>
-            <Submenu
-              menu="work"
-              activeMenu={activeMenu}
-              setActiveMenu={setActiveMenu}
-            >
+            <Submenu menu="work">
               <ul>
                 <li>
                   <Link href="/choreography">choreography</Link>
@@ -173,11 +175,7 @@ export default function Home() {
                 press
               </Link>
             </li>
-            <Submenu
-              menu="galleries"
-              activeMenu={activeMenu}
-              setActiveMenu={setActiveMenu}
-            >
+            <Submenu menu="galleries">
               <ul>
                 <li>
                   <Link href="/photos">photos</Link>
@@ -208,7 +206,7 @@ export default function Home() {
           </ul>
         </nav>
       </div>
-      <ContactForm active={activeMenu === "contact"} onClose={closeMenu} />
+      <ContactForm />
       <style jsx>
         {`
           .container {
@@ -282,6 +280,6 @@ export default function Home() {
           }
         `}
       </style>
-    </div>
+    </Context.Provider>
   );
 }
