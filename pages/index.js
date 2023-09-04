@@ -144,7 +144,9 @@ export default function Home() {
   return (
     <Context.Provider value={{ activeMenu, setActiveMenu }}>
       <div className="container">
-        <h1>Emily Hansel</h1>
+        <Link href="/">
+          <h1>Emily Hansel</h1>
+        </Link>
         <h2>Dancer | Choreographer</h2>
         <nav>
           <ul>
