@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Script from "next/script";
 import { useRouter } from "next/router";
 
 import { Link } from "../components/Link";
@@ -49,14 +50,23 @@ const nav = [
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
+  const previousRoute = React.useRef(router.pathname);
   const [open, setOpen] = React.useState();
+  const [shouldDance, setShouldDance] = React.useState(false);
   const i = React.useRef(Math.floor(Math.random() * 5));
 
   React.useEffect(() => {
-    if (router.pathname !== "/") {
-      sessionStorage.seen = true;
+    console.log(previousRoute);
+    if (previousRoute.current !== "/") {
+      setShouldDance(false);
+    } else {
+      setShouldDance(true);
     }
   }, [router.pathname]);
+
+  React.useEffect(() => {
+    previousRoute.current = router.pathname;
+  });
 
   React.useEffect(() => {
     function handler(e) {
@@ -150,7 +160,7 @@ export default function App({ Component, pageProps }) {
       </>
     );
   } else {
-    children = <Component {...pageProps} />;
+    children = <Component {...pageProps} shouldDance={shouldDance} />;
   }
 
   return (
@@ -177,7 +187,6 @@ export default function App({ Component, pageProps }) {
         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
       />
       {children}
-
       <style jsx global>
         {`
           main {
@@ -191,6 +200,16 @@ export default function App({ Component, pageProps }) {
           }
         `}
       </style>
+      {/* TODO: use new GA tag */}
+      <Script src="https://www.googletagmanager.com/gtag/js?id=UA-83432320-1" />
+      <Script id="google-analytics">
+        {`(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-83432320-1', 'auto');
+        ga('send', 'pageview');`}
+      </Script>
     </>
   );
 }
