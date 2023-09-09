@@ -307,7 +307,7 @@ export default function Home({ shouldDance }) {
             background-repeat: no-repeat;
             ${shouldDance
               ? "animation: dance var(--animation-duration) linear forwards;"
-              : `left: 58%;
+              : `left: 52%;
                  background-image: url(/assets/img/dancing/14.png);
               `}
           }
@@ -339,7 +339,7 @@ export default function Home({ shouldDance }) {
             97% {
               background-image: url(/assets/img/dancing/13.png);
               visibility: visible;
-              left: 31%;
+              left: 30%;
             }
             97.001%,
             99.999% {
@@ -347,7 +347,7 @@ export default function Home({ shouldDance }) {
               visibility: hidden;
             }
             100% {
-              left: 60%;
+              left: 52%;
               visibility: visible;
               background-image: url(/assets/img/dancing/14.png);
             }
@@ -359,7 +359,7 @@ export default function Home({ shouldDance }) {
             }
             .dancing-image {
               animation: none !important;
-              left: 58%;
+              left: 52%;
               background-image: url(/assets/img/dancing/14.png);
             }
           }
