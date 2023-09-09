@@ -133,21 +133,12 @@ function ContactForm() {
   );
 }
 
-export default function Home() {
+export default function Home({ shouldDance }) {
   const [activeMenu, setActiveMenu] = React.useState(null);
-  const [shouldDance, setShouldDance] = React.useState(false);
 
   function closeMenu() {
     return setActiveMenu(null);
   }
-
-  React.useLayoutEffect(() => {
-    if (!sessionStorage.seen) {
-      setShouldDance(true);
-    } else {
-      delete sessionStorage.seen;
-    }
-  }, []);
 
   return (
     <Context.Provider value={{ activeMenu, setActiveMenu }}>

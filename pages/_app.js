@@ -49,14 +49,23 @@ const nav = [
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
+  const previousRoute = React.useRef(router.pathname);
   const [open, setOpen] = React.useState();
+  const [shouldDance, setShouldDance] = React.useState(false);
   const i = React.useRef(Math.floor(Math.random() * 5));
 
   React.useEffect(() => {
-    if (router.pathname !== "/") {
-      sessionStorage.seen = true;
+    console.log(previousRoute);
+    if (previousRoute.current !== "/") {
+      setShouldDance(false);
+    } else {
+      setShouldDance(true);
     }
   }, [router.pathname]);
+
+  React.useEffect(() => {
+    previousRoute.current = router.pathname;
+  });
 
   React.useEffect(() => {
     function handler(e) {
@@ -150,7 +159,7 @@ export default function App({ Component, pageProps }) {
       </>
     );
   } else {
-    children = <Component {...pageProps} />;
+    children = <Component {...pageProps} shouldDance={shouldDance} />;
   }
 
   return (
