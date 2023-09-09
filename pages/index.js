@@ -135,13 +135,24 @@ function ContactForm() {
 
 export default function Home() {
   const [activeMenu, setActiveMenu] = React.useState(null);
+  const [shouldDance, setShouldDance] = React.useState(false);
 
   function closeMenu() {
     return setActiveMenu(null);
   }
 
+  React.useLayoutEffect(() => {
+    if (!sessionStorage.seen) {
+      setShouldDance(true);
+    } else {
+      delete sessionStorage.seen;
+    }
+  }, []);
+
   return (
     <Context.Provider value={{ activeMenu, setActiveMenu }}>
+      <div id="preload-images" />
+      <div className="dancing-image" />
       <div className="container">
         <Link href="/">
           <h1>Emily Hansel</h1>
@@ -210,6 +221,16 @@ export default function Home() {
       <ContactForm />
       <style jsx>
         {`
+          #preload-images {
+            width: 0px;
+            height: 0px;
+            display: inline;
+            /* https://stackoverflow.com/questions/819336/how-to-preload-images-without-javascript */
+            background-image: url(/assets/img/dancing/12.png);
+            background-image: url(/assets/img/dancing/13.png);
+            background-image: url(/assets/img/dancing/14.png);
+          }
+
           .container {
             font-family: "Lato", sans-serif;
             position: fixed;
@@ -217,6 +238,11 @@ export default function Home() {
             left: 50%;
             transform: translate3d(-50%, -50%, 0px);
             text-align: center;
+
+            ${shouldDance
+              ? `opacity: 0;
+                 animation: fadeIn 600ms ease-out forwards var(--animation-duration);`
+              : ""}
           }
           h1 {
             font-size: 80px;
@@ -278,6 +304,73 @@ export default function Home() {
           ul :global(ul),
           ul :global(ul li) {
             display: inline-block;
+          }
+
+          .dancing-image {
+            position: absolute;
+            top: 0px;
+            width: 576px;
+            height: 720px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            ${shouldDance
+              ? "animation: dance var(--animation-duration) linear forwards;"
+              : `left: 58%;
+                 background-image: url(/assets/img/dancing/14.png);
+              `}
+          }
+
+          @keyframes fadeIn {
+            0% {
+              transform: translate3d(-50%, -37%, 0px);
+              opacity: 0;
+            }
+            100% {
+              transform: translate3d(-50%, -40%, 0px);
+              opacity: 1;
+            }
+          }
+
+          @keyframes dance {
+            0%,
+            47% {
+              background-image: url(/assets/img/dancing/12.png);
+              visibility: visible;
+              left: 6%;
+            }
+            47.001%,
+            49.999% {
+              background-image: none;
+              visibility: hidden;
+            }
+            50%,
+            97% {
+              background-image: url(/assets/img/dancing/13.png);
+              visibility: visible;
+              left: 31%;
+            }
+            97.001%,
+            99.999% {
+              background-image: none;
+              visibility: hidden;
+            }
+            100% {
+              left: 60%;
+              visibility: visible;
+              background-image: url(/assets/img/dancing/14.png);
+            }
+          }
+
+          @media (prefers-reduced-motion) {
+            .container {
+              animation: none !important;
+            }
+            .dancing-image {
+              animation: none !important;
+              left: 58%;
+              background-image: url(/assets/img/dancing/14.png);
+            }
           }
         `}
       </style>

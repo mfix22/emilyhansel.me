@@ -1,6 +1,7 @@
 :root {
   --theme: #829af1;
   --mint: #00f1ff;
+  --animation-duration: 840ms;
 }
 
 html,
@@ -119,7 +120,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -130,12 +131,13 @@ table {
 html,
 body {
   /* TODO re-enable? */
-  /* -webkit-font-smoothing: antialiased; */ 
+  /* -webkit-font-smoothing: antialiased; */
   /* -moz-osx-font-smoothing: grayscale; */
   /* text-rendering: optimizeLegibility; */
   background: black;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu,
+    "Helvetica Neue", sans-serif;
   font-style: normal;
   text-transform: initial;
   letter-spacing: initial;
@@ -160,14 +162,13 @@ main {
 
 article {
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   /* max-width: 680px;  */
   /* max-width: 60%;  */
   margin: 0 auto;
   margin-top: 3rem;
   padding-bottom: 2.5rem;
 }
-
 
 nav {
   position: fixed;
@@ -177,7 +178,14 @@ nav {
   font-size: 24px;
 }
 
-p, h1, h2, h3, h4, h5, h6, li {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
   font-family: inherit;
 }
 
@@ -190,7 +198,8 @@ p {
   margin-bottom: 1rem;
 }
 
-em, i {
+em,
+i {
   font-style: italic;
 }
 
@@ -202,8 +211,13 @@ strong {
   font-size: 0.75em;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0.75rem
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.75rem;
 }
 
 h1 {
@@ -256,7 +270,7 @@ li strong {
   display: inline-block;
   font-size: x-small;
   margin-bottom: 1.5rem;
-  color: var(--mint)
+  color: var(--mint);
 }
 
 img.headshot {
@@ -286,7 +300,8 @@ img.hero {
   margin-bottom: 3rem;
 }
 
-figcaption, figcaption p  {
+figcaption,
+figcaption p {
   font-style: italic;
   font-weight: 300;
   font-size: small;
@@ -320,7 +335,7 @@ figcaption, figcaption p  {
 @media screen and (max-width: 1000px) {
   nav {
     position: relative;
-  }  
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -332,9 +347,9 @@ figcaption, figcaption p  {
   article {
     margin-top: 1rem;
   }
-  
+
   h1 {
     font-size: 40px;
     margin-bottom: 2rem;
-  }  
+  }
 }
