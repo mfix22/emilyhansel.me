@@ -232,7 +232,7 @@ export default function Home({ shouldDance }) {
 
             ${shouldDance
               ? `opacity: 0;
-                 animation: fadeIn 600ms ease-out forwards var(--animation-duration);`
+                 animation: fadeIn 600ms ease-out forwards calc(var(--animation-duration) + 200ms);`
               : ""}
           }
           h1 {
@@ -324,32 +324,47 @@ export default function Home({ shouldDance }) {
           }
 
           @keyframes dance {
-            0%,
-            47% {
+            0% {
               background-image: url(/assets/img/dancing/12.png);
-              visibility: visible;
               left: 6%;
+              opacity: 0;
             }
-            47.001%,
-            49.999% {
-              background-image: none;
-              visibility: hidden;
+            10%,
+            35% {
+              background-image: url(/assets/img/dancing/12.png);
+              left: 6%;
+              opacity: 1;
             }
-            50%,
-            97% {
+            45% {
+              background-image: url(/assets/img/dancing/12.png);
+              left: 6%;
+              opacity: 0;
+            }
+            46% {
               background-image: url(/assets/img/dancing/13.png);
-              visibility: visible;
               left: 30%;
+              opacity: 0;
             }
-            97.001%,
-            99.999% {
-              background-image: none;
-              visibility: hidden;
+            55%,
+            80% {
+              background-image: url(/assets/img/dancing/13.png);
+              left: 30%;
+              opacity: 1;
+            }
+            90% {
+              background-image: url(/assets/img/dancing/13.png);
+              left: 30%;
+              opacity: 0;
+            }
+            91% {
+              background-image: url(/assets/img/dancing/14.png);
+              left: 52%;
+              opacity: 0;
             }
             100% {
-              left: 52%;
-              visibility: visible;
               background-image: url(/assets/img/dancing/14.png);
+              left: 52%;
+              opacity: 1;
             }
           }
 
