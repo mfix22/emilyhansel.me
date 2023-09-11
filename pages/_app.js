@@ -177,6 +177,8 @@ export default function App({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700"
           rel="stylesheet"
         />
+        <link rel="shortcut icon" href="/assets/img/favicon2.ico" />
+        <link rel="icon" href="/assets/img/favicon2.ico" type="image/x-icon" />
       </Head>
       <script
         type="module"
