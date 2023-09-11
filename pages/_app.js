@@ -52,11 +52,10 @@ export default function App({ Component, pageProps }) {
   const router = useRouter();
   const previousRoute = React.useRef(router.pathname);
   const [open, setOpen] = React.useState();
-  const [shouldDance, setShouldDance] = React.useState(false);
+  const [shouldDance, setShouldDance] = React.useState(undefined);
   const i = React.useRef(Math.floor(Math.random() * 5));
 
-  React.useEffect(() => {
-    console.log(previousRoute);
+  React.useLayoutEffect(() => {
     if (previousRoute.current !== "/") {
       setShouldDance(false);
     } else {

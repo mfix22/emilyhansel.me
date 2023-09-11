@@ -230,10 +230,11 @@ export default function Home({ shouldDance }) {
             transform: translate3d(-50%, -40%, 0px);
             text-align: center;
             opacity: 0;
-
             ${shouldDance
               ? `animation: fadeIn 600ms ease-out forwards calc(var(--animation-duration) + 200ms);`
-              : "opacity: 1;"}
+              : shouldDance === false
+              ? "opacity: 1;"
+              : ""}
           }
           h1 {
             font-size: 80px;
