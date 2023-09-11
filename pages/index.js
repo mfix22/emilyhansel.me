@@ -229,11 +229,11 @@ export default function Home({ shouldDance }) {
             left: 50%;
             transform: translate3d(-50%, -40%, 0px);
             text-align: center;
+            opacity: 0;
 
             ${shouldDance
-              ? `opacity: 0;
-                 animation: fadeIn 600ms ease-out forwards calc(var(--animation-duration) + 200ms);`
-              : ""}
+              ? `animation: fadeIn 600ms ease-out forwards calc(var(--animation-duration) + 200ms);`
+              : "opacity: 1;"}
           }
           h1 {
             font-size: 80px;
@@ -371,6 +371,7 @@ export default function Home({ shouldDance }) {
           @media (prefers-reduced-motion) {
             .container {
               animation: none !important;
+              opacity: 1;
             }
             .dancing-image {
               animation: none !important;
