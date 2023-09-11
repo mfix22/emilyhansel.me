@@ -227,7 +227,7 @@ export default function Home({ shouldDance }) {
             position: fixed;
             top: 40%;
             left: 50%;
-            transform: translate3d(-50%, -50%, 0px);
+            transform: translate3d(-50%, -40%, 0px);
             text-align: center;
 
             ${shouldDance
