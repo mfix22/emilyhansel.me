@@ -227,9 +227,10 @@ export default function Home({ shouldDance }) {
             position: fixed;
             top: 40%;
             left: 50%;
-            transform: translate3d(-50%, -40%, 0px);
             text-align: center;
             opacity: 0;
+            transform-origin: center;
+            transform: translate3d(-50%, -40%, 0px);
             ${shouldDance
               ? `animation: fadeIn 600ms ease-out forwards calc(var(--animation-duration) + 200ms);`
               : shouldDance === false
