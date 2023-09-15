@@ -7,6 +7,18 @@ maxWidth: 70%
 
 {% figure %}
 
+#### [New Definitions: SFDanceworks Season Six](https://fjordreview.com/blogs/all/sfdanceworks-season-six)
+
+By Rachel Howard  
+July 5, 2023  
+Fjord Review
+
+{% image src="/assets/img/press/14.jpg" alt="" width=400 height=267 /%}
+
+{% /figure %}
+
+{% figure %}
+
 #### [The 2022 Recap: 10 Posts and Projects on the Blog and Beyond](https://blog.lifeasamoderndancer.com/2022/12/the-recap-10-posts-and-projects-on-the-blog-in-2022.html)
 
 By Jill Randall  
