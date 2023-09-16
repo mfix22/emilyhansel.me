@@ -2,7 +2,6 @@ import { link as linkNode } from "@markdoc/next.js/tags";
 
 import { Tag } from "@markdoc/markdoc";
 import { Figure } from "../components/Figure";
-import { Footer } from "../components/Footer";
 import { Link } from "../components/Link";
 import { List } from "../components/List";
 import { Image } from "../components/Image";
@@ -25,11 +24,6 @@ export const figure = {
 
     return new Tag(this.render, { image }, children);
   },
-};
-
-export const footer = {
-  render: Footer,
-  attributes: {},
 };
 
 export const link = {
