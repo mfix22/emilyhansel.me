@@ -7,10 +7,8 @@
     "prettier": "prettier --no-semi --single-quote --write **/*.{js,json}",
     "deploy": "next build && next export && touch out/.nojekyll && git add out/",
     "prod": "git subtree push --prefix out origin gh-pages",
-    "sass": "sass --watch sass:assets/css --style compressed",
     "serve": "serve",
-    "dev:old": "concurrently --kill-others \"npm run serve\" \"npm run sass\"",
-    "build:old": "npm run sass"
+    "dev:old": "concurrently --kill-others \"npm run serve\""
   },
   "dependencies": {
     "@markdoc/markdoc": "^0.1.10",
