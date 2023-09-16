@@ -1,6 +1,5 @@
 :root {
   --theme: hsl(131, 25%, 63%);
-  --mint: #00f1ff;
   --animation-duration: 3000ms;
 }
 
@@ -264,13 +263,6 @@ li {
 
 li::marker {
   font-size: 14px;
-}
-
-li strong {
-  display: inline-block;
-  font-size: x-small;
-  margin-bottom: 1.5rem;
-  color: var(--mint);
 }
 
 img.headshot {
