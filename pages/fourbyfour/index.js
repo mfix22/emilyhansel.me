@@ -177,9 +177,16 @@ export default function FourByFour() {
         {`
           section {
             --theme: #829af1;
+            font-family: "Lato", sans-serif;
             margin: 0 auto 8rem;
             max-width: 60%;
             text-align: center;
+          }
+
+          section :global(img) {
+            max-width: 100%;
+            width: auto;
+            height: auto;
           }
 
           ul {
@@ -187,7 +194,6 @@ export default function FourByFour() {
           }
 
           h2 {
-            font-family: "Lato", sans-serif;
             color: #fff;
             font-size: 32px;
             font-weight: 100;
@@ -217,12 +223,13 @@ export default function FourByFour() {
           .image-bar {
             display: flex;
             justify-content: space-between;
-            gap: 16px;
+            gap: 1rem;
             margin: 2rem 0 3rem;
           }
 
           .image-bar :global(img) {
             border-radius: 4px;
+            width: calc((100% - 3 * 1rem) / 4);
           }
         `}
       </style>
