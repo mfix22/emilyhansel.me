@@ -57,17 +57,17 @@ _Four by Four_ is an evening-length work which premiered at ODC Theater in May 2
 
 ##### _Four by Four_ press
 
-- [Thoughts on “Four by Four”](/fourbyfour/heatherdesaulniers)  
-  by Heather Desaulniers
+[Thoughts on “Four by Four”](/fourbyfour/heatherdesaulniers)
+by Heather Desaulniers {% .left %}
 
-- [In “Four by Four” The Process Is Transparent](https://medium.com/odc-dance-stories/in-four-by-four-the-process-is-transparent-4725a3e0a197)  
-  by Kathryn Florez for ODC Dance Stories
+[In “Four by Four” The Process Is Transparent](https://medium.com/odc-dance-stories/in-four-by-four-the-process-is-transparent-4725a3e0a197)
+by Kathryn Florez for ODC Dance Stories {% .left %}
 
-- [“Four by Four” by Emily Hansel: Reflections on Product as Process](https://blog.lifeasamoderndancer.com/2022/06/four-by-four-by-emily-hansel-reflections-on-product-as-process.html?fbclid=IwAR3pyyhSAHJpXPrGSo3-oLCBCjwrcEBTZLfo_-dWuLCBXHMvlEkhZ62huQY)  
-  by Molly Rose-Williams for the Life As A Modern Dancer blog
+[“Four by Four” by Emily Hansel: Reflections on Product as Process](https://blog.lifeasamoderndancer.com/2022/06/four-by-four-by-emily-hansel-reflections-on-product-as-process.html?fbclid=IwAR3pyyhSAHJpXPrGSo3-oLCBCjwrcEBTZLfo_-dWuLCBXHMvlEkhZ62huQY)
+by Molly Rose-Williams for the Life As A Modern Dancer blog {% .left %}
 
-- [Holding juxtaposition: post-performance reflections on "Four by Four"](https://blog.lifeasamoderndancer.com/2022/07/holding-juxtaposition-post-performance-reflections-on-four-by-four-.html)  
-  by Emily Hansel for the Life As A Modern Dancer blog
+[Holding juxtaposition: post-performance reflections on "Four by Four"](https://blog.lifeasamoderndancer.com/2022/07/holding-juxtaposition-post-performance-reflections-on-four-by-four-.html)
+by Emily Hansel for the Life As A Modern Dancer blog {% .left %}
 
 {% image src="/assets/img/choreo/four_by_four.jpg" alt="Three dancers performing in Four by Four" width=400 height=267 /%}
 
