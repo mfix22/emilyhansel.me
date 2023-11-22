@@ -106,7 +106,7 @@ export default function App({ Component, pageProps }) {
           </div> 
           */}
         </nav>
-        <main>
+        <main className={pageProps.markdoc?.frontmatter?.className}>
           <Component {...pageProps} />
         </main>
         <style jsx>
@@ -191,6 +191,7 @@ export default function App({ Component, pageProps }) {
       <style jsx global>
         {`
           main {
+            /* TODO: use className instead */
             max-width: ${pageProps.markdoc?.frontmatter?.maxWidth || "60%"};
           }
 

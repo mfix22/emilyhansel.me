@@ -1,5 +1,6 @@
 :root {
   --theme: hsl(131, 25%, 63%);
+  --pink: #ffadff;
   --animation-duration: 3000ms;
 }
 
@@ -107,7 +108,7 @@ nav,
 section {
   display: block;
 }
-ol,
+ol
 /* ul  */ {
   list-style: none;
 }
@@ -250,7 +251,7 @@ a:hover {
 }
 
 ul {
-  margin-left: 1rem;
+  margin-left: 3rem;
 }
 
 li {
@@ -323,6 +324,25 @@ figcaption p {
 
 .btn-old a:hover {
   text-decoration: none;
+}
+
+.community-study-halls {
+  max-width: 70%;
+}
+
+.community-study-halls h1 {
+  margin-bottom: 0;
+}
+
+.community-study-halls .subtitle {
+  font-weight: 100;
+  color: white;
+  margin: 0 0 4rem;
+}
+
+.community-study-halls h2,
+.community-study-halls strong {
+  color: var(--pink);
 }
 
 @media screen and (max-width: 1000px) {
