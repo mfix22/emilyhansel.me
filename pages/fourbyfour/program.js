@@ -476,6 +476,7 @@ export default function FourByFourProgram() {
 
           ul {
             margin: 2rem 0;
+            list-style: none;
           }
 
           ul.dashed {

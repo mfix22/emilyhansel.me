@@ -107,8 +107,8 @@ nav,
 section {
   display: block;
 }
-ol,
-ul {
+ol
+/* ul  */ {
   list-style: none;
 }
 blockquote,
@@ -233,12 +233,9 @@ h1 a {
 }
 
 h2 {
-  margin-bottom: 1rem;
-  font-size: 20px;
-}
-
-h2.gap {
   margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  font-size: 24px;
 }
 
 a {
@@ -253,16 +250,17 @@ a:hover {
 }
 
 ul {
-  margin-left: 1ch;
+  margin-left: 3rem;
 }
 
 li {
-  margin-bottom: 12px;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
   padding-inline-start: 1ch;
 }
 
 li::marker {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 img.headshot {
@@ -307,6 +305,10 @@ figcaption p {
   list-style: initial;
 }
 
+.left {
+  text-align: left !important;
+}
+
 .btn-old a {
   appearance: none;
   cursor: pointer;
@@ -343,5 +345,9 @@ figcaption p {
   h1 {
     font-size: 40px;
     margin-bottom: 2rem;
+  }
+
+  ul {
+    margin-left: 2rem;
   }
 }

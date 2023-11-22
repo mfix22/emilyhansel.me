@@ -281,6 +281,7 @@ export default function Home({ shouldDance }) {
             text-decoration: none;
           }
           ul {
+            list-style: none;
             text-align: left;
             margin: 0;
             display: flex;
