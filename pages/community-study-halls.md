@@ -15,7 +15,7 @@ Come to all or drop in to the ones that you’re most interested in. RSVP is req
 
 **When**: Thursday, 12/7, 1:00–3:00pm
 
-**Where**: [Steppin’ Out Dance Studio (697 S Van Ness Ave)](https://maps.app.goo.gl/5wSawB8y9ZQ2WmQLA)
+**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)
 
 **What we’re getting at**:
 
@@ -31,7 +31,7 @@ Come to all or drop in to the ones that you’re most interested in. RSVP is req
 
 **When**: Monday, 12/11, 12:00–2:00pm
 
-**Where**: [Steppin’ Out Dance Studio (697 S Van Ness Ave)](https://maps.app.goo.gl/5wSawB8y9ZQ2WmQLA)
+**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)
 
 What we’re getting at:
 
@@ -44,7 +44,7 @@ What we’re getting at:
 
 **When**: Friday, 12/15, 1:00–3:00pm
 
-**Where**: [Steppin’ Out Dance Studio (697 S Van Ness Ave)](https://maps.app.goo.gl/5wSawB8y9ZQ2WmQLA)
+**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)
 
 **What we’re getting at**:
 
@@ -83,7 +83,7 @@ What we’re getting at:
 
 **When**: Monday, 1/22, 5:30-7:30pm
 
-**Where**: [Steppin’ Out Dance Studio (697 S Van Ness Ave)](https://maps.app.goo.gl/5wSawB8y9ZQ2WmQLA)
+**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)
 
 **What we’re getting at**:
 
