@@ -15,10 +15,8 @@ Come to all or drop in to the ones that you’re most interested in. RSVP is req
 
 ## Dreaming up a dancer’s utopia
 
-**When**: Thursday, 12/7, 1:00–3:00pm
-
-**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)
-
+**When**: Thursday, 12/7, 1:00–3:00pm  
+**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)  
 **What we’re getting at**:
 
 - Dancers, what do you need and want in a dance job or process?
@@ -31,10 +29,8 @@ Come to all or drop in to the ones that you’re most interested in. RSVP is req
 
 ## The emotional labor of writing about our work
 
-**When**: Monday, 12/11, 12:00–2:00pm
-
-**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)
-
+**When**: Monday, 12/11, 12:00–2:00pm  
+**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)  
 What we’re getting at:
 
 -
@@ -44,10 +40,8 @@ What we’re getting at:
 
 ## Ownership and credit in collaborative processes
 
-**When**: Friday, 12/15, 1:00–3:00pm
-
-**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)
-
+**When**: Friday, 12/15, 1:00–3:00pm  
+**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)  
 **What we’re getting at**:
 
 -
@@ -57,10 +51,8 @@ What we’re getting at:
 
 ## Building budgets that prioritize dancer pay
 
-**When**: Saturday, 1/6, 2:00–4:00pm
-
-**Where**: Impact Center (1625 Bush St)
-
+**When**: Saturday, 1/6, 2:00–4:00pm  
+**Where**: Impact Center (1625 Bush St)  
 **What** we’re getting at:
 
 -
@@ -70,10 +62,8 @@ What we’re getting at:
 
 ## How can we hold decision-makers accountable?
 
-**When**: Sunday, 1/14, 4:30-6:30pm
-
-**Where**: Location TBD
-
+**When**: Sunday, 1/14, 4:30-6:30pm  
+**Where**: Location TBD  
 **What we’re getting at**:
 
 -
@@ -83,10 +73,8 @@ What we’re getting at:
 
 ## Ideas for resource sharing
 
-**When**: Monday, 1/22, 5:30-7:30pm
-
-**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)
-
+**When**: Monday, 1/22, 5:30-7:30pm  
+**Where**: Steppin’ Out Dance Studio (697 S Van Ness Ave)  
 **What we’re getting at**:
 
 -

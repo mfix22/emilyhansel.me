@@ -1,6 +1,5 @@
 :root {
   --theme: hsl(131, 25%, 63%);
-  --pink: #ffadff;
   --animation-duration: 3000ms;
 }
 
@@ -234,7 +233,7 @@ h1 a {
 }
 
 h2 {
-  margin-top: 3rem;
+  margin-top: 4rem;
   margin-bottom: 1.5rem;
   font-size: 24px;
 }
@@ -255,7 +254,8 @@ ul {
 }
 
 li {
-  margin-bottom: 0.75rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
   padding-inline-start: 1ch;
 }
 
@@ -330,6 +330,10 @@ figcaption p {
   max-width: 70%;
 }
 
+.community-study-halls p {
+  margin: 0 0 0.5rem;
+}
+
 .community-study-halls h1 {
   margin-bottom: 0;
 }
@@ -338,11 +342,6 @@ figcaption p {
   font-weight: 100;
   color: white;
   margin: 0 0 4rem;
-}
-
-.community-study-halls h2,
-.community-study-halls strong {
-  color: var(--pink);
 }
 
 @media screen and (max-width: 1000px) {
