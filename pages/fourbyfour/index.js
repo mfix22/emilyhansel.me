@@ -191,6 +191,7 @@ export default function FourByFour() {
 
           ul {
             margin: 2rem 0;
+            list-style: none;
           }
 
           h2 {
