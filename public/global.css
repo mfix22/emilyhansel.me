@@ -326,20 +326,6 @@ figcaption p {
   text-decoration: none;
 }
 
-.community-study-halls p {
-  margin: 0 0 0.5rem;
-}
-
-.community-study-halls h1 {
-  margin-bottom: 0;
-}
-
-.community-study-halls .subtitle {
-  font-weight: 100;
-  color: white;
-  margin: 0 0 4rem;
-}
-
 @media screen and (max-width: 1000px) {
   nav {
     position: relative;
