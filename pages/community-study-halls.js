@@ -55,8 +55,9 @@ export default function CommunityStudyHalls() {
 
           <p>
             If anything about this project prompts questions, feedback, or
-            ideas, I invite you to email me so we can connect and discuss
-            further.
+            ideas, I invite you to{" "}
+            <a href="mailto:emily@emilyhansel.me">email me</a> so we can connect
+            and discuss further.
           </p>
 
           <p className="indent">
@@ -350,6 +351,14 @@ export default function CommunityStudyHalls() {
               display: none;
               width: 100vw;
               margin-top: 2rem;
+            }
+
+            .btn-old :global(a) {
+              transition: background 150ms ease;
+            }
+
+            .btn-old :global(a:hover) {
+              background: var(--theme);
             }
 
             @media screen and (max-width: 600px) {
