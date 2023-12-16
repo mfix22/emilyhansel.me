@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import { Link } from "../components/Link";
 
 const Context = React.createContext({
@@ -142,6 +143,11 @@ export default function Home({ shouldDance }) {
 
   return (
     <Context.Provider value={{ activeMenu, setActiveMenu }}>
+      <Head>
+        <link rel="prefetch" href="assets/img/dancing/12.png" />
+        <link rel="prefetch" href="assets/img/dancing/13.png" />
+        <link rel="prefetch" href="assets/img/dancing/14.png" />
+      </Head>
       <div id="preload-images" />
       <div className="dancing-image" />
       <div className="container">
