@@ -229,7 +229,11 @@ export default function CommunityStudyHalls() {
               Sunday, 1/14, 4:30-6:30pm
               <br />
               <strong>Where: </strong>
-              Location TBD (San Francisco)
+              Steppin’ Out Dance Studio (
+              <Link href="https://maps.app.goo.gl/5wSawB8y9ZQ2WmQLA">
+                697 S Van Ness Ave
+              </Link>
+              )
               <br />
               <strong>What we’re getting at:</strong>
               <br />
