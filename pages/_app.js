@@ -168,8 +168,8 @@ export default function App({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700"
           rel="stylesheet"
         />
-        <link rel="shortcut icon" href="/assets/img/favicon4.png" />
-        <link rel="icon" href="/assets/img/favicon4.png" />
+        <link rel="shortcut icon" href="/assets/img/favicon5.png" />
+        <link rel="icon" href="/assets/img/favicon5.png" />
       </Head>
       <script
         type="module"
