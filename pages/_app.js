@@ -8,14 +8,6 @@ import { Image } from "../components/Image";
 
 import "../public/global.css";
 
-const images = [
-  <Image alt="" src="/assets/img/dancing/crop/1.png" width={43} height={80} />,
-  <Image alt="" src="/assets/img/dancing/crop/2.png" width={56} height={80} />,
-  <Image alt="" src="/assets/img/dancing/crop/3.png" width={44} height={80} />,
-  <Image alt="" src="/assets/img/dancing/crop/4.png" width={65} height={80} />,
-  <Image alt="" src="/assets/img/dancing/crop/5.png" width={55} height={80} />,
-];
-
 const nav = [
   {
     href: "/",
@@ -84,7 +76,7 @@ export default function App({ Component, pageProps }) {
             <ion-icon name="menu-outline"></ion-icon>
           </div>
           <Link href="/" className="image-link">
-            {images[i.current]}
+            <Image alt="" src="/assets/img/back.png" width={72} height={72} />
           </Link>
         </nav>
         <nav className="mobile-nav-menu" style={{ left: open ? "0" : "-100%" }}>
