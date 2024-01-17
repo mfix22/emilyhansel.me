@@ -280,7 +280,7 @@ export default function CommunityStudyHalls() {
             <h2>Ideas for resource sharing</h2>
             <p>
               <strong>When: </strong>
-              Monday, 1/22, 5:30-7:30pm
+              Monday, 1/22, 5:45-7:45pm
               <br />
               <strong>Where: </strong>
               Steppin’ Out Dance Studio (
