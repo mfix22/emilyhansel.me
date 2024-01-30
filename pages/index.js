@@ -319,21 +319,25 @@ export default function Home({ shouldDance }) {
           }
 
           .dancing-image-1 {
+            background-image: url(/assets/img/dancing/12.png);
+            left: 6%;
             ${shouldDance
               ? "animation: dance-1 var(--animation-duration) linear forwards;"
               : `display: none;`}
           }
           .dancing-image-2 {
+            background-image: url(/assets/img/dancing/13.png);
+            left: 30%;
             ${shouldDance
               ? "animation: dance-2 var(--animation-duration) linear forwards;"
               : `display: none;`}
           }
           .dancing-image-3 {
+            background-image: url(/assets/img/dancing/14.png);
+            left: 52%;
             ${shouldDance
               ? "animation: dance-3 var(--animation-duration) linear forwards;"
-              : `left: 52%;
-                 background-image: url(/assets/img/dancing/14.png);
-              `}
+              : ``}
           }
 
           @keyframes fadeIn {
@@ -349,53 +353,37 @@ export default function Home({ shouldDance }) {
 
           @keyframes dance-1 {
             0% {
-              background-image: url(/assets/img/dancing/12.png);
-              left: 6%;
               opacity: 0;
             }
             10%,
             35% {
-              background-image: url(/assets/img/dancing/12.png);
-              left: 6%;
               opacity: 1;
             }
             45%,
             100% {
-              background-image: url(/assets/img/dancing/12.png);
-              left: 6%;
               opacity: 0;
             }
           }
           @keyframes dance-2 {
             0%,
             37% {
-              background-image: url(/assets/img/dancing/13.png);
-              left: 30%;
               opacity: 0;
             }
             55%,
             80% {
-              background-image: url(/assets/img/dancing/13.png);
-              left: 30%;
               opacity: 1;
             }
             90%,
             100% {
-              background-image: url(/assets/img/dancing/13.png);
-              left: 30%;
               opacity: 0;
             }
           }
           @keyframes dance-3 {
             0%,
             82% {
-              background-image: url(/assets/img/dancing/14.png);
-              left: 52%;
               opacity: 0;
             }
             100% {
-              background-image: url(/assets/img/dancing/14.png);
-              left: 52%;
               opacity: 1;
             }
           }
