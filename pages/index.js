@@ -149,7 +149,9 @@ export default function Home({ shouldDance }) {
         <link rel="prefetch" href="assets/img/dancing/14.png" />
       </Head>
       <div id="preload-images" />
-      <div className="dancing-image" />
+      <div className="dancing-image dancing-image-1" />
+      <div className="dancing-image dancing-image-2" />
+      <div className="dancing-image dancing-image-3" />
       <div className="container">
         <Link href="/">
           <h1>Emily Hansel</h1>
@@ -321,6 +323,24 @@ export default function Home({ shouldDance }) {
               `}
           }
 
+          .dancing-image-1 {
+            ${shouldDance
+              ? "animation: dance-1 var(--animation-duration) linear forwards;"
+              : `display: none;`}
+          }
+          .dancing-image-2 {
+            ${shouldDance
+              ? "animation: dance-2 var(--animation-duration) linear forwards;"
+              : `display: none;`}
+          }
+          .dancing-image-3 {
+            ${shouldDance
+              ? "animation: dance-3 var(--animation-duration) linear forwards;"
+              : `left: 52%;
+                 background-image: url(/assets/img/dancing/14.png);
+              `}
+          }
+
           @keyframes fadeIn {
             0% {
               transform: translate3d(-50%, -37%, 0px);
@@ -332,7 +352,7 @@ export default function Home({ shouldDance }) {
             }
           }
 
-          @keyframes dance {
+          @keyframes dance-1 {
             0% {
               background-image: url(/assets/img/dancing/12.png);
               left: 6%;
@@ -344,11 +364,15 @@ export default function Home({ shouldDance }) {
               left: 6%;
               opacity: 1;
             }
-            45% {
+            45%,
+            100% {
               background-image: url(/assets/img/dancing/12.png);
               left: 6%;
               opacity: 0;
             }
+          }
+          @keyframes dance-2 {
+            0%,
             46% {
               background-image: url(/assets/img/dancing/13.png);
               left: 30%;
@@ -360,11 +384,15 @@ export default function Home({ shouldDance }) {
               left: 30%;
               opacity: 1;
             }
-            90% {
+            90%,
+            100% {
               background-image: url(/assets/img/dancing/13.png);
               left: 30%;
               opacity: 0;
             }
+          }
+          @keyframes dance-3 {
+            0%,
             91% {
               background-image: url(/assets/img/dancing/14.png);
               left: 52%;
