@@ -316,11 +316,6 @@ export default function Home({ shouldDance }) {
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            ${shouldDance
-              ? "animation: dance var(--animation-duration) linear forwards;"
-              : `left: 52%;
-                 background-image: url(/assets/img/dancing/14.png);
-              `}
           }
 
           .dancing-image-1 {
@@ -373,7 +368,7 @@ export default function Home({ shouldDance }) {
           }
           @keyframes dance-2 {
             0%,
-            46% {
+            37% {
               background-image: url(/assets/img/dancing/13.png);
               left: 30%;
               opacity: 0;
@@ -393,7 +388,7 @@ export default function Home({ shouldDance }) {
           }
           @keyframes dance-3 {
             0%,
-            91% {
+            82% {
               background-image: url(/assets/img/dancing/14.png);
               left: 52%;
               opacity: 0;
