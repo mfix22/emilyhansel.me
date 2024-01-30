@@ -351,6 +351,7 @@ export default function Home({ shouldDance }) {
             }
           }
 
+          /* TODO replace dance-1, dance-2, dance-3 with fade-in-out and fade-in w/ delays */
           @keyframes dance-1 {
             0% {
               opacity: 0;
@@ -393,10 +394,12 @@ export default function Home({ shouldDance }) {
               animation: none !important;
               opacity: 1;
             }
-            .dancing-image {
+            .dancing-image-1,
+            .dancing-image-2 {
+              display: none;
+            }
+            .dancing-image-3 {
               animation: none !important;
-              left: 52%;
-              background-image: url(/assets/img/dancing/14.png);
             }
           }
         `}
