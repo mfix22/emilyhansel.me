@@ -163,7 +163,7 @@ export default function Home({ shouldDance }) {
                   <Link href="/bio">bio</Link>
                 </li>
                 <li>
-                  <Link href="/assets/resume.pdf?v=3" target="_blank">
+                  <Link href="/assets/resume.pdf?v=4" target="_blank">
                     resume
                   </Link>
                 </li>

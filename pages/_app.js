@@ -18,7 +18,7 @@ const nav = [
     children: "bio",
   },
   {
-    href: "/assets/resume.pdf?v=3",
+    href: "/assets/resume.pdf?v=4",
     target: "_blank",
     children: "resume",
   },
