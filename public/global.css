@@ -327,6 +327,16 @@ p.figcaption {
   font-style: italic;
   font-weight: 300;
   font-size: small;
+  color: #ddd;
+}
+
+figcaption i,
+figcaption p i,
+p.figcaption i,
+figcaption em,
+figcaption p em,
+p.figcaption em {
+  font-style: normal;
 }
 
 .fill {
