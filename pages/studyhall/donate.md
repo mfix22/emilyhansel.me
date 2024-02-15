@@ -8,7 +8,7 @@ Emily Hansel, here, to announce that I’m choreographing, directing, and produc
 
 The new, evening-length work that I’m creating is called _Study Hall_ and will premiere May 16-18 at the Impact Center for Art & Dance in San Francisco. I’ve hired a truly dope team of artistic collaborators for this project including my creative, thoughtful cousin Sophia Cotraccia to compose the musical score, and my distinguished, inventive fellow USF grad Thomas Bowersox to oversee lighting and scenic design.
 
-{% image src="/assets/img/studyhalls/image6.png" alt="" width=1000 height=513 .fill %}
+{% image src="/assets/img/studyhalls/image6.jpeg" alt="" width=1200 height=438 .fill %}
 Photo of _Four by Four_, 2022, choreographed and directed by Emily Hansel
 {% /image %}
 
