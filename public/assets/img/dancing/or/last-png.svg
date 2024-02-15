@@ -1,74 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 1">
-  <defs
-     id="defs4">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath3014">
-      <rect
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
-         id="rect3016"
-         width="411.85873"
-         height="706.04358"
-         x="-209.57162"
-         y="105.88565" />
-    </clipPath>
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.36777344"
-     inkscape:cx="-48.855312"
-     inkscape:cy="477.26598"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <image
-       y="-19.395651"
-       x="-388.59534"
-       id="image2993"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAASwCAIAAAArK1ggAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
+<svg height="1052.362205" width="744.094488" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><path d="m-209.57162 105.88565h411.85873v706.04358h-411.85873z"/></clipPath><image clip-path="url(#a)" height="1200" width="750" x="-388.59534" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAASwCAIAAAArK1ggAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
 nOzd2Y/m13kn9rOf3/autfVKNtlcms1Ni+WRY1tSZFmyx/E4F8HYA18kE2CyIUgukvw5STDAZLlM
 gjEc24nGsizLkkltJEWaSze7u7r2qnf7bWfPxUvFjkcL5diqpuv7uSgU0HXxvD+g8X5xfs95HkIA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -1441,13 +1371,4 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-APhS+DdI9nCY7M5sagAAAABJRU5ErkJggg==
-"
-       height="1200"
-       width="750"
-       inkscape:export-filename="C:\Users\Michael\Documents\Web\Emily\assets\img\dancing\13.png"
-       inkscape:export-xdpi="90.000053"
-       inkscape:export-ydpi="90.000053"
-       clip-path="url(#clipPath3014)" />
-  </g>
-</svg>
+APhS+DdI9nCY7M5sagAAAABJRU5ErkJggg==" y="-19.395651"/></svg>

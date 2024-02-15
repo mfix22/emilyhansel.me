@@ -1,96 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 1">
-  <defs
-     id="defs4">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath2998">
-      <rect
-         style="fill:#d40000;fill-opacity:1;stroke:none"
-         id="rect3000"
-         width="534.66101"
-         height="1021.3206"
-         x="239.53729"
-         y="130.73738" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath3017">
-      <rect
-         style="fill:#d40000;fill-opacity:1;stroke:none"
-         id="rect3019"
-         width="598.1944"
-         height="837.47217"
-         x="1149.8502"
-         y="165.3181" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath3034">
-      <rect
-         style="fill:#d40000;fill-opacity:1;stroke:none"
-         id="rect3036"
-         width="486.71271"
-         height="889.1344"
-         x="-672.55231"
-         y="72.241104" />
-    </clipPath>
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.36777344"
-     inkscape:cx="466.77178"
-     inkscape:cy="493.97185"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <image
-       y="-18.03611"
-       x="1074.2618"
-       id="image3010"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAASwCAIAAAArK1ggAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
+<svg height="1052.362205" width="744.094488" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><path d="m239.53729 130.73738h534.66101v1021.3206h-534.66101z"/></clipPath><clipPath id="b"><path d="m1149.8502 165.3181h598.1944v837.47217h-598.1944z"/></clipPath><clipPath id="c"><path d="m-672.55231 72.241104h486.71271v889.1344h-486.71271z"/></clipPath><image clip-path="url(#b)" height="1200" width="750" x="1074.2618" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAASwCAIAAAArK1ggAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
 nOy9aY8c93X9/63q6q691+menTPipoUWbVmOLSVWAgcxEsdOhCCJY8RJHuRJFgMG/IbyDvI4QBDH
 gBHDcIw4tmRroSQuQ3K23mvp6rXq/+D86v6LQ2q1LCrk+Twgms3u6qqegero3nPPVYoQQgghhBBC
 CCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQggh
@@ -2364,19 +2272,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvg7/B3wa
-ICQjHobLAAAAAElFTkSuQmCC
-"
-       height="1200"
-       width="750"
-       clip-path="url(#clipPath3017)"
-       inkscape:export-filename="C:\Users\Michael\Documents\Web\Emily\assets\img\dancing\crop\2.png"
-       inkscape:export-xdpi="90.000053"
-       inkscape:export-ydpi="90.000053" />
-    <image
-       y="74.412102"
-       x="66.848114"
-       id="image2993"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAASwCAYAAACkSc93AAAABHNCSVQICAgIfAhkiAAAIABJREFU
+ICQjHobLAAAAAElFTkSuQmCC" y="-18.03611"/><image clip-path="url(#a)" height="1200" width="750" x="66.848114" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAASwCAYAAACkSc93AAAABHNCSVQICAgIfAhkiAAAIABJREFU
 eJzs3XmMnPV9P/D3cz9z7uzM2F6MDXhtDtuEy4QAJWkJBASBBMhBKJQEEhIkQoWqtKryR3qoqapI
 TaOkUq8cNFFapJaCkiYhKTkgmHAkBGMwNhgH3+u9Zud+7uf3h3/fr58Zr42BnZkd+/2SVruend2d
 7yJm3vt5Pt/PVwEQg4iIiIiIFjV10A+AiIiIiIjeGIM7EREREdEQYHAnIiIiIhoCDO5EREREREOA
@@ -4773,19 +4669,7 @@ AAAAWoDgDgAAALQAwR0AAABoAYI7AAAA0AIEdwAAAKAFCO4AAABACxDcAQAAgBYguAMAAAAtQHAH
 AAAAWoDgDgAAALQAwR0AAABoAYI7AAAA0AIEdwAAAKAFCO4AAABACxDcAQAAgBYguAMAAAAtQHAH
 AAAAWoDgDgAAALQAwR0AAABoAYI7AAAA0AIEdwAAAKAFCO4AAABACxDcAQAAgBYguAMAAAAtQHAH
 AAAAWoDgDgAAALQAwR0AAABoAYI7AAAA0AIEdwAAAKAFCO4AAABACxDcAQAAgBYguAMAAAAtQHAH
-AAAAWoDgDgAAALTA/wM+4EbcipTvCgAAAABJRU5ErkJggg==
-"
-       height="1200"
-       width="750"
-       clip-path="url(#clipPath2998)"
-       inkscape:export-filename="C:\Users\Michael\Documents\Web\Emily\assets\img\dancing\crop\1.png"
-       inkscape:export-xdpi="90.000053"
-       inkscape:export-ydpi="90.000053" />
-    <image
-       y="-78.294601"
-       x="-809.52332"
-       id="image3029"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAASwCAIAAAArK1ggAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
+AAAAWoDgDgAAALTA/wM+4EbcipTvCgAAAABJRU5ErkJggg==" y="74.412102"/><image clip-path="url(#c)" height="1200" width="750" x="-809.52332" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAASwCAIAAAArK1ggAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
 nOy92Y8j53X+/1aRLFYVWVx7YW/TM6MZaUar4w1eYMSJAcMXyW1uggTI3xTkJkBufJUYyE2AIIDj
 LEZkWd6iWNssGs3SK9lsbkWyWMWl6nfx/OrgHfZIXyXWWBrq+VwIPWwuRTaB99FznnOOUoQQQggh
 hBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQ
@@ -6707,13 +6591,4 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHLP/B9rNm8XTjSjEAAAAAElFTkSu
-QmCC
-"
-       height="1200"
-       width="750"
-       clip-path="url(#clipPath3034)"
-       inkscape:export-filename="C:\Users\Michael\Documents\Web\Emily\assets\img\dancing\crop\3.png"
-       inkscape:export-xdpi="90.000053"
-       inkscape:export-ydpi="90.000053" />
-  </g>
-</svg>
+QmCC" y="-78.294601"/></svg>
