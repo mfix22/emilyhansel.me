@@ -82,6 +82,17 @@ Erin Yen is a mixed-race professional dancer and choreographer currently residin
 &nbsp; {% .clearfix %}
 
 {% image
+   src="/assets/img/studyhalls/gizeh.png"
+   alt="gizeh muñiz vengel"
+   width=300
+   height=300
+   .study-hall-headshot /%}
+
+gizeh muñiz vengel is a Mexican movement, teaching, and performing artist based in Chochenyo Ohlone Land. They are devoted to the study of being a body through movement and stillness while creating creative strategies for building warmer relationships with others, and recognizing the sovereignty and personhood of the land, the waters, and other beings who we coexist with.
+
+&nbsp; {% .clearfix %}
+
+{% image
    src="/assets/img/studyhalls/jocelyn.png"
    alt="Jocelyn Reyes"
    width=300
