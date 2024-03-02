@@ -50,7 +50,9 @@ To give you some context, I’ve listed out some amounts and their impacts below
 \
 If you’re interested, check out my [project budget](https://docs.google.com/spreadsheets/d/1NbUUDr8DPLEY-q6RJdGyzKl4dYkDJD75hT-7CTHLWTs/edit?usp=sharing) for more details and insight into the logistics behind _Study Hall_.
 
-You can make a tax-deductible donation to Emily Hansel by clicking the button below. If your employer has any type of program that matches donations that you make to nonprofits, please consider taking advantage of the corporate matching program.
+If you’re able to make a monetary contribution, you can send it directly to me via Venmo ([@EmilyHansel](https://venmo.com/u/EmilyHansel)) or paper check (made out to Emily Hansel and mailed to 475 Arlington St, San Francisco, CA 94131).
+
+If you’d prefer that your donation be tax-deductible, you can donate via my nonprofit fiscal sponsor, FACT/SF, by clicking the button below. If your employer has any type of program that matches donations that you make to nonprofits, please consider taking advantage of the corporate matching program.
 
 \
 [Donate](https://emilyhansel.me/donate) {% .btn-old .center %}
