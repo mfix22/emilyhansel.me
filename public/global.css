@@ -339,8 +339,13 @@ p.figcaption em {
   font-style: normal;
 }
 
+.height-auto {
+  height: auto;
+}
+
 .fill {
   width: 100%;
+  height: auto;
 }
 
 .list {

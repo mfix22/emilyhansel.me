@@ -1,5 +1,5 @@
 ---
-title: Study Hall | Donate
+title: Study Hall | Fundraising
 ---
 
 # About _Study Hall_ {% #studyhall %}
@@ -8,8 +8,8 @@ Emily Hansel, here, to announce that I’m choreographing, directing, and produc
 
 The new, evening-length work that I’m creating is called _Study Hall_ and will premiere May 16-18 at the Impact Center for Art & Dance in San Francisco. I’ve hired a truly dope team of artistic collaborators for this project including my creative, thoughtful cousin Sophia Cotraccia to compose the musical score, and my distinguished, inventive fellow USF grad Thomas Bowersox to oversee lighting and scenic design.
 
-{% image src="/assets/img/studyhalls/image6.jpeg" alt="" width=1200 height=438 .fill %}
-Photo of _Four by Four_, 2022, choreographed and directed by Emily Hansel
+{% image src="/assets/img/studyhalls/banner.png" alt="Study Hall banner" width=1876 height=1162 .fill %}
+Image description: Four dancers wearing various shades of blue clothing lean against a blue wall and each other. They are all caught mid-motion with smiling faces. Text reads, "STUDY HALL"
 {% /image %}
 
 _Study Hall_ will be performed by four dancers (Rebecca Fitton, gizeh muñiz vengel, Jocelyn Reyes, and Erin Yen) who are absolute powerhouses in terms of their strength as performers as well as their choreographic ingenuity. All four (plus myself) identify as both a) choreographers who hire dancers and b) dancers who are hired by other choreographers. I’ve carefully curated this cast due to their artistic excellence as well as their fierce commitment to forging new models for equity in our field.
@@ -22,11 +22,12 @@ _Study Hall_ is oriented around the goal of breaking toxic patterns in our indus
 
 The four _Study Hall_ dancers participated in these public conversations, whose content will both guide our workplace culture and function as source material for movement generation in the studio. We began rehearsals in January and will collaboratively craft _Study Hall_ over the course of five months. The final performances will be humorous and entertaining but also serious and thought-provoking, with the goal of inspiring cultural shift both within the dance ecosystem and beyond.
 
-{% image src="/assets/img/studyhalls/image5.png" alt="" width=1000 height=750 .photo-row /%}
-{% image src="/assets/img/studyhalls/image1.png" alt="" width=1000 height=750 .photo-row /%}
-{% image src="/assets/img/studyhalls/image3.png" alt="" width=1000 height=750 .photo-row /%}
+{% image src="/assets/img/studyhalls/image5.png" alt="Community Study Hall #1" width=1000 height=750 .photo-row /%}
+{% image src="/assets/img/studyhalls/image1.png" alt="Community Study Hall #2" width=1000 height=750 .photo-row /%}
+{% image src="/assets/img/studyhalls/image3.png" alt="Community Study Hall #3" width=1000 height=750 .photo-row /%}
 
-Photos from Community Study Halls, 2023-2024 {% .figcaption %}
+Photos from Community Study Halls, 2023-2024  
+Image Description: In the first photo, 8 people sit in a circle of chairs in a dance studio while one person speaks. In the second photo, 3 people sit at a table writing in notebooks. In the third photo, 8 people sit at a table covered in notebooks while talking and smiling at each other. {% .figcaption %}
 
 ## Why now?
 
@@ -86,7 +87,7 @@ Erin Yen is a mixed-race professional dancer and choreographer currently residin
 
 {% image
    src="/assets/img/studyhalls/gizeh.png"
-   alt="gizeh muñiz vengel"
+   alt="Headshot of gizeh muñiz vengel"
    width=300
    height=300
    .study-hall-headshot /%}
@@ -97,7 +98,7 @@ gizeh muñiz vengel is a Mexican movement, teaching, and performing artist based
 
 {% image
    src="/assets/img/studyhalls/jocelyn.png"
-   alt="Jocelyn Reyes"
+   alt="Headshot of Jocelyn Reyes"
    width=300
    height=300
    .study-hall-headshot /%}
@@ -108,7 +109,7 @@ Jocelyn Reyes is a Latin American contemporary choreographer and filmmaker based
 
 {% image
    src="/assets/img/studyhalls/rebecca.png"
-   alt="Rebecca Fitton"
+   alt="Headshot of Rebecca Fitton"
    width=300
    height=300
    .study-hall-headshot /%}
