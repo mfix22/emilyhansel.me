@@ -122,4 +122,4 @@ Rebecca Fitton is a queer, mixed asian american, disabled, and immigrant person.
 
 &nbsp;
 
-[Back to top](#studyhall)
+[Back to top ↑](#studyhall)
