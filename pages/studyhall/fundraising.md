@@ -6,7 +6,7 @@ title: Study Hall | Fundraising
 
 Emily Hansel, here, to announce that I’m choreographing, directing, and producing a new show and to ask for donations to support the artists involved in the creative process.
 
-The new, evening-length work that I’m creating is called _Study Hall_ and will premiere May 16-18 at the Impact Center for Art & Dance in San Francisco. I’ve hired a truly dope team of artistic collaborators for this project including my creative, thoughtful cousin Sophia Cotraccia to compose the musical score, and my distinguished, inventive fellow USF grad Thomas Bowersox to oversee lighting and scenic design.
+The new, evening-length work that I’m creating is called _Study Hall_ and will premiere May 16-18 at the iMPACt Center for Art & Dance in San Francisco. I’ve hired a truly dope team of artistic collaborators for this project including my creative, thoughtful cousin Sophia Cotraccia to compose the musical score, and my distinguished, inventive fellow USF grad Thomas Bowersox to oversee lighting and scenic design.
 
 {% image src="/assets/img/studyhalls/banner.png" alt="Study Hall banner" width=1876 height=1162 .fill %}
 Image description: Four dancers wearing various shades of blue clothing lean against a blue wall and each other. They are all caught mid-motion with smiling faces. Text reads, "STUDY HALL"
