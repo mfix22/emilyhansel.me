@@ -71,33 +71,45 @@ export default function App({ Component, pageProps }) {
   if (pageProps.markdoc) {
     children = (
       <>
-        <nav>
-          <div className="nav-opener" onClick={() => setOpen((o) => !o)}>
-            <ion-icon name="menu-outline"></ion-icon>
-          </div>
-          <Link href="/" className="image-link">
-            <Image alt="" src="/assets/img/back.png" width={72} height={72} />
-          </Link>
-        </nav>
-        <nav className="mobile-nav-menu" style={{ left: open ? "0" : "-100%" }}>
-          <div className="nav-closer" onClick={() => setOpen((o) => !o)}>
-            <ion-icon name="close-outline"></ion-icon>
-          </div>
-          {nav.map((item) => (
-            <div className="nav-item" key={item.href}>
-              <Link
-                {...item}
-                onClick={() => setOpen(false)}
-                style={{ color: "black" }}
-              />
-            </div>
-          ))}
-          {/* TODO: 
-          <div className="nav-item">
-            <span className="contact">contact</span>
-          </div> 
-          */}
-        </nav>
+        {/* TODO: */}
+        {router.pathname.startsWith("/studyhall") ? null : (
+          <>
+            <nav>
+              <div className="nav-opener" onClick={() => setOpen((o) => !o)}>
+                <ion-icon name="menu-outline"></ion-icon>
+              </div>
+              <Link href="/" className="image-link">
+                <Image
+                  alt=""
+                  src="/assets/img/back.png"
+                  width={72}
+                  height={72}
+                />
+              </Link>
+            </nav>
+            <nav
+              className="mobile-nav-menu"
+              style={{ left: open ? "0" : "-100%" }}
+            >
+              <div className="nav-closer" onClick={() => setOpen((o) => !o)}>
+                <ion-icon name="close-outline"></ion-icon>
+              </div>
+              {nav.map((item) => (
+                <div className="nav-item" key={item.href}>
+                  <Link
+                    {...item}
+                    onClick={() => setOpen(false)}
+                    style={{ color: "black" }}
+                  />
+                </div>
+              ))}
+              {/* TODO:
+              <div className="nav-item">
+                <span className="contact">contact</span>
+              </div> */}
+            </nav>
+          </>
+        )}
         <main className={pageProps.markdoc?.frontmatter?.className}>
           <Component {...pageProps} />
         </main>

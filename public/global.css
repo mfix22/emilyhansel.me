@@ -321,6 +321,13 @@ img.study-hall-headshot {
   aspect-ratio: 1;
 }
 
+img.study-hall-hero {
+  width: 98vw;
+  margin-top: -2rem;
+  margin-left: calc((100vw - 65vw - 2vw) / -2);
+  height: auto;
+}
+
 figcaption,
 figcaption p,
 p.figcaption {
@@ -364,6 +371,10 @@ p.figcaption em {
   clear: both;
 }
 
+.spacer {
+  height: 0.5rem;
+}
+
 .btn-old a {
   appearance: none;
   cursor: pointer;
@@ -379,6 +390,10 @@ p.figcaption em {
 
 .btn-old a:hover {
   text-decoration: none;
+}
+
+.study-hall {
+  --theme: #e79485;
 }
 
 @media (prefers-reduced-motion) {

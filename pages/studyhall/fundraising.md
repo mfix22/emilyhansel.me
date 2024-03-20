@@ -58,7 +58,7 @@ If you’d prefer that your donation be tax-deductible, you can donate via my no
 \
 [Donate](https://emilyhansel.me/donate) {% .btn-old .center %}
 
-## Get to know the artists
+## Get to know the artists {% #artists %}
 
 ### Emily Hansel
 

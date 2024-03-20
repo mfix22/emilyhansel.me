@@ -6,6 +6,7 @@ import { Link } from "../components/Link";
 import { List } from "../components/List";
 import { Image } from "../components/Image";
 import { ImageGrid } from "../components/ImageGrid";
+import { Spacer } from "../components/Spacer";
 import { Video } from "../components/Video";
 export { comment } from "@markdoc/next.js/tags";
 
@@ -61,6 +62,13 @@ export const image = {
 export const imageGrid = {
   render: ImageGrid,
   attributes: {},
+};
+
+export const spacer = {
+  render: Spacer,
+  attributes: {
+    primary: { type: Number, default: 1 },
+  },
 };
 
 export const video = {
