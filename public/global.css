@@ -396,6 +396,10 @@ p.figcaption em {
   --theme: #e79485;
 }
 
+.study-hall .btn-old {
+  margin: 3rem 0 4rem;
+}
+
 @media (prefers-reduced-motion) {
   html {
     scroll-behavior: auto !important;
