@@ -31,9 +31,10 @@ Saturday, May 18th at 3:00pm\*\* & 7:30pm\*\*\*
    width=2569
    height=874
    .fill %}
-{% /image %}
 Image description: Four smiling people wearing various shades of blue dance and lean against a blue wall. The wall contains alternating shades of blue that fill the left two-thirds of the image with stripes.
-{% spacer 3 /%}
+{% /image %}
+
+{% spacer 2 /%}
 
 _Study Hall_, a new, full-length work choreographed and directed by Emily Hansel, is inspired by a series of [community workshops](/community-study-halls) designed to bring Bay Area dancers and choreographers/directors together in discussion about cultivating healthy, equitable workplaces in our contemporary dance field. _Study Hall’s_ four cast members participated in these conversations alongside members of the public and brought their takeaways into the studio for the development of _Study Hall_. All four of these dancers, Rebecca Fitton, gizeh muñiz vengel, Jocelyn Reyes, and Erin Yen, are self-producing choreographers in their own right and share an interest in forging new models for safety, equity, and sustainability in our field. Theirs and Emily’s shared experiences and common interests allowed for the development of a unique workplace culture grounded in accountability and experimentation.
 
