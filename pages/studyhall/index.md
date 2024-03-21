@@ -6,7 +6,7 @@ maxWidth: 65%
 
 {% image
    src="/assets/img/studyhalls/hero.png"
-   alt="Headshot of Emily Hansel"
+   alt="Study Hall banner"
    width=3300
    height=300
    .study-hall-hero /%}
