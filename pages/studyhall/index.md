@@ -23,6 +23,10 @@ Saturday, May 18th at 3:00pm\*\* & 7:30pm\*\*\*
 
 ### **_Tickets coming soon_**
 
+{% comment %}
+[Buy tickets](TODO:) {% .btn-old %}
+{% /comment %}
+
 {% spacer 3 /%}
 
 {% image
