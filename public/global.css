@@ -396,6 +396,10 @@ p.figcaption em {
   --theme: #e79485;
 }
 
+.study-hall p {
+  line-height: 26px;
+}
+
 .study-hall .btn-old {
   margin: 3rem 0 4rem;
 }

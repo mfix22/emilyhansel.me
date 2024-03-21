@@ -1,15 +1,18 @@
-import React from 'react';
-import NextLink from 'next/link';
+import React from "react";
+import NextLink from "next/link";
 
 export function Link(props) {
   const target =
-    props.target || (props.href.startsWith('http') ? '_blank' : undefined);
+    props.target ||
+    (props.href.startsWith("http") || props.href.startsWith("mailto:")
+      ? "_blank"
+      : undefined);
 
   return (
     <NextLink
       {...props}
       target={target}
-      rel={target === '_blank' ? 'noreferrer noopener' : undefined}
+      rel={target === "_blank" ? "noreferrer noopener" : undefined}
     >
       {props.children}
     </NextLink>
