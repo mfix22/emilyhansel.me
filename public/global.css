@@ -400,6 +400,20 @@ p.figcaption em {
   line-height: 26px;
 }
 
+/* TODO: apply everywhere */
+.study-hall h2 {
+  font-size: 32px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 3rem auto 2rem;
+}
+
+.study-hall h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 2rem 0 0.25rem;
+}
+
 .study-hall .btn-old {
   margin: 3rem 0 4rem;
 }

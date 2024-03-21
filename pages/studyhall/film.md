@@ -5,7 +5,7 @@ maxWidth: 65%
 ---
 
 {% image
-   src="/assets/img/studyhalls/hero.png"
+   src="/assets/img/studyhalls/kids_banner.png"
    alt="Headshot of Emily Hansel"
    width=3300
    height=300

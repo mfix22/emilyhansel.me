@@ -59,20 +59,27 @@ Tickets are available at a variety of price points and no one will be turned awa
 
 The performance is about an hour long and does not have an intermission.
 
-**Building details:**  
+### Building details
+
 The iMPACt Center for Art & Dance is in an ADA accessible building and includes ADA accessible all-gender bathrooms. Getting to the studio from the building entrance involves riding an elevator or climbing one flight of stairs and then crossing a carpeted lobby and hallway.
 
-**Masking:**  
+### Masking
+
 All audience members are strongly encouraged to wear KN95 masks while attending this event. Masks will be provided for all attendees.
 
-**ASL interpretation:**  
+### ASL interpretation
+
 The Friday 7:30 performance will have ASL interpretation, no advanced registration required.
 
-**Audio description:**  
+### Audio description
+
 The Saturday 7:30 performance will include live audio description and a pre-show haptic tour.
 
-**Watch or listen to _Study Hall_ online:**  
+### Watch or listen to _Study Hall_ online
+
 A film of the _Study Hall_ live performance, as well as an audio description of the film, will be available on-demand in July 2024. [Learn more](https://emilyhansel.me/studyhall/film).
+
+### Contact us
 
 Patrons are invited to correspond with Emily via email ([emily@emilyhansel.me](mailto:emily@emilyhansel.me)) or phone ([415-404-9596](tel:4154049596)) about specific accessibility questions or needs.
 
