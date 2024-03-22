@@ -71,8 +71,7 @@ export default function App({ Component, pageProps }) {
   if (pageProps.markdoc) {
     children = (
       <>
-        {/* TODO: */}
-        {router.pathname.startsWith("/studyhall") ? null : (
+        {pageProps.markdoc?.frontmatter?.hideNav ? null : (
           <>
             <nav>
               <div className="nav-opener" onClick={() => setOpen((o) => !o)}>

@@ -1,5 +1,6 @@
 ---
 title: Study Hall | Fundraising
+hideNav: true
 ---
 
 # About _Study Hall_ {% #studyhall %}

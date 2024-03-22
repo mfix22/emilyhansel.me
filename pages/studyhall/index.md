@@ -2,6 +2,7 @@
 title: Study Hall
 className: study-hall
 maxWidth: 65%
+hideNav: true
 ---
 
 {% image
