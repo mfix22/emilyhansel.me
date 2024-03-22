@@ -234,10 +234,11 @@ h1 a {
 }
 
 h2 {
-  margin-top: 4rem;
-  margin-bottom: 1.5rem;
-  font-size: 24px;
-  line-height: 32px;
+  margin: 3rem 0 1.5rem;
+  font-weight: 100;
+  font-size: 32px;
+  line-height: 1.25;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -398,14 +399,6 @@ p.figcaption em {
 
 .study-hall p {
   line-height: 26px;
-}
-
-/* TODO: apply everywhere */
-.study-hall h2 {
-  font-size: 32px;
-  font-weight: 100;
-  text-transform: uppercase;
-  margin: 3rem auto 2rem;
 }
 
 .study-hall h3 {
