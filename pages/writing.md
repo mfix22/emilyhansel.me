@@ -7,12 +7,23 @@ maxWidth: 70%
 
 {% figure %}
 
+#### [DANC's Guide for Building a Dancer's Contract](https://movementresearch.org/publications/performance-journal/issue-57/)
+
+March 1, 2023  
+Movement Research Performance Journal
+
+{% image src="/assets/img/writing/danc_1.png" alt="" width=403 height=302 /%}
+
+{% /figure %}
+
+{% figure %}
+
 #### [“We Aren’t Alone Here” Invites The Audience To React](https://medium.com/odc-dance-stories/we-arent-alone-here-invites-the-audience-to-react-103d7f2a7b26)
 
 May 30, 2023  
 ODC Dance Stories
 
-{% image src="/assets/img/writing/erin.webp" alt="" width=403 height=302 /%}
+{% image src="/assets/img/writing/erin.webp" alt="" width=403 height=262 /%}
 
 {% /figure %}
 
@@ -31,7 +42,7 @@ Life as a Modern Dancer
 
 #### ["Adelante": A celebratory affair for AXIS Dance Company](https://medium.com/odc-dance-stories/axis-dance-company-moves-forward-in-adelante-55194c109992)
 
-September 28, 2022    
+September 28, 2022  
 ODC Dance Stories
 
 {% image src="/assets/img/writing/adelante.jpeg" alt="" width=403 height=212 /%}
