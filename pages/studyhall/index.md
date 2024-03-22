@@ -85,15 +85,15 @@ Patrons are invited to correspond with Emily via email ([emily@emilyhansel.me](m
 
 ## More about _Study Hall_
 
-Check out the [project budget](https://docs.google.com/spreadsheets/d/1NbUUDr8DPLEY-q6RJdGyzKl4dYkDJD75hT-7CTHLWTs/edit?usp=sharing) for _Study Hall_ to learn how this work is funded and how the artists involved are being compensated.
+{% image src="/assets/img/studyhalls/budget.png" alt="" width=64 height=64 .study-hall-icon /%} Check out the [project budget](https://docs.google.com/spreadsheets/d/1NbUUDr8DPLEY-q6RJdGyzKl4dYkDJD75hT-7CTHLWTs/edit?usp=sharing) for _Study Hall_ to learn how this work is funded and how the artists involved are being compensated.
 
-Learn about our [fundraising goal](/studyhall/fundraising) and consider [making a donation](/donate).
+{% image src="/assets/img/studyhalls/donate.png" alt="" width=64 height=64 .study-hall-icon /%} Learn about our [fundraising goal](/studyhall/fundraising) and consider [making a donation](/donate).
 
-Learn about the [artists behind _Study Hall_](/studyhall/fundraising#artists).
+{% image src="/assets/img/studyhalls/artists.png" alt="" width=64 height=64 .study-hall-icon /%} Learn about the [artists behind _Study Hall_](/studyhall/fundraising#artists).
 
-Each _Study Hall_ artist is taking a turn at writing about the creative process. Check out our [Substack](https://studyhallshow.substack.com) to read the thoughtful pieces they’ve written.
+{% image src="/assets/img/studyhalls/substack.png" alt="" width=64 height=64 .study-hall-icon /%} Each _Study Hall_ artist is taking a turn at writing about the creative process. Check out our [Substack](https://studyhallshow.substack.com) to read the thoughtful pieces they’ve written.
 
-Read more about the [Community Study Halls](/community-study-halls) public conversation series that instigated this project.
+{% image src="/assets/img/studyhalls/csh.png" alt="" width=64 height=64 .study-hall-icon /%} Read more about the [Community Study Halls](/community-study-halls) public conversation series that instigated this project.
 
 [Buy tickets](https://www.tickettailor.com/events/mannakintheaterdance/1189006) {% .btn-old %}
 

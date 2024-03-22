@@ -328,6 +328,15 @@ img.study-hall-hero {
   height: auto;
 }
 
+img.study-hall-icon {
+  user-select: none;
+  position: relative;
+  top: +2px;
+  width: auto;
+  height: 1em;
+  margin-right: 6px;
+}
+
 figcaption,
 figcaption p,
 p.figcaption {
@@ -419,6 +428,12 @@ p.figcaption em {
 @media screen and (max-width: 1000px) {
   nav {
     position: relative;
+  }
+  img.study-hall-hero {
+    width: 98vw;
+    margin-top: 0;
+    margin-left: -4vw;
+    height: auto;
   }
 }
 
