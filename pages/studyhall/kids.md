@@ -32,9 +32,7 @@ If you’d like, stick around for the 3:00pm performance of _Study Hall_, produc
 RSVP is required. Please RSVP early (this event will be capped at 10 participants), and no later than May 17th.
 
 [RSVP for the workshop](https://docs.google.com/forms/d/e/1FAIpQLScipnf53VnrKaew-YbCrrSvP5iO3gdJQtubnSFlLy_4WU6Prg/viewform?usp=sf_link) {% .btn-old %}
-{% comment %}
-[Get tickets to _Study Hall_](TODO:) {% .btn-old %}
-{% /comment %}
+[Get tickets to _Study Hall_](https://www.tickettailor.com/events/mannakintheaterdance/1189006) {% .btn-old %}
 
 Please don’t hesitate to reach out to Emily at [emily@emilyhansel.me](mailto:emily@emilyhansel.me) with any questions!
 

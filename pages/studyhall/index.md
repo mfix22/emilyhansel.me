@@ -22,13 +22,7 @@ Thursday, May 16th at 7:30pm
 Friday, May 17th at 7:30pm\*  
 Saturday, May 18th at 3:00pm\*\* & 7:30pm\*\*\*
 
-### **_Tickets coming soon_**
-
-{% comment %}
-[Buy tickets](TODO:) {% .btn-old %}
-{% /comment %}
-
-{% spacer 3 /%}
+[Buy tickets](https://www.tickettailor.com/events/mannakintheaterdance/1189006) {% .btn-old %}
 
 {% image
    src="/assets/img/studyhalls/banner2.png"
@@ -49,7 +43,7 @@ In its final form, _Study Hall_ can accurately be described as both carefully cr
 
 _Study Hall_ is supported in part by the San Francisco Arts Commision and by Steppin’ Out Dance Studio.
 
-{% spacer 2 /%}
+[Buy tickets](https://www.tickettailor.com/events/mannakintheaterdance/1189006) {% .btn-old %}
 
 Tickets are available at a variety of price points and no one will be turned away for lack of funds. Ticket buyers are encouraged to consider their economic status when deciding which tickets to purchase. If price is a barrier for you, please email [emily@emilyhansel.me](mailto:emily@emilyhansel.me?subject=Complimentary%20ticket%20to%20Study%20Hall&body=Hi%20Emily%2C%0D%0A%0D%0AMy%20name%20is%20%5BINSERT%20FULL%20NAME%5D%20and%20I%20would%20like%20to%20receive%20a%20complimentary%20ticket%20to%20the%20%5BINSERT%20DAY%20AND%20TIME%20OF%20SHOW%5D%20performance%20of%20Study%20Hall.) to receive a complimentary ticket.
 
@@ -100,6 +94,8 @@ Learn about the [artists behind _Study Hall_](/studyhall/fundraising#artists).
 Each _Study Hall_ artist is taking a turn at writing about the creative process. Check out our [Substack](https://studyhallshow.substack.com) to read the thoughtful pieces they’ve written.
 
 Read more about the [Community Study Halls](/community-study-halls) public conversation series that instigated this project.
+
+[Buy tickets](https://www.tickettailor.com/events/mannakintheaterdance/1189006) {% .btn-old %}
 
 {% spacer 6 /%}
 
