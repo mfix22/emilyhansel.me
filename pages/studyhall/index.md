@@ -30,7 +30,7 @@ Saturday, May 18th at 3:00pm\*\* & 7:30pm\*\*\*
    width=2569
    height=874
    .fill %}
-Image description: Four smiling people wearing various shades of blue dance and lean against a blue wall. The wall contains alternating shades of blue that fill the left two-thirds of the image with stripes.
+Image description: Four smiling people, wearing various shades of blue, dance and lean against a blue wall. The wall contains alternating shades of blue that fill the left two-thirds of the image with stripes.
 {% /image %}
 
 {% spacer 2 /%}
@@ -73,7 +73,7 @@ The Friday 7:30 performance will have ASL interpretation, no advanced registrati
 
 ### Audio description
 
-The Saturday 7:30 performance will include live audio description and a pre-show haptic tour.
+The Saturday 7:30 performance will include live audio description and a pre-show haptic tour. More info coming soon.
 
 ### Watch or listen to _Study Hall_ online
 
