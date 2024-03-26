@@ -7,7 +7,7 @@ hideNav: true
 
 {% image
    src="/assets/img/studyhalls/hero.png"
-   alt="Study Hall banner"
+   alt="Study Hall"
    width=3300
    height=300
    .study-hall-hero /%}
@@ -26,7 +26,7 @@ Saturday, May 18th at 3:00pm\*\* & 7:30pm\*\*\*
 
 {% image
    src="/assets/img/studyhalls/banner2.png"
-   alt="Headshot of Emily Hansel"
+   alt="Photo of the four dancers in Study Hall"
    width=2569
    height=874
    .fill %}
@@ -85,18 +85,18 @@ Patrons are invited to correspond with Emily via email ([emily@emilyhansel.me](m
 
 ## More about _Study Hall_
 
-{% image src="/assets/img/studyhalls/budget.png" alt="" width=64 height=64 .study-hall-icon /%} Check out the [project budget](https://docs.google.com/spreadsheets/d/1NbUUDr8DPLEY-q6RJdGyzKl4dYkDJD75hT-7CTHLWTs/edit?usp=sharing) for _Study Hall_ to learn how this work is funded and how the artists involved are being compensated.
+{% image src="/assets/img/studyhalls/budget.png" alt="Budget icon" width=64 height=64 .study-hall-icon /%} Check out the [project budget](https://docs.google.com/spreadsheets/d/1NbUUDr8DPLEY-q6RJdGyzKl4dYkDJD75hT-7CTHLWTs/edit?usp=sharing) for _Study Hall_ to learn how this work is funded and how the artists involved are being compensated.
 
-{% image src="/assets/img/studyhalls/donate.png" alt="" width=64 height=64 .study-hall-icon /%} Learn about our [fundraising goal](/studyhall/fundraising) and consider [making a donation](/donate).
+{% image src="/assets/img/studyhalls/donate.png" alt="Money icon" width=64 height=64 .study-hall-icon /%} Learn about our [fundraising goal](/studyhall/fundraising) and consider [making a donation](/donate).
 
-{% image src="/assets/img/studyhalls/artists.png" alt="" width=64 height=64 .study-hall-icon /%} Learn about the [artists behind _Study Hall_](/studyhall/fundraising#artists).
+{% image src="/assets/img/studyhalls/artists.png" alt="Person icon" width=64 height=64 .study-hall-icon /%} Learn about the [artists behind _Study Hall_](/studyhall/fundraising#artists).
 
-{% image src="/assets/img/studyhalls/substack.png" alt="" width=64 height=64 .study-hall-icon /%} Each _Study Hall_ artist is taking a turn at writing about the creative process. Check out our [Substack](https://studyhallshow.substack.com) to read the thoughtful pieces they’ve written.
+{% image src="/assets/img/studyhalls/substack.png" alt="Substack icon" width=64 height=64 .study-hall-icon /%} Each _Study Hall_ artist is taking a turn at writing about the creative process. Check out our [Substack](https://studyhallshow.substack.com) to read the thoughtful pieces they’ve written.
 
-{% image src="/assets/img/studyhalls/csh.png" alt="" width=64 height=64 .study-hall-icon /%} Read more about the [Community Study Halls](/community-study-halls) public conversation series that instigated this project.
+{% image src="/assets/img/studyhalls/csh.png" alt="Community Study Halls" width=64 height=64 .study-hall-icon /%} Read more about the [Community Study Halls](/community-study-halls) public conversation series that instigated this project.
 
 [Buy tickets](https://www.tickettailor.com/events/mannakintheaterdance/1189006) {% .btn-old %}
 
 {% spacer 6 /%}
 
-{% image src="/assets/img/studyhalls/bottom_banner.png" alt="Headshot of Emily Hansel" width=9000 height=297 .study-hall-hero /%}
+{% image src="/assets/img/studyhalls/bottom_banner.png" alt="" width=9000 height=297 .study-hall-hero /%}
