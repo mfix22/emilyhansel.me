@@ -6,8 +6,8 @@ hideNav: true
 ---
 
 {% image
-   src="/assets/img/studyhalls/kids_banner.png"
-   alt="Headshot of Emily Hansel"
+   src="/assets/img/studyhalls/hero.png"
+   alt="Study Hall"
    width=3300
    height=300
    .study-hall-hero /%}
@@ -16,9 +16,10 @@ hideNav: true
 
 A film of the _Study Hall_ live performance, as well as audio description of the film, will be available on-demand July 1-31, 2024. You will be emailed instructions for accessing the film + audio description on or before July 1, 2024.
 
-This content is available on a sliding scale and patrons are encouraged to consider their economic status when deciding which price to pay. Suggested donation is $0-$25.
+This content is available on a sliding scale and patrons are encouraged to consider their economic status when deciding which price to pay. Suggested donation is $1-$25.
 
 [Buy now](https://buy.stripe.com/aEU3dz7CS1Hg2f64gr) {% .btn-old %}
+[Order for free](https://docs.google.com/forms/d/e/1FAIpQLSfeYuLS4-xLBAlj0U9DWlVrvxUH2MoeX4vdj0lIGB6Nsdgugw/viewform) {% .btn-old %}
 
 [←back](/studyhall)
 
