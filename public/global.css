@@ -419,6 +419,10 @@ p.figcaption em {
   margin: 3rem 0 4rem;
 }
 
+.study-hall .btn-old:hover a {
+  outline: 2px solid #91c2ec;
+}
+
 @media (prefers-reduced-motion) {
   html {
     scroll-behavior: auto !important;
