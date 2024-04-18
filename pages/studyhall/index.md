@@ -53,7 +53,7 @@ Tickets are available at a variety of price points and no one will be turned awa
 
 \*\*The Saturday 3:00 performance will include a free, pre-show event for kids ages 7-12 starting at 2:00. [Learn more and RSVP](/studyhall/kids).
 
-\*\*\*The Saturday 7:30 performance will include live audio description and a pre-show haptic tour.
+\*\*\*The Saturday 7:30 performance will include live audio description and a pre-show haptic access tour. Pre-registration is required, more details below.
 
 ## Accessibility
 
@@ -67,13 +67,17 @@ The iMPACt Center for Art & Dance is in an ADA accessible building and includes 
 
 All audience members are strongly encouraged to wear KN95 masks while attending this event. Masks will be provided for all attendees.
 
-### ASL interpretation
+### ASL interpretation {% image src="/assets/img/studyhalls/asl.png" alt="" width=64 height=64 .study-hall-icon .study-hall-header-icon /%}
 
-The Friday 7:30 performance will have ASL interpretation, no advanced registration required.
+The Friday 7:30 performance will have ASL interpretation provided by Pilar Marsh. No advanced registration is required, but if you'd like to reserve a seat with an optimal vantage point of the interpreter, you may do so by contacting Emily at [emily@emilyhansel.me](mailto:emily@emilyhansel.me).
 
-### Audio description
+### Audio description {% image src="/assets/img/studyhalls/ad.png" alt="" width=64 height=64 .study-hall-icon .study-hall-header-icon /%}
 
-The Saturday 7:30 performance will include live audio description and a pre-show haptic tour. More info coming soon.
+For blind and visually impaired audience members, we're partnering with [Gravity Access Services](https://www.jesscurtisgravity.org/programs#access) to offer live audio description and a pre-show haptic access tour for the 7:30pm performance on Saturday, May 18th.
+
+Audio description is a live audio track spoken by a professional audio describer to audience members with visual impairments through a wireless headset system. It provides clear and engaging descriptions of the meaningful visual details of a performance. A haptic access tour is a live pre-show tour that allows patrons to experience—through touch and their own movement— the space, performers, costumes and objects in addition to key movement elements in the performance.
+
+For more information, to book a spot in a haptic access tour, or to reserve a headset, please call: [415-404-9596](tel:4154049596).
 
 ### Watch or listen to _Study Hall_ online
 
