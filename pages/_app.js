@@ -165,14 +165,16 @@ export default function App({ Component, pageProps }) {
     children = <Component {...pageProps} shouldDance={shouldDance} />;
   }
 
+  const title =
+    pageProps.markdoc && pageProps.markdoc.frontmatter
+      ? `Emily Hansel | ${pageProps.markdoc.frontmatter.title}`
+      : "Emily Hansel";
+
   return (
     <>
       <Head>
-        {pageProps.markdoc && pageProps.markdoc.frontmatter ? (
-          <title>Emily Hansel | {pageProps.markdoc.frontmatter.title}</title>
-        ) : (
-          <title>Emily Hansel</title>
-        )}
+        <title>{title}</title>
+        <meta property="og:title" content={title} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
