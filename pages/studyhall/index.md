@@ -77,7 +77,7 @@ The Saturday 7:30 performance will include live audio description and a pre-show
 
 ### Watch or listen to _Study Hall_ online
 
-A film of the _Study Hall_ live performance, as well as an audio description of the film, will be available on-demand in July 2024. [Learn more](/studyhall/film).
+A film of the _Study Hall_ live performance, as well as an audio description of the film, will be available on-demand in August 2024. [Learn more](/studyhall/film).
 
 ### Contact us
 

@@ -14,7 +14,7 @@ hideNav: true
 
 {% spacer 3 /%}
 
-A film of the _Study Hall_ live performance, as well as audio description of the film, will be available on-demand July 1-31, 2024. You will be emailed instructions for accessing the film + audio description on or before July 1, 2024.
+A film of the _Study Hall_ live performance, as well as audio description of the film, will be available on-demand August 1-31, 2024. You will be emailed instructions for accessing the film + audio description on or before August 1, 2024.
 
 This content is available on a sliding scale and patrons are encouraged to consider their economic status when deciding which price to pay. Suggested donation is $1-$25.
 
