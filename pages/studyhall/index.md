@@ -41,7 +41,7 @@ In its final form, _Study Hall_ can accurately be described as both carefully cr
 
 {% spacer 2 /%}
 
-_Study Hall_ is supported in part by the San Francisco Arts Commision and by Steppin’ Out Dance Studio.
+_Study Hall_ is supported in part by the San Francisco Arts Commission and by Steppin’ Out Dance Studio.
 
 [Buy tickets](https://www.tickettailor.com/events/mannakintheaterdance/1189006) {% .btn-old %}
 
@@ -53,7 +53,7 @@ Tickets are available at a variety of price points and no one will be turned awa
 
 \*\*The Saturday 3:00 performance will include a free, pre-show event for kids ages 7-12 starting at 2:00. [Learn more and RSVP](/studyhall/kids).
 
-\*\*\*The Saturday 7:30 performance will include live audio description and a pre-show haptic access tour. Pre-registration is required, more details below.
+\*\*\*The Saturday 7:30 performance will include live audio description and a pre-show haptic access tour at 6:45. Pre-registration is required, more details below.
 
 ## Accessibility
 
@@ -73,7 +73,7 @@ The Friday 7:30 performance will have ASL interpretation provided by Pilar Marsh
 
 ### Audio description {% image src="/assets/img/studyhalls/ad.png" alt="" width=64 height=64 .study-hall-icon .study-hall-header-icon /%}
 
-For blind and visually impaired audience members, we're partnering with [Gravity Access Services](https://www.jesscurtisgravity.org/programs#access) to offer live audio description and a pre-show haptic access tour for the 7:30pm performance on Saturday, May 18th.
+For blind and visually impaired audience members, we're partnering with [Gravity Access Services](https://www.jesscurtisgravity.org/programs#access) to offer live audio description for the 7:30pm performance on Saturday, May 18th as well as a pre-show haptic access tour at 6:45pm.
 
 Audio description is a live audio track spoken by a professional audio describer to audience members with visual impairments through a wireless headset system. It provides clear and engaging descriptions of the meaningful visual details of a performance. A haptic access tour is a live pre-show tour that allows patrons to experience—through touch and their own movement— the space, performers, costumes and objects in addition to key movement elements in the performance.
 
