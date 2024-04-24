@@ -60,7 +60,7 @@ function ContactForm() {
           required
           resize="none"
         />
-        <input class="email-send" type="submit" value="Send" />
+        <input className="email-send" type="submit" value="Send" />
       </form>
       <style jsx>
         {`
