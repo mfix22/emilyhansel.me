@@ -15,7 +15,7 @@ export default function StudyHallProgram() {
           alt="Study Hall"
           width={1261}
           height={600}
-          style={{ marginTop: "3rem", marginBottom: "1rem" }}
+          style={{ margin: "1rem 0" }}
         />
       </Link>
 
@@ -471,8 +471,9 @@ export default function StudyHallProgram() {
           }
 
           section :global(.btn-old) {
+            display: inline-block;
             font-weight: normal;
-            width: fit-content;
+            margin: 0.5rem 0;
             appearance: none;
             cursor: pointer;
             text-transform: uppercase;
