@@ -15,12 +15,12 @@ export default function StudyHallProgram() {
           alt="Study Hall"
           width={1261}
           height={600}
-          style={{ margin: "1rem 0" }}
+          style={{ margin: "0 0 1rem" }}
         />
       </Link>
 
       <ul className="hero">
-        <li>May 16-18, 2024</li>
+        <li>May 16–18, 2024</li>
         <li>iMPACt Center for Art & Dance</li>
         <li>San Francisco, CA</li>
       </ul>
@@ -105,7 +105,7 @@ export default function StudyHallProgram() {
           alt="Portrait of Emily Hansel"
           width={765}
           height={510}
-          style={{ marginBottom: "1rem" }}
+          style={{ marginBottom: "2rem" }}
         />
         <p>
           <b className="name">Emily Hansel</b> is a San Francisco-based dancer,
@@ -155,7 +155,7 @@ export default function StudyHallProgram() {
           alt="TODO: Rebecca Fitton"
           width={765}
           height={510}
-          style={{ marginTop: "2rem", marginBottom: "1rem" }}
+          style={{ marginBottom: "2rem" }}
         />
         <p>
           <b className="name">Rebecca Fitton</b> is from many places and
@@ -196,7 +196,7 @@ export default function StudyHallProgram() {
           alt="TODO: gizeh muñiz vengel"
           width={765}
           height={510}
-          style={{ marginTop: "2rem", marginBottom: "1rem" }}
+          style={{ marginBottom: "2rem" }}
         />
         <p>
           <b className="name">gizeh muñiz vengel</b> is a Movement, Teaching and
@@ -240,7 +240,8 @@ export default function StudyHallProgram() {
           alt="TODO: Jocelyn Reyes"
           width={765}
           height={510}
-          style={{ marginTop: "2rem", marginBottom: "1rem" }}
+          style={{ marginBottom: "2rem" }}
+          className="dancer"
         />
         <p>
           <b className="name">Jocelyn Reyes</b> (she/her) is a Latin American
@@ -265,7 +266,8 @@ export default function StudyHallProgram() {
           alt="TODO: Erin Yen"
           width={765}
           height={510}
-          style={{ marginTop: "2rem", marginBottom: "1rem" }}
+          style={{ marginBottom: "2rem" }}
+          className="dancer"
         />
         <p>
           <b className="name">Erin Yen</b> is a mixed-race professional dancer
@@ -279,9 +281,11 @@ export default function StudyHallProgram() {
           a contemporary dance company which empowers artists to create
           impactful artwork.
         </p>
+
         <p>
           <br />
         </p>
+
         <p>
           <b className="name">Sophia Cotraccia</b>, (she/they) is a drummer and
           composer based in Philadelphia. They are a recent graduate of Oberlin
@@ -289,9 +293,11 @@ export default function StudyHallProgram() {
           the Caribbean steelband. <i>Study Hall</i> is Sophia's second
           collaboration with Emily after <i>Four by Four</i> in May 2022.
         </p>
+
         <p>
           <br />
         </p>
+
         <p>
           <b className="name">Thomas Bowersox</b> is a lighting designer,
           production manager, and technical director, based in San Francisco. He
@@ -339,20 +345,12 @@ export default function StudyHallProgram() {
           to launch a continuation of the CSH series. If you have ideas for the
           future of this series or are interested in becoming a conversation
           facilitator, please reach out to Emily. If you’re interested in
-          staying in the loop about future events, you can
-        </p>
-        <p>
-          <br />
-          <Link href="" className="btn-old">
-            subscribe to Emily’s mailing list
-          </Link>{" "}
-          and/or{" "}
-          <Link
-            href="https://www.instagram.com/communitystudyhalls?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-            className="btn-old"
-          >
+          staying in the loop about future events, you can{" "}
+          <Link href="">subscribe to Emily’s mailing list</Link> and/or{" "}
+          <Link href="https://www.instagram.com/communitystudyhalls?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
             follow Community Study Halls on Instagram
           </Link>
+          .
         </p>
         <h2>Read about the creative process</h2>
         <p>
@@ -379,15 +377,12 @@ export default function StudyHallProgram() {
           height={96}
           style={{ marginTop: "3rem", marginBottom: "1rem" }}
         />
-        <p>To keep in touch:</p>
         <p>
-          <Link href="https://www.instagram.com/em_hansel/" className="btn-old">
-            Follow Emily on Instagram
+          To keep in touch,{" "}
+          <Link href="https://www.instagram.com/em_hansel/">
+            follow Emily on Instagram
           </Link>{" "}
-          and{" "}
-          <Link href="" className="btn-old">
-            Join Emily’s mailing list
-          </Link>
+          and <Link href="">join Emily’s mailing list</Link>
         </p>
         <p>
           You’re invited to check out the{" "}
@@ -396,21 +391,11 @@ export default function StudyHallProgram() {
           </Link>{" "}
           to learn more about the expenses involved in producing{" "}
           <i>Study Hall</i>. If you’re interested in making a donation to
-          support Emily and this work, you send a gift directly to Emily via
+          support Emily and this work, you send a gift directly to Emily via{" "}
+          <Link href="https://venmo.com/u/EmilyHansel">Venmo</Link> and{" "}
+          <Link href="https://www.paypal.com/paypalme/emhansel">Paypal</Link>.
+          Or make a tax-deductible donation via FACT/SF, Emily’s fiscal sponsor:
         </p>
-        <p>
-          <Link href="https://venmo.com/u/EmilyHansel" className="btn-old">
-            Venmo
-          </Link>{" "}
-          and{" "}
-          <Link
-            href="https://www.paypal.com/paypalme/emhansel"
-            className="btn-old"
-          >
-            Paypal
-          </Link>
-        </p>
-        <p>Or make a tax-deductible via FACT/SF, Emily’s fiscal sponsor</p>
         <p>
           <Link href="/donate" className="btn-old">
             Donate
@@ -435,7 +420,7 @@ export default function StudyHallProgram() {
           section {
             font-family: "Lato", sans-serif;
             margin: 0 auto 8rem;
-            width: 92%;
+            width: 100%;
             text-align: left;
           }
 
@@ -451,6 +436,15 @@ export default function StudyHallProgram() {
             font-size: 18px;
             line-height: 26px;
             text-align: left;
+            margin-bottom: 2rem;
+            padding: 0 1.5rem;
+          }
+
+          p,
+          ul,
+          h2,
+          section :global(.dancer) {
+            padding: 0 1.5rem;
           }
 
           b {
@@ -464,6 +458,7 @@ export default function StudyHallProgram() {
 
           ul.hero li {
             padding-left: 0;
+            margin-bottom: 0;
           }
 
           .name {
