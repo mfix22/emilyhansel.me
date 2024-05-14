@@ -199,13 +199,13 @@ export default function StudyHallProgram() {
           style={{ marginBottom: "2rem" }}
         />
         <p>
-          <b className="name">gizeh muñiz vengel</b> is a Movement, Teaching and
-          Performing artist. Mexicana, currently co-existing in Ohlone
-          territory. They are dedicated to the study of being a body, through
-          movement and stillness. Her choreographic work responds to processes
-          of grief and joy, with an arduous commitment to transformation and
-          presence. Her choreographic and teaching work has been shared in the
-          United States, Mexico and Europe in festivals such as{" "}
+          <b className="name">gizeh muñiz vengel</b> is a Mexican Movement,
+          Teaching and Performing artist currently co-existing in Ohlone
+          territory. She is dedicated to the study of existence through movement
+          and stillness. Her choreographic work responds to processes of grief
+          and joy, with an arduous commitment to transformation and presence.
+          Her choreographic and teaching work has been shared in the United
+          States, Mexico and Europe in festivals such as{" "}
           <Link href="https://improspekcije.com/en/">
             Improspeckje in Croatia
           </Link>
