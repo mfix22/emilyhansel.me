@@ -35,7 +35,7 @@ export default function StudyHallProgram() {
         alt="Credits"
         width={1453}
         height={346}
-        style={{ marginTop: "2rem", marginBottom: "2rem" }}
+        style={{ marginTop: "1rem", marginBottom: "2rem" }}
       />
 
       <p>
@@ -90,13 +90,23 @@ export default function StudyHallProgram() {
         our Community Study Halls and whose ideas were used as source material
         for both movement generation and sound design in this performance.
       </p>
+      <p>
+        Thank you to Aurey Johnson, an early collaborator in the process who
+        helped shape our workplace culture, generate movement, and make Study
+        Hall what it is today.
+      </p>
+      <p>
+        Thank you to Audrey Johnson, Eric Garcia, Christy Funsch, Julie
+        Crothers, and KT Nelson, whose observations along the journey helped
+        guide Study Hall into its final form.
+      </p>
 
       <Image
-        src="/assets/img/fourbyfour/program_artists.png"
-        alt="Artists"
-        width={765}
-        height={96}
-        style={{ marginTop: "4rem", marginBottom: "3rem" }}
+        src="/assets/img/studyhalls/program_artists.png"
+        alt="About the artists"
+        width={1789}
+        height={426}
+        style={{ marginTop: "2rem", marginBottom: "1rem" }}
       />
 
       <div style={{ textAlign: "justify" }}>
@@ -105,7 +115,8 @@ export default function StudyHallProgram() {
           alt="Portrait of Emily Hansel"
           width={765}
           height={510}
-          style={{ marginBottom: "2rem" }}
+          style={{ marginBottom: "1rem" }}
+          className="dancer"
         />
         <p>
           <b className="name">Emily Hansel</b> is a San Francisco-based dancer,
@@ -152,10 +163,11 @@ export default function StudyHallProgram() {
         </p>
         <Image
           src="/assets/img/studyhalls/program_rebecca.png"
-          alt="TODO: Rebecca Fitton"
+          alt="Rebecca Fitton"
           width={765}
           height={510}
-          style={{ marginBottom: "2rem" }}
+          style={{ marginBottom: "1rem" }}
+          className="dancer"
         />
         <p>
           <b className="name">Rebecca Fitton</b> is from many places and
@@ -193,10 +205,11 @@ export default function StudyHallProgram() {
         </p>
         <Image
           src="/assets/img/studyhalls/program_gizeh.png"
-          alt="TODO: gizeh muñiz vengel"
+          alt="gizeh muñiz vengel"
           width={765}
           height={510}
-          style={{ marginBottom: "2rem" }}
+          style={{ marginBottom: "1rem" }}
+          className="dancer"
         />
         <p>
           <b className="name">gizeh muñiz vengel</b> is a Mexican Movement,
@@ -237,10 +250,10 @@ export default function StudyHallProgram() {
         </p>
         <Image
           src="/assets/img/studyhalls/program_jocelyn.png"
-          alt="TODO: Jocelyn Reyes"
+          alt="Jocelyn Reyes"
           width={765}
           height={510}
-          style={{ marginBottom: "2rem" }}
+          style={{ marginBottom: "1rem" }}
           className="dancer"
         />
         <p>
@@ -263,10 +276,10 @@ export default function StudyHallProgram() {
         </p>
         <Image
           src="/assets/img/studyhalls/program_erin.png"
-          alt="TODO: Erin Yen"
+          alt="Erin Yen"
           width={765}
           height={510}
-          style={{ marginBottom: "2rem" }}
+          style={{ marginBottom: "1rem" }}
           className="dancer"
         />
         <p>
@@ -307,13 +320,21 @@ export default function StudyHallProgram() {
           Theater, Club Fugazi, Capital Repertory Theater, and New York Live
           Arts
         </p>
-        <p>
-          <br />
-        </p>
+
+        <br />
+
         <p>
           <i>Dancer photos by Natalia Perez. Emily’s photo by Robbie Sweeny.</i>
         </p>
-        <h2>Community Study Halls</h2>
+
+        <Image
+          src="/assets/img/studyhalls/program_csh.png"
+          alt="Community Study Halls"
+          width={2303}
+          height={600}
+          style={{ marginTop: "2rem", marginBottom: "1rem" }}
+        />
+
         <p>
           <i>Study Hall</i> is inspired by a series of public workshops that
           brought Bay Area dancers and choreographers/directors together in
@@ -346,20 +367,39 @@ export default function StudyHallProgram() {
           future of this series or are interested in becoming a conversation
           facilitator, please reach out to Emily. If you’re interested in
           staying in the loop about future events, you can{" "}
-          <Link href="">subscribe to Emily’s mailing list</Link> and/or{" "}
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeQTQcQT12h2Z65B8onZHQR6rr3pjUrnq02ofWoRWG-LMAf7A/viewform?usp=sf_link">
+            subscribe to Emily’s mailing list
+          </Link>{" "}
+          and/or{" "}
           <Link href="https://www.instagram.com/communitystudyhalls?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
             follow Community Study Halls on Instagram
           </Link>
           .
         </p>
-        <h2>Read about the creative process</h2>
+
+        <Image
+          src="/assets/img/studyhalls/program_read.png"
+          alt="Read about the creative process"
+          width={1789}
+          height={426}
+          style={{ marginTop: "2rem", marginBottom: "1rem" }}
+        />
+
         <p>
           In order to document, process, and share the lengthy creative process
           behind this production, the <i>Study Hall</i> artists wrote a diverse
           collection of pieces that are available on our{" "}
           <Link href="https://studyhallshow.substack.com/">Substack</Link>.
         </p>
-        <h2>Film and audio description</h2>
+
+        <Image
+          src="/assets/img/studyhalls/program_film.png"
+          alt="Film + audio description"
+          width={1453}
+          height={346}
+          style={{ marginTop: "2rem", marginBottom: "1rem" }}
+        />
+
         <p>
           A film of the <i>Study Hall</i> live performance (by Jacob Marks
           Productions), as well as an audio description of the film (by our very
@@ -370,19 +410,25 @@ export default function StudyHallProgram() {
           folks who didn’t attend, you can{" "}
           <Link href="/studyhall/film">order the film + AD now</Link>.
         </p>
+
         <Image
-          src="/assets/img/fourbyfour/program_connect.png"
+          src="/assets/img/studyhalls/program_connect.png"
           alt="Connect"
-          width={765}
-          height={96}
+          width={1453}
+          height={346}
           style={{ marginTop: "3rem", marginBottom: "1rem" }}
         />
+
         <p>
           To keep in touch,{" "}
           <Link href="https://www.instagram.com/em_hansel/">
             follow Emily on Instagram
           </Link>{" "}
-          and <Link href="">join Emily’s mailing list</Link>
+          and{" "}
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeQTQcQT12h2Z65B8onZHQR6rr3pjUrnq02ofWoRWG-LMAf7A/viewform?usp=sf_link">
+            join Emily’s mailing list
+          </Link>
+          .
         </p>
         <p>
           You’re invited to check out the{" "}
@@ -390,9 +436,12 @@ export default function StudyHallProgram() {
             project budget
           </Link>{" "}
           to learn more about the expenses involved in producing{" "}
-          <i>Study Hall</i>. If you’re interested in making a donation to
-          support Emily and this work, you send a gift directly to Emily via{" "}
-          <Link href="https://venmo.com/u/EmilyHansel">Venmo</Link> and{" "}
+          <i>Study Hall</i>.
+        </p>
+        <p>
+          If you’re interested in making a donation to support Emily and this
+          work, you can send a gift directly to Emily via{" "}
+          <Link href="https://venmo.com/u/EmilyHansel">Venmo</Link> or{" "}
           <Link href="https://www.paypal.com/paypalme/emhansel">Paypal</Link>.
           Or make a tax-deductible donation via FACT/SF, Emily’s fiscal sponsor:
         </p>
@@ -407,12 +456,37 @@ export default function StudyHallProgram() {
           to get funding for future projects.)
         </p>
         <p>
-          <Link href="TODO:" className="btn-old">
+          <Link
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfrP9Iw2PPtYIm-CsRSXkFwHQMSne6euaOcjvEKZ1zTReYN5w/viewform?usp=sf_link"
+            className="btn-old highlight"
+          >
             Demographic survey
           </Link>
         </p>
-        <h2>In the community</h2>
-        <p>TODO: Melissa’s show</p>
+
+        <Image
+          src="/assets/img/studyhalls/program_in_the_community.png"
+          alt="In the community"
+          width={2303}
+          height={600}
+          style={{ marginTop: "2rem", marginBottom: "1rem" }}
+        />
+
+        <p>
+          This weekend and next, our friends over at <i>flowers and fog</i> are
+          putting together a lovely show featuring mother-child duo Joy ChenYu
+          Lewis and Melissa Lewis Wong. Check it out May 17-19 and 25-26:{" "}
+          <Link href="https://www.eventbrite.com/e/flowers-and-fog-show-tickets-874105211217?aff=oddtdtcreator">
+            eventbrite.com/e/flowers-and-fog
+          </Link>
+        </p>
+        <p>
+          Later this month, Megan Lowe Dances presents <i>Just a Shadow</i>, May
+          31st-June 9th. Learn more:{" "}
+          <Link href="https://www.meganlowedances.com/justashadow">
+            meganlowedances.com/justashadow
+          </Link>
+        </p>
       </div>
 
       <style jsx>
@@ -447,6 +521,10 @@ export default function StudyHallProgram() {
             padding: 0 1.5rem;
           }
 
+          section :global(.dancer) {
+            margin-top: 1rem;
+          }
+
           b {
             font-weight: 700;
           }
@@ -479,6 +557,10 @@ export default function StudyHallProgram() {
             font-size: 16px;
             color: black;
             white-space: nowrap;
+          }
+
+          section :global(.btn-old.highlight) {
+            border: 3px solid var(--theme);
           }
 
           section :global(.btn-old:hover) {
