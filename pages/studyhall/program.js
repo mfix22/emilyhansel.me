@@ -162,10 +162,10 @@ export default function StudyHallProgram() {
           Steppin' Out Dance Studio, and other schools.
         </p>
         <Image
-          src="/assets/img/studyhalls/program_rebecca.png"
+          src="/assets/img/studyhalls/program_rebecca.jpg"
           alt="Rebecca Fitton"
-          width={765}
-          height={510}
+          width={1653}
+          height={1653}
           style={{ marginBottom: "1rem" }}
           className="dancer"
         />
@@ -204,10 +204,10 @@ export default function StudyHallProgram() {
           Practice from the University of Texas at Austin.
         </p>
         <Image
-          src="/assets/img/studyhalls/program_gizeh.png"
+          src="/assets/img/studyhalls/program_gizeh.jpg"
           alt="gizeh muñiz vengel"
-          width={765}
-          height={510}
+          width={1653}
+          height={1653}
           style={{ marginBottom: "1rem" }}
           className="dancer"
         />
@@ -249,10 +249,10 @@ export default function StudyHallProgram() {
           in the Bay Area.
         </p>
         <Image
-          src="/assets/img/studyhalls/program_jocelyn.png"
+          src="/assets/img/studyhalls/program_jocelyn.jpg"
           alt="Jocelyn Reyes"
-          width={765}
-          height={510}
+          width={1653}
+          height={1653}
           style={{ marginBottom: "1rem" }}
           className="dancer"
         />
@@ -275,10 +275,10 @@ export default function StudyHallProgram() {
           evening length dance work next fall at ODC Theater.
         </p>
         <Image
-          src="/assets/img/studyhalls/program_erin.png"
+          src="/assets/img/studyhalls/program_erin.jpg"
           alt="Erin Yen"
-          width={765}
-          height={510}
+          width={1653}
+          height={1653}
           style={{ marginBottom: "1rem" }}
           className="dancer"
         />
@@ -446,7 +446,7 @@ export default function StudyHallProgram() {
           Or make a tax-deductible donation via FACT/SF, Emily’s fiscal sponsor:
         </p>
         <p>
-          <Link href="/donate" className="btn-old">
+          <Link href="/donate" className="btn-old" target="_blank">
             Donate
           </Link>
         </p>
@@ -502,7 +502,6 @@ export default function StudyHallProgram() {
             max-width: 100%;
             width: 100%;
             height: auto;
-            border-radius: 2px;
           }
 
           p,
