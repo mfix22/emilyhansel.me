@@ -1,6 +1,7 @@
 ---
 title: Study Hall | Fundraising
 hideNav: true
+className: study-hall
 ---
 
 # About _Study Hall_ {% #studyhall %}

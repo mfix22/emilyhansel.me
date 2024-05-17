@@ -4,7 +4,7 @@ import { Image } from "../../components/Image";
 
 export default function StudyHallProgram() {
   return (
-    <section className="study-hall">
+    <section className="study-hall" id="studyhall">
       <Head>
         <title>Emily Hansel | Study Hall | Program</title>
       </Head>
@@ -486,6 +486,10 @@ export default function StudyHallProgram() {
           <Link href="https://www.meganlowedances.com/justashadow">
             meganlowedances.com/justashadow
           </Link>
+        </p>
+
+        <p style={{ marginTop: "6rem" }}>
+          <Link href="#studyhall">Back to top ↑</Link>
         </p>
       </div>
 
